@@ -771,5 +771,521 @@
             "57": "Power Up",
             "61": "Icicle"
             }
+    },
+
+    {
+        "id": 19,
+        "name": "Zumble",
+        "type": "Electric",
+        "rarity": "Common",
+        "stats": {
+            "HP": 12,
+            "Attack": 11,
+            "Defense": 3,
+            "Speed": 12,
+            "Stamina": 4
+            },
+        "description": "This Nexomon navigate and communicate with its hive through two antennas, which channel positive and negative electric charges, respectively.",
+        "food": {
+            "food1": "Fries",
+            "food2": "Apple",
+            "food3": "Pink Pecana"
+            },
+        "evolution": {
+            "base": "Zumble",
+            "stage1": "Zasp",
+            "stage2": "Zappnic"
+            },
+        "skills": {
+            "4": "Pulse Storm",
+            "7": "Pummel",
+            "12": "Thunder Blast",
+            "16": "Screech",
+            "17": "Super Charge",
+            "23": "Thunder",
+            "27": "Sonic Scream",
+            "31": "Heal",
+            "34": "Electric Storm",
+            "37": "Blitz Barrier",
+            "44": "Power Up",
+            "45": "Dark Flow",
+            "51": "Short Circuit",
+            "55": "Blue Charge",
+            "57": "Electric Bomb",
+            "63": "EMP"
+            }
+    },
+
+    {
+        "id": 20,
+        "name": "Zasp",
+        "type": "Electric",
+        "rarity": "Common",
+        "stats": {
+            "HP": 19,
+            "Attack": 22,
+            "Defense": 12,
+            "Speed": 17,
+            "Stamina": 7
+            },
+        "description": "A Zasp is faster and has more complex roles in the colony than a Zumble. It emits electro-magnetic fields to diorient predators, preventing them from entering the hive.",
+        "food": {
+            "food1": "Fries",
+            "food2": "Apple",
+            "food3": "Pink Pecana"
+            },
+        "evolution": {
+            "base": "Zumble",
+            "stage1": "Zasp",
+            "stage2": "Zappnic"
+            },
+        "skills": {
+            "4": "Pulse Storm",
+            "7": "Pummel",
+            "12": "Thunder Blast",
+            "16": "Screech",
+            "17": "Super Charge",
+            "23": "Thunder",
+            "27": "Sonic Scream",
+            "31": "Heal",
+            "34": "Electric Storm",
+            "37": "Blitz Barrier",
+            "44": "Power Up",
+            "45": "Dark Flow",
+            "51": "Short Circuit",
+            "55": "Blue Charge",
+            "57": "Electric Bomb",
+            "63": "EMP"
+            }
+    },
+
+    {
+        "id": 21,
+        "name": "Zappnic",
+        "type": "Electric",
+        "rarity": "Common",
+        "stats": {
+            "HP": 38,
+            "Attack": 34,
+            "Defense": 24,
+            "Speed": 21,
+            "Stamina": 13
+            },
+        "description": "A Zappnic is the highest class in the electric hive. Its sting has enough electric charge to stun anyone.",
+        "food": {
+            "food1": "Fries",
+            "food2": "Apple",
+            "food3": "Pink Pecana"
+            },
+        "evolution": {
+            "base": "Zumble",
+            "stage1": "Zasp",
+            "stage2": "Zappnic"
+            },
+        "skills": {
+            "4": "Pulse Storm",
+            "7": "Pummel",
+            "12": "Thunder Blast",
+            "16": "Screech",
+            "17": "Super Charge",
+            "23": "Thunder",
+            "27": "Sonic Scream",
+            "31": "Heal",
+            "34": "Electric Storm",
+            "37": "Blitz Barrier",
+            "44": "Power Up",
+            "45": "Dark Flow",
+            "51": "Short Circuit",
+            "55": "Blue Charge",
+            "57": "Electric Bomb",
+            "63": "EMP"
+            }
+    },
+
+    {
+        "id": 22,
+        "name": "Branipus",
+        "type": "Psychic",
+        "rarity": "Common",
+        "stats": {
+            "HP": 12,
+            "Attack": 13,
+            "Defense": 9,
+            "Speed": 6,
+            "Stamina": 7
+            },
+        "description": "From the depths of the ocean comes this squishy friend. Its brain power allows it to levitate for some time.",
+        "food": {
+            "food1": "Chocolate Cake",
+            "food2": "Donut",
+            "food3": "Lacreme"
+            },
+        "evolution": {
+            "base": "Branipus",
+            "stage1": "Cerebrius",
+            "stage2": "Octollect"
+            },
+        "skills": {
+            "3": "Psychic Blast",
+            "5": "Psychic Bomb",
+            "12": "Psy Blast",
+            "16": "Scratch",
+            "19": "Cleanse",
+            "21": "Heal",
+            "25": "Sleep Song",
+            "29": "Psychic Armor",
+            "34": "Pendulum",
+            "38": "Mind Control",
+            "42": "Psy Field",
+            "45": "Inception",
+            "51": "Mind Shake",
+            "54": "Tornado Kick",
+            "57": "Absolute Barrier",
+            "63": "Spiritual Boost"
+            }
+    },
+
+    {
+        "id": 23,
+        "name": "Cerebrius",
+        "type": "Psychic",
+        "rarity": "Common",
+        "stats": {
+            "HP": 24,
+            "Attack": 21,
+            "Defense": 16,
+            "Speed": 12,
+            "Stamina": 9
+            },
+        "description": "Its primary defense is its four tentacles, which allow it to detect enemies in all directions.",
+        "food": {
+            "food1": "Chocolate Cake",
+            "food2": "Donut",
+            "food3": "Lacreme"
+            },
+        "evolution": {
+            "base": "Branipus",
+            "stage1": "Cerebrius",
+            "stage2": "Octollect"
+            },
+        "skills": {
+            "3": "Psychic Blast",
+            "5": "Psychic Bomb",
+            "12": "Psy Blast",
+            "16": "Scratch",
+            "19": "Cleanse",
+            "21": "Heal",
+            "25": "Sleep Song",
+            "29": "Psychic Armor",
+            "34": "Pendulum",
+            "38": "Mind Control",
+            "42": "Psy Field",
+            "45": "Inception",
+            "51": "Mind Shake",
+            "54": "Tornado Kick",
+            "57": "Absolute Barrier",
+            "63": "Spiritual Boost"
+            }
+    },
+
+    {
+        "id": 24,
+        "name": "Octollect",
+        "type": "Psychic",
+        "rarity": "Common",
+        "stats": {
+            "HP": 40,
+            "Attack": 32,
+            "Defense": 28,
+            "Speed": 14,
+            "Stamina": 15
+            },
+        "description": "The supreme mind of the ocean. Its psychic powers have been developed to the point where it can lure its lunch from afar.",
+        "food": {
+            "food1": "Chocolate Cake",
+            "food2": "Donut",
+            "food3": "Lacreme"
+            },
+        "evolution": {
+            "base": "Branipus",
+            "stage1": "Cerebrius",
+            "stage2": "Octollect"
+            },
+        "skills": {
+            "3": "Psychic Blast",
+            "5": "Psychic Bomb",
+            "12": "Psy Blast",
+            "16": "Scratch",
+            "19": "Cleanse",
+            "21": "Heal",
+            "25": "Sleep Song",
+            "29": "Psychic Armor",
+            "34": "Pendulum",
+            "38": "Mind Control",
+            "42": "Psy Field",
+            "45": "Inception",
+            "51": "Mind Shake",
+            "54": "Tornado Kick",
+            "57": "Absolute Barrier",
+            "63": "Spiritual Boost"
+            }
+    },
+
+    {
+        "id": 25,
+        "name": "Skerdi",
+        "type": "Ghost",
+        "rarity": "Common",
+        "stats": {
+            "HP": 12,
+            "Attack": 8,
+            "Defense": 6,
+            "Speed": 10,
+            "Stamina": 5
+            },
+        "description": "A basic spectral form yet to be studied. Its grumpy face does not match its kind and gentle actions.",
+        "food": {
+            "food1": "Strawberry Cake",
+            "food2": "Sausage",
+            "food3": "Grape"
+            },
+        "evolution": {
+            "base": "Skerdi",
+            "stage1": "Aferaid",
+            "stage2": "Dreddiful"
+            },
+        "skills": {
+            "4": "Phantom Blast",
+            "5": "Bite",
+            "9": "Darkness",
+            "16": "Sleep Song",
+            "19": "Spectral Wall",
+            "21": "Plasma Star",
+            "25": "Haunting",
+            "32": "Spinning Kick",
+            "34": "Absolute Barrier",
+            "40": "Reflective Mirror",
+            "43": "Dark Mist",
+            "45": "Dark Flame",
+            "51": "Phantom Burner",
+            "53": "Arcane Curse",
+            "57": "Constrict",
+            "63": "Ghost Slash"
+            }
+    },
+
+    {
+        "id": 26,
+        "name": "Aferaid",
+        "type": "Ghost",
+        "rarity": "Common",
+        "stats": {
+            "HP": 19,
+            "Attack": 21,
+            "Defense": 14,
+            "Speed": 17,
+            "Stamina": 9
+            },
+        "description": "This Nexomon is more scared of tamers than tamers are of it, but most wild encounters still result in a fainted tamer.",
+        "food": {
+            "food1": "Strawberry Cake",
+            "food2": "Sausage",
+            "food3": "Grape"
+            },
+        "evolution": {
+            "base": "Skerdi",
+            "stage1": "Aferaid",
+            "stage2": "Dreddiful"
+            },
+        "skills": {
+            "4": "Phantom Blast",
+            "5": "Bite",
+            "9": "Darkness",
+            "16": "Sleep Song",
+            "19": "Spectral Wall",
+            "21": "Plasma Star",
+            "25": "Haunting",
+            "32": "Spinning Kick",
+            "34": "Absolute Barrier",
+            "40": "Reflective Mirror",
+            "43": "Dark Mist",
+            "45": "Dark Flame",
+            "51": "Phantom Burner",
+            "53": "Arcane Curse",
+            "57": "Constrict",
+            "63": "Ghost Slash"
+            }
+    },
+
+    {
+        "id": 27,
+        "name": "Dreddiful",
+        "type": "Ghost",
+        "rarity": "Common",
+        "stats": {
+            "HP": 35,
+            "Attack": 34,
+            "Defense": 26,
+            "Speed": 19,
+            "Stamina": 14
+            },
+        "description": "An advanced spectral manifestation. No one has ever withstood the glare of the red eyes on its hands. A cold wind blows before it appears on very dark nights.",
+        "food": {
+            "food1": "Strawberry Cake",
+            "food2": "Sausage",
+            "food3": "Grape"
+            },
+        "evolution": {
+            "base": "Skerdi",
+            "stage1": "Aferaid",
+            "stage2": "Dreddiful"
+            },
+        "skills": {
+            "4": "Phantom Blast",
+            "5": "Bite",
+            "9": "Darkness",
+            "16": "Sleep Song",
+            "19": "Spectral Wall",
+            "21": "Plasma Star",
+            "25": "Haunting",
+            "32": "Spinning Kick",
+            "34": "Absolute Barrier",
+            "40": "Reflective Mirror",
+            "43": "Dark Mist",
+            "45": "Dark Flame",
+            "51": "Phantom Burner",
+            "53": "Arcane Curse",
+            "57": "Constrict",
+            "63": "Ghost Slash"
+            }
+    },
+
+    {
+        "id": 28,
+        "name": "Griff",
+        "type": "Normal",
+        "rarity": "Common",
+        "stats": {
+            "HP": 11,
+            "Attack": 11,
+            "Defense": 9,
+            "Speed": 6,
+            "Stamina": 6
+            },
+        "description": "With twice the curiosity and bravery of other Nexomon, this feline has the courage of a true king.",
+        "food": {
+            "food1": "Sausage",
+            "food2": "Grape",
+            "food3": "Watermelon"
+            },
+        "evolution": {
+            "base": "Griff",
+            "stage1": "Griffgar",
+            "stage2": "Lioness"
+            },
+        "skills": {
+            "2": "Palm Flurry",
+            "6": "Bite",
+            "9": "Plasma Cannon",
+            "13": "Howling Winds",
+            "17": "Power Up",
+            "22": "Mystic Aroma",
+            "26": "Tackle",
+            "32": "Plasma Star",
+            "33": "Twin Tornado",
+            "40": "Wind Pellet",
+            "43": "Screech",
+            "45": "X Slash",
+            "52": "Combo",
+            "53": "Raging Focus",
+            "58": "Sky Blessing",
+            "61": "Disruption Ray"
+            }
+    },
+
+    {
+        "id": 29,
+        "name": "Griffgar",
+        "type": "Normal",
+        "rarity": "Common",
+        "stats": {
+            "HP": 25,
+            "Attack": 22,
+            "Defense": 17,
+            "Speed": 14,
+            "Stamina": 11
+            },
+        "description": "Its manes vary in size depending on its age. It likes to get into practice fights to hone its skills, so that one day it can lead the pack.",
+        "food": {
+            "food1": "Sausage",
+            "food2": "Grape",
+            "food3": "Watermelon"
+            },
+        "evolution": {
+            "base": "Griff",
+            "stage1": "Griffgar",
+            "stage2": "Lioness"
+            },
+        "skills": {
+            "2": "Palm Flurry",
+            "6": "Bite",
+            "9": "Plasma Cannon",
+            "13": "Howling Winds",
+            "17": "Power Up",
+            "22": "Mystic Aroma",
+            "26": "Tackle",
+            "32": "Plasma Star",
+            "33": "Twin Tornado",
+            "40": "Wind Pellet",
+            "43": "Screech",
+            "45": "X Slash",
+            "52": "Combo",
+            "53": "Raging Focus",
+            "58": "Sky Blessing",
+            "61": "Disruption Ray"
+            }
+    },
+
+    {
+        "id": 30,
+        "name": "Lioness",
+        "type": "Normal",
+        "rarity": "Common",
+        "stats": {
+            "HP": 40,
+            "Attack": 31,
+            "Defense": 28,
+            "Speed": 15,
+            "Stamina": 16
+            },
+        "description": "Its majestic figure and great strength make it a figure to be respected. Its roar can be heard up to five miles away.",
+        "food": {
+            "food1": "Sausage",
+            "food2": "Grape",
+            "food3": "Watermelon"
+            },
+        "evolution": {
+            "base": "Griff",
+            "stage1": "Griffgar",
+            "stage2": "Lioness"
+            },
+        "skills": {
+            "2": "Palm Flurry",
+            "6": "Bite",
+            "9": "Plasma Cannon",
+            "13": "Howling Winds",
+            "17": "Power Up",
+            "22": "Mystic Aroma",
+            "26": "Tackle",
+            "32": "Plasma Star",
+            "33": "Twin Tornado",
+            "40": "Wind Pellet",
+            "43": "Screech",
+            "45": "X Slash",
+            "52": "Combo",
+            "53": "Raging Focus",
+            "58": "Sky Blessing",
+            "61": "Disruption Ray"
+            }
     }
 ]
