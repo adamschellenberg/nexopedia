@@ -1287,5 +1287,221 @@
             "58": "Sky Blessing",
             "61": "Disruption Ray"
             }
-    }
+    },
+	
+	{
+        "id": 31,
+        "name": "Flizard",
+        "type": "Fire",
+        "rarity": "Common",
+        "stats": {
+            "HP": 36,
+            "Attack": 31,
+            "Defense": 27,
+            "Speed": 17,
+            "Stamina": 16
+            },
+        "description": "It's easier to spot this Nexomon during hot days when they are more active. After gathering heat, it shines with a bright red glow at night.",
+        "food": {
+            "food1": "Chocolate Muffin",
+            "food2": "Omelette",
+            "food3": "Onigiri"
+            },
+        "evolution": {
+            "base": "Flizard",
+            "stage1": "",
+            "stage2": ""
+            },
+        "skills": {
+            "2": "Fireball",
+            "8": "Flame Breath",
+            "10": "Invincible",
+            "16": "Stamina Surge",
+            "18": "Spinning Kick",
+            "21": "Combo",
+            "28": "Barrier",
+            "29": "Flame Column",
+            "34": "Conflagration",
+            "37": "Fire Cage",
+            "44": "Combustion",
+            "46": "Incinerate",
+            "49": "Fire Cross",
+            "55": "Explosion",
+            "59": "Fire Siphon",
+            "64": "Suncore"
+            }
+	},
+		
+	{
+        "id": 32,
+        "name": "Stinger",
+        "type": "Fire",
+        "rarity": "Common",
+        "stats": {
+            "HP": 11,
+            "Attack": 5,
+            "Defense": 9,
+            "Speed": 7,
+            "Stamina": 4
+            },
+        "description": "This Nexomon enjoys hiding underneath sand or heavy rocks. Unusually short tempered for its size - even loud noises make it angry.",
+        "food": {
+            "food1": "Pandulce",
+            "food2": "Shrimpgiri",
+            "food3": "Strawberry Cake"
+            },
+        "evolution": {
+            "base": "Stinger",
+            "stage1": "Moonsting",
+            "stage2": "Sunknight"
+            },
+        "skills": {
+            "4": "Flame",
+            "7": "Fire Stigma",
+            "10": "Explosion",
+            "14": "Flame Breath",
+            "19": "Power Up",
+            "22": "Recover",
+            "25": "Sleep Song",
+            "30": "Screech",
+            "35": "Sunshine",
+            "39": "Fire Claw",
+            "43": "Burn",
+            "46": "Tornado Kick",
+            "50": "Fire Siphon",
+            "55": "Fire Will",
+            "60": "Fire Cross",
+            "64": "Solar Flare"
+            }
+	},
+	
+	{
+        "id": 33,
+        "name": "Moonsting",
+        "type": "Fire",
+        "rarity": "Common",
+        "stats": {
+            "HP": 23,
+            "Attack": 18,
+            "Defense": 19,
+            "Speed": 9,
+            "Stamina": 10
+            },
+        "description": "Even with its reinforced armor, it can move its tail at incredible speeds. This Nexomon is famous on the battlefield.",
+        "food": {
+            "food1": "Pandulce",
+            "food2": "Shrimpgiri",
+            "food3": "Strawberry Cake"
+            },
+        "evolution": {
+            "base": "Stinger",
+            "stage1": "Moonsting",
+            "stage2": "Sunknight"
+            },
+        "skills": {
+            "4": "Flame",
+            "7": "Fire Stigma",
+            "10": "Explosion",
+            "14": "Flame Breath",
+            "19": "Power Up",
+            "22": "Recover",
+            "25": "Sleep Song",
+            "30": "Screech",
+            "35": "Sunshine",
+            "39": "Fire Claw",
+            "43": "Burn",
+            "46": "Tornado Kick",
+            "50": "Fire Siphon",
+            "55": "Fire Will",
+            "60": "Fire Cross",
+            "64": "Solar Flare"
+            }
+	},
+	
+	{
+        "id": 34,
+        "name": "Sunknight",
+        "type": "Fire",
+        "rarity": "Common",
+        "stats": {
+            "HP": 40,
+            "Attack": 29,
+            "Defense": 30,
+            "Speed": 12,
+            "Stamina": 17
+            },
+        "description": "Not only is this Nexomon heavily armored, it also has fire moving along its tail, making it very difficult to approach.",
+        "food": {
+            "food1": "Pandulce",
+            "food2": "Shrimpgiri",
+            "food3": "Strawberry Cake"
+            },
+        "evolution": {
+            "base": "Stinger",
+            "stage1": "Moonsting",
+            "stage2": "Sunknight"
+            },
+        "skills": {
+            "4": "Flame",
+            "7": "Fire Stigma",
+            "10": "Explosion",
+            "14": "Flame Breath",
+            "19": "Power Up",
+            "22": "Recover",
+            "25": "Sleep Song",
+            "30": "Screech",
+            "35": "Sunshine",
+            "39": "Fire Claw",
+            "43": "Burn",
+            "46": "Tornado Kick",
+            "50": "Fire Siphon",
+            "55": "Fire Will",
+            "60": "Fire Cross",
+            "64": "Solar Flare"
+            }
+	},
+	
+	{
+        "id": ,
+        "name": "",
+        "type": "",
+        "rarity": "",
+        "stats": {
+            "HP": ,
+            "Attack": ,
+            "Defense": ,
+            "Speed": ,
+            "Stamina": 
+            },
+        "description": "",
+        "food": {
+            "food1": "",
+            "food2": "",
+            "food3": ""
+            },
+        "evolution": {
+            "base": "",
+            "stage1": "",
+            "stage2": ""
+            },
+        "skills": {
+            "": "",
+            "": "",
+            "": "",
+            "": "",
+            "": "",
+            "": "",
+            "": "",
+            "": "",
+            "": "",
+            "": "",
+            "": "",
+            "": "",
+            "": "",
+            "": "",
+            "": "",
+            "": ""
+          	}
+	}
+		
 ]
