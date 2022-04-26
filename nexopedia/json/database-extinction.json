@@ -1,0 +1,775 @@
+[
+    {
+        "id": 1,
+        "name": "Cloddy",
+        "type": "Normal",
+        "rarity": "Uncommon",
+        "stats": {
+            "HP": 15,
+            "Attack": 4,
+            "Defense": 11,
+            "Speed": 8,
+            "Stamina": 7
+            },
+        "description": "A small cuddly Nexomon enveloped in fluffy fur that helps it keep balanced on its tiny legs.",
+        "food": {
+            "food1": "Green Pear",
+            "food2": "Banana",
+            "food3": "Cream Puff"
+            },
+        "evolution": {
+            "base": "Cloddy",
+            "stage1": "Cubdy",
+            "stage2": "Lukuma"
+            },
+        "skills": {
+            "1": "Scratch",
+            "7": "Sandstorm",
+            "10": "Battle Roar",
+            "16": "Recover",
+            "18": "Plasma",
+            "24": "X Slash",
+            "26": "Double Slash",
+            "32": "Elemental Up",
+            "35": "Drill",
+            "37": "Pummel",
+            "41": "Raging Focus",
+            "46": "Seismic Move",
+            "52": "Mud Attack",
+            "54": "Snake Eyes",
+            "60": "Sonic Scream",
+            "63": "Corrupted Mineral"
+            }
+    },
+
+    {
+        "id": 2,
+        "name": "Cubdy",
+        "type": "Normal",
+        "rarity": "Uncommon",
+        "stats": {
+            "HP": 23,
+            "Attack": 18,
+            "Defense": 18,
+            "Speed": 13,
+            "Stamina": 10
+            },
+        "description": "This Nexomon is usually very distracted making soft noises and mumbling while absorbed in its thoughts. However, it is among the most intelligent of Nexomon",
+        "food": {
+            "food1": "Green Pear",
+            "food2": "Banana",
+            "food3": "Cream Puff"
+            },
+        "evolution": {
+            "base": "Cloddy",
+            "stage1": "Cubdy",
+            "stage2": "Lukuma"
+            },
+        "skills": {
+            "1": "Scratch",
+            "7": "Sandstorm",
+            "10": "Battle Roar",
+            "16": "Recover",
+            "18": "Plasma",
+            "24": "X Slash",
+            "26": "Double Slash",
+            "32": "Elemental Up",
+            "35": "Drill",
+            "37": "Pummel",
+            "41": "Raging Focus",
+            "46": "Seismic Move",
+            "52": "Mud Attack",
+            "54": "Snake Eyes",
+            "60": "Sonic Scream",
+            "63": "Corrupted Mineral"
+            }
+    },
+
+    {
+        "id": 3,
+        "name": "Lukuma",
+        "type": "Normal",
+        "rarity": "Uncommon",
+        "stats": {
+            "HP": 38,
+            "Attack": 31,
+            "Defense": 28,
+            "Speed": 15,
+            "Stamina": 16
+            },
+        "description": "When a Cubdy evolves into Lukuma it becomes very grumpy and aggresive, as well as territorial. Yet, it tends to space out from time to time.",
+        "food": {
+            "food1": "Green Pear",
+            "food2": "Banana",
+            "food3": "Cream Puff"
+            },
+        "evolution": {
+            "base": "Cloddy",
+            "stage1": "Cubdy",
+            "stage2": "Lukuma"
+            },
+        "skills": {
+            "1": "Scratch",
+            "7": "Sandstorm",
+            "10": "Battle Roar",
+            "16": "Recover",
+            "18": "Plasma",
+            "24": "X Slash",
+            "26": "Double Slash",
+            "32": "Elemental Up",
+            "35": "Drill",
+            "37": "Pummel",
+            "41": "Raging Focus",
+            "46": "Seismic Move",
+            "52": "Mud Attack",
+            "54": "Snake Eyes",
+            "60": "Sonic Scream",
+            "63": "Corrupted Mineral"
+            }
+    },
+
+    {
+        "id": 4,
+        "name": "Kolphur",
+        "type": "Fire",
+        "rarity": "Common",
+        "stats": {
+            "HP": 14,
+            "Attack": 9,
+            "Defense": 6,
+            "Speed": 6,
+            "Stamina": 3
+            },
+        "description": "A scorching pebble with a magma core which also forms its one eye. When chasing it, be careful not to trip on its trail or your shoes might melt.",
+        "food": {
+            "food1": "Taco",
+            "food2": "Canele",
+            "food3": "Pincho"
+            },
+        "evolution": {
+            "base": "Kolphur",
+            "stage1": "Sulphlo",
+            "stage2": "Moltano"
+            },
+        "skills": {
+            "1": "Flame",
+            "8": "Flame Column",
+            "9": "COmbustion",
+            "14": "Blaze",
+            "20": "Pyro Bomb",
+            "24": "Fire Cage",
+            "25": "X Slash",
+            "32": "Palm Flurry",
+            "35": "Incinerate",
+            "38": "Heal",
+            "44": "Super Punch",
+            "45": "Headbutt",
+            "49": "Fire Barrier",
+            "56": "Disintegrate",
+            "59": "Fire Will",
+            "63": "Suncore"
+            }
+    },
+
+    {
+        "id": 5,
+        "name": "Sulphlo",
+        "type": "Fire",
+        "rarity": "Common",
+        "stats": {
+            "HP": 25,
+            "Attack": 20,
+            "Defense": 17,
+            "Speed": 9,
+            "Stamina": 8
+            },
+        "description": "When reaching adulthood, Kolphurs fulfills its dream and transforms into a small volcano. Hot bubbles of Sulphur can be seen moving throughout its boiling eye.",
+        "food": {
+            "food1": "Taco",
+            "food2": "Canele",
+            "food3": "Pincho"
+            },
+        "evolution": {
+            "base": "Kolphur",
+            "stage1": "Sulphlo",
+            "stage2": "Moltano"
+            },
+        "skills": {
+            "1": "Flame",
+            "8": "Flame Column",
+            "9": "COmbustion",
+            "14": "Blaze",
+            "20": "Pyro Bomb",
+            "24": "Fire Cage",
+            "25": "X Slash",
+            "32": "Palm Flurry",
+            "35": "Incinerate",
+            "38": "Heal",
+            "44": "Super Punch",
+            "45": "Headbutt",
+            "49": "Fire Barrier",
+            "56": "Disintegrate",
+            "59": "Fire Will",
+            "63": "Suncore"
+            }
+    },
+
+    {
+        "id": 6,
+        "name": "Moltano",
+        "type": "Fire",
+        "rarity": "Common",
+        "stats": {
+            "HP": 41,
+            "Attack": 28,
+            "Defense": 31,
+            "Speed": 12,
+            "Stamina": 16
+            },
+        "description": "This massive magma cyclopes will show you the meaning of pain. Stay away from it by all means.",
+        "food": {
+            "food1": "Taco",
+            "food2": "Canele",
+            "food3": "Pincho"
+            },
+        "evolution": {
+            "base": "Kolphur",
+            "stage1": "Sulphlo",
+            "stage2": "Moltano"
+            },
+        "skills": {
+            "1": "Flame",
+            "8": "Flame Column",
+            "9": "COmbustion",
+            "14": "Blaze",
+            "20": "Pyro Bomb",
+            "24": "Fire Cage",
+            "25": "X Slash",
+            "32": "Palm Flurry",
+            "35": "Incinerate",
+            "38": "Heal",
+            "44": "Super Punch",
+            "45": "Headbutt",
+            "49": "Fire Barrier",
+            "56": "Disintegrate",
+            "59": "Fire Will",
+            "63": "Suncore"
+            }
+    },
+
+    {
+        "id": 7,
+        "name": "Bloopish",
+        "type": "Water",
+        "rarity": "Common",
+        "stats": {
+            "HP": 13,
+            "Attack": 7,
+            "Defense": 4,
+            "Speed": 10,
+            "Stamina": 5
+            },
+        "description": "This colorful water Nexomon moves in large groups. Its shiny scales produce an amazing light effect underwater.",
+        "food": {
+            "food1": "Donut",
+            "food2": "Lacreme",
+            "food3": "Lemon Pie"
+            },
+        "evolution": {
+            "base": "Bloopish",
+            "stage1": "Glimoory",
+            "stage2": "Glamoory"
+            },
+        "skills": {
+            "2": "Splash",
+            "5": "Torrent",
+            "11": "Furious Torrent",
+            "13": "Plasma",
+            "18": "Water Blast",
+            "21": "Tornado Kick",
+            "26": "Toxic Splash",
+            "30": "Whirlpool",
+            "34": "Ice Assault",
+            "38": "Ice Flakes",
+            "44": "Aqua Siphon",
+            "45": "Power Up",
+            "51": "Recover",
+            "53": "Tropical Rain",
+            "57": "Smoke Screen",
+            "61": "Blue Mirror"
+            }
+    },
+
+    {
+        "id": 8,
+        "name": "Glimoory",
+        "type": "Water",
+        "rarity": "Common",
+        "stats": {
+            "HP": 20,
+            "Attack": 20,
+            "Defense": 17,
+            "Speed": 12,
+            "Stamina": 9
+            },
+        "description": "Style and swiftness. Victory with glamour. The appeal of this Nexomon is equivalent to its skill in battle.",
+        "food": {
+            "food1": "Donut",
+            "food2": "Lacreme",
+            "food3": "Lemon Pie"
+            },
+        "evolution": {
+            "base": "Bloopish",
+            "stage1": "Glimoory",
+            "stage2": "Glamoory"
+            },
+        "skills": {
+            "2": "Splash",
+            "5": "Torrent",
+            "11": "Furious Torrent",
+            "13": "Plasma",
+            "18": "Water Blast",
+            "21": "Tornado Kick",
+            "26": "Toxic Splash",
+            "30": "Whirlpool",
+            "34": "Ice Assault",
+            "38": "Ice Flakes",
+            "44": "Aqua Siphon",
+            "45": "Power Up",
+            "51": "Recover",
+            "53": "Tropical Rain",
+            "57": "Smoke Screen",
+            "61": "Blue Mirror"
+            }
+    },
+
+    {
+        "id": 9,
+        "name": "Glamoory",
+        "type": "Water",
+        "rarity": "Common",
+        "stats": {
+            "HP": 39,
+            "Attack": 26,
+            "Defense": 26,
+            "Speed": 20,
+            "Stamina": 13
+            },
+        "description": "Beauty and power can be found on its silky fins. Fisherman are extra careful when it appears as they might end up facing the Queen of the Sea.",
+        "food": {
+            "food1": "Donut",
+            "food2": "Lacreme",
+            "food3": "Lemon Pie"
+            },
+        "evolution": {
+            "base": "Bloopish",
+            "stage1": "Glimoory",
+            "stage2": "Glamoory"
+            },
+        "skills": {
+            "2": "Splash",
+            "5": "Torrent",
+            "11": "Furious Torrent",
+            "13": "Plasma",
+            "18": "Water Blast",
+            "21": "Tornado Kick",
+            "26": "Toxic Splash",
+            "30": "Whirlpool",
+            "34": "Ice Assault",
+            "38": "Ice Flakes",
+            "44": "Aqua Siphon",
+            "45": "Power Up",
+            "51": "Recover",
+            "53": "Tropical Rain",
+            "57": "Smoke Screen",
+            "61": "Blue Mirror"
+            }
+    },
+
+    {
+        "id": 10,
+        "name": "Spikus",
+        "type": "Plant",
+        "rarity": "Uncommon",
+        "stats": {
+            "HP": 6,
+            "Attack": 11,
+            "Defense": 6,
+            "Speed": 10,
+            "Stamina": 3
+            },
+        "description": "A merry but un-huggable Nexomon who likes to jump and uses its spikes during battle and for protection against predators.",
+        "food": {
+            "food1": "Lacreme",
+            "food2": "Lemon Pie",
+            "food3": "Egg Tart"
+            },
+        "evolution": {
+            "base": "Spikus",
+            "stage1": "Spikarm",
+            "stage2": "Thornox"
+            },
+        "skills": {
+            "3": "Bullet Seed",
+            "8": "Blooming Spores",
+            "10": "Thorn Storm",
+            "16": "Recover",
+            "19": "Natural Heal",
+            "24": "Focus Seed",
+            "25": "Green Spirit",
+            "29": "Poison Cloud",
+            "34": "Power Up",
+            "39": "Forest Energy",
+            "42": "Plasma",
+            "46": "Infected Seed",
+            "49": "Smoke Screen",
+            "54": "Green Sphere",
+            "60": "Scratch",
+            "61": "Vine Whip"
+            }
+    },
+
+    {
+        "id": 11,
+        "name": "Spikarm",
+        "type": "Plant",
+        "rarity": "Uncommon",
+        "stats": {
+            "HP": 27,
+            "Attack": 19,
+            "Defense": 18,
+            "Speed": 14,
+            "Stamina": 12
+            },
+        "description": "Once it learns to stand on its own two feet, it quickly learns how to shoot thorns. It develops a great admiration for its newly acquired arms.",
+        "food": {
+            "food1": "Lacreme",
+            "food2": "Lemon Pie",
+            "food3": "Egg Tart"
+            },
+        "evolution": {
+            "base": "Spikus",
+            "stage1": "Spikarm",
+            "stage2": "Thornox"
+            },
+        "skills": {
+            "3": "Bullet Seed",
+            "8": "Blooming Spores",
+            "10": "Thorn Storm",
+            "16": "Recover",
+            "19": "Natural Heal",
+            "24": "Focus Seed",
+            "25": "Green Spirit",
+            "29": "Poison Cloud",
+            "34": "Power Up",
+            "39": "Forest Energy",
+            "42": "Plasma",
+            "46": "Infected Seed",
+            "49": "Smoke Screen",
+            "54": "Green Sphere",
+            "60": "Scratch",
+            "61": "Vine Whip"
+            }
+    },
+
+    {
+        "id": 12,
+        "name": "Thornix",
+        "type": "Plant",
+        "rarity": "Uncommon",
+        "stats": {
+            "HP": 38,
+            "Attack": 31,
+            "Defense": 29,
+            "Speed": 18,
+            "Stamina": 15
+            },
+        "description": "It can launch projectile spikes from its knees and shoulders, combined with extreme accuracy and cool dance moves?",
+        "food": {
+            "food1": "Lacreme",
+            "food2": "Lemon Pie",
+            "food3": "Egg Tart"
+            },
+        "evolution": {
+            "base": "Spikus",
+            "stage1": "Spikarm",
+            "stage2": "Thornox"
+            },
+        "skills": {
+            "3": "Bullet Seed",
+            "8": "Blooming Spores",
+            "10": "Thorn Storm",
+            "16": "Recover",
+            "19": "Natural Heal",
+            "24": "Focus Seed",
+            "25": "Green Spirit",
+            "29": "Poison Cloud",
+            "34": "Power Up",
+            "39": "Forest Energy",
+            "42": "Plasma",
+            "46": "Infected Seed",
+            "49": "Smoke Screen",
+            "54": "Green Sphere",
+            "60": "Scratch",
+            "61": "Vine Whip"
+            }
+    },
+
+    {
+        "id": 13,
+        "name": "Pebglem",
+        "type": "Mineral",
+        "rarity": "Common",
+        "stats": {
+            "HP": 9,
+            "Attack": 11,
+            "Defense": 11,
+            "Speed": 8,
+            "Stamina": 5
+            },
+        "description": "A quiet Nexomon that can project light from the gem fin in its head. It is often noisy when in a good mood.",
+        "food": {
+            "food1": "Canele",
+            "food2": "Pincho",
+            "food3": "Peach"
+            },
+        "evolution": {
+            "base": "Pebglem",
+            "stage1": "Gemock",
+            "stage2": "Gemaxar"
+            },
+        "skills": {
+            "3": "Rock Barrage",
+            "8": "Seismic Move",
+            "10": "Healing Stone",
+            "14": "Mineral Siphon",
+            "17": "Rocknite",
+            "22": "Palm Flurry",
+            "25": "Meteor Strike",
+            "32": "Rock Prison",
+            "35": "Rock Wall",
+            "38": "Drill",
+            "44": "Tackle",
+            "48": "Plasma Cannon",
+            "50": "Sacred Mineral",
+            "53": "Double Slash",
+            "57": "Resonating Rock",
+            "65": "Spinning Kick"
+            }
+    },
+
+    {
+        "id": 14,
+        "name": "Gemock",
+        "type": "Mineral",
+        "rarity": "Common",
+        "stats": {
+            "HP": 29,
+            "Attack": 13,
+            "Defense": 22,
+            "Speed": 11,
+            "Stamina": 12
+            },
+        "description": "It uses the power of minerals to empower its jeweled limbs and generate levitation powers.",
+        "food": {
+            "food1": "Canele",
+            "food2": "Pincho",
+            "food3": "Peach"
+            },
+        "evolution": {
+            "base": "Pebglem",
+            "stage1": "Gemock",
+            "stage2": "Gemaxar"
+            },
+        "skills": {
+            "3": "Rock Barrage",
+            "8": "Seismic Move",
+            "10": "Healing Stone",
+            "14": "Mineral Siphon",
+            "17": "Rocknite",
+            "22": "Palm Flurry",
+            "25": "Meteor Strike",
+            "32": "Rock Prison",
+            "35": "Rock Wall",
+            "38": "Drill",
+            "44": "Tackle",
+            "48": "Plasma Cannon",
+            "50": "Sacred Mineral",
+            "53": "Double Slash",
+            "57": "Resonating Rock",
+            "65": "Spinning Kick"
+            }
+    },
+
+    {
+        "id": 15,
+        "name": "Gemaxar",
+        "type": "Mineral",
+        "rarity": "Common",
+        "stats": {
+            "HP": 42,
+            "Attack": 26,
+            "Defense": 33,
+            "Speed": 14,
+            "Stamina": 17
+            },
+        "description": "A mineral Nexomon with total control of magnetic fields. The crystal shards around it are like autonomous independent limbs used for defense.",
+        "food": {
+            "food1": "Canele",
+            "food2": "Pincho",
+            "food3": "Peach"
+            },
+        "evolution": {
+            "base": "Pebglem",
+            "stage1": "Gemock",
+            "stage2": "Gemaxar"
+            },
+        "skills": {
+            "3": "Rock Barrage",
+            "8": "Seismic Move",
+            "10": "Healing Stone",
+            "14": "Mineral Siphon",
+            "17": "Rocknite",
+            "22": "Palm Flurry",
+            "25": "Meteor Strike",
+            "32": "Rock Prison",
+            "35": "Rock Wall",
+            "38": "Drill",
+            "44": "Tackle",
+            "48": "Plasma Cannon",
+            "50": "Sacred Mineral",
+            "53": "Double Slash",
+            "57": "Resonating Rock",
+            "65": "Spinning Kick"
+            }
+    },
+
+    {
+        "id": 16,
+        "name": "Heliwurm",
+        "type": "Wind",
+        "rarity": "Common",
+        "stats": {
+            "HP": 12,
+            "Attack": 5,
+            "Defense": 9,
+            "Speed": 10,
+            "Stamina": 2
+            },
+        "description": "It manipulates the wind by using a windmill-shaped antenna. Do not be fooled by its fluffy look, it can summon powerful gusts of wind to defend itself.",
+        "food": {
+            "food1": "Pincho",
+            "food2": "Peach",
+            "food3": "Orange"
+            },
+        "evolution": {
+            "base": "Heliwurm",
+            "stage1": "Helipa",
+            "stage2": "Heliventus"
+            },
+        "skills": {
+            "1": "Wind Pellet",
+            "7": "Gust",
+            "9": "Frosty Winds",
+            "14": "Twin Tornado",
+            "19": "Wind Song",
+            "22": "Elemental Up",
+            "28": "Sky Blessings",
+            "29": "Combo",
+            "33": "Glaze",
+            "40": "Pummel",
+            "42": "Heal",
+            "47": "Gusty Storm",
+            "52": "Corrosive Breeze",
+            "56": "Crescent Wings",
+            "57": "Power Up",
+            "61": "Icicle"
+            }
+    },
+
+    {
+        "id": 17,
+        "name": "Helips",
+        "type": "Wind",
+        "rarity": "Common",
+        "stats": {
+            "HP": 17,
+            "Attack": 21,
+            "Defense": 17,
+            "Speed": 14,
+            "Stamina": 7
+            },
+        "description": "After evolving, Heliwurm encloses itself in a cocoon and becomes airborne, drifting on wind currents.",
+        "food": {
+            "food1": "Pincho",
+            "food2": "Peach",
+            "food3": "Orange"
+            },
+        "evolution": {
+            "base": "Heliwurm",
+            "stage1": "Helipa",
+            "stage2": "Heliventus"
+            },
+        "skills": {
+            "1": "Wind Pellet",
+            "7": "Gust",
+            "9": "Frosty Winds",
+            "14": "Twin Tornado",
+            "19": "Wind Song",
+            "22": "Elemental Up",
+            "28": "Sky Blessings",
+            "29": "Combo",
+            "33": "Glaze",
+            "40": "Pummel",
+            "42": "Heal",
+            "47": "Gusty Storm",
+            "52": "Corrosive Breeze",
+            "56": "Crescent Wings",
+            "57": "Power Up",
+            "61": "Icicle"
+            }
+    },
+
+    {
+        "id": 18,
+        "name": "Heliventus",
+        "type": "Wind",
+        "rarity": "Common",
+        "stats": {
+            "HP": 37,
+            "Attack": 33,
+            "Defense": 29,
+            "Speed": 18,
+            "Stamina": 15
+            },
+        "description": "This air ace keeps its durable Helipa shell as a helmet after evolving. Combined with its superior wind powers, it knows no fear.",
+        "food": {
+            "food1": "Pincho",
+            "food2": "Peach",
+            "food3": "Orange"
+            },
+        "evolution": {
+            "base": "Heliwurm",
+            "stage1": "Helipa",
+            "stage2": "Heliventus"
+            },
+        "skills": {
+            "1": "Wind Pellet",
+            "7": "Gust",
+            "9": "Frosty Winds",
+            "14": "Twin Tornado",
+            "19": "Wind Song",
+            "22": "Elemental Up",
+            "28": "Sky Blessings",
+            "29": "Combo",
+            "33": "Glaze",
+            "40": "Pummel",
+            "42": "Heal",
+            "47": "Gusty Storm",
+            "52": "Corrosive Breeze",
+            "56": "Crescent Wings",
+            "57": "Power Up",
+            "61": "Icicle"
+            }
+    }
+]
