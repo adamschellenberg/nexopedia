@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "database": 1,
         "name": "Cloddy",
         "type": "Normal",
         "rarity": "Uncommon",
@@ -43,7 +43,7 @@
     },
 
     {
-        "id": 2,
+        "database": 2,
         "name": "Cubdy",
         "type": "Normal",
         "rarity": "Uncommon",
@@ -86,7 +86,7 @@
     },
 
     {
-        "id": 3,
+        "database": 3,
         "name": "Lukuma",
         "type": "Normal",
         "rarity": "Uncommon",
@@ -129,7 +129,7 @@
     },
 
     {
-        "id": 4,
+        "database": 4,
         "name": "Kolphur",
         "type": "Fire",
         "rarity": "Common",
@@ -172,7 +172,7 @@
     },
 
     {
-        "id": 5,
+        "database": 5,
         "name": "Sulphlo",
         "type": "Fire",
         "rarity": "Common",
@@ -215,7 +215,7 @@
     },
 
     {
-        "id": 6,
+        "database": 6,
         "name": "Moltano",
         "type": "Fire",
         "rarity": "Common",
@@ -258,7 +258,7 @@
     },
 
     {
-        "id": 7,
+        "database": 7,
         "name": "Bloopish",
         "type": "Water",
         "rarity": "Common",
@@ -301,7 +301,7 @@
     },
 
     {
-        "id": 8,
+        "database": 8,
         "name": "Glimoory",
         "type": "Water",
         "rarity": "Common",
@@ -344,7 +344,7 @@
     },
 
     {
-        "id": 9,
+        "database": 9,
         "name": "Glamoory",
         "type": "Water",
         "rarity": "Common",
@@ -387,7 +387,7 @@
     },
 
     {
-        "id": 10,
+        "database": 10,
         "name": "Spikus",
         "type": "Plant",
         "rarity": "Uncommon",
@@ -430,7 +430,7 @@
     },
 
     {
-        "id": 11,
+        "database": 11,
         "name": "Spikarm",
         "type": "Plant",
         "rarity": "Uncommon",
@@ -473,7 +473,7 @@
     },
 
     {
-        "id": 12,
+        "database": 12,
         "name": "Thornix",
         "type": "Plant",
         "rarity": "Uncommon",
@@ -516,7 +516,7 @@
     },
 
     {
-        "id": 13,
+        "database": 13,
         "name": "Pebglem",
         "type": "Mineral",
         "rarity": "Common",
@@ -559,7 +559,7 @@
     },
 
     {
-        "id": 14,
+        "database": 14,
         "name": "Gemock",
         "type": "Mineral",
         "rarity": "Common",
@@ -602,7 +602,7 @@
     },
 
     {
-        "id": 15,
+        "database": 15,
         "name": "Gemaxar",
         "type": "Mineral",
         "rarity": "Common",
@@ -645,7 +645,7 @@
     },
 
     {
-        "id": 16,
+        "database": 16,
         "name": "Heliwurm",
         "type": "Wind",
         "rarity": "Common",
@@ -688,7 +688,7 @@
     },
 
     {
-        "id": 17,
+        "database": 17,
         "name": "Helips",
         "type": "Wind",
         "rarity": "Common",
@@ -731,7 +731,7 @@
     },
 
     {
-        "id": 18,
+        "database": 18,
         "name": "Heliventus",
         "type": "Wind",
         "rarity": "Common",
@@ -774,7 +774,7 @@
     },
 
     {
-        "id": 19,
+        "database": 19,
         "name": "Zumble",
         "type": "Electric",
         "rarity": "Common",
@@ -817,7 +817,7 @@
     },
 
     {
-        "id": 20,
+        "database": 20,
         "name": "Zasp",
         "type": "Electric",
         "rarity": "Common",
@@ -860,7 +860,7 @@
     },
 
     {
-        "id": 21,
+        "database": 21,
         "name": "Zappnic",
         "type": "Electric",
         "rarity": "Common",
@@ -903,7 +903,7 @@
     },
 
     {
-        "id": 22,
+        "database": 22,
         "name": "Branipus",
         "type": "Psychic",
         "rarity": "Common",
@@ -946,7 +946,7 @@
     },
 
     {
-        "id": 23,
+        "database": 23,
         "name": "Cerebrius",
         "type": "Psychic",
         "rarity": "Common",
@@ -989,7 +989,7 @@
     },
 
     {
-        "id": 24,
+        "database": 24,
         "name": "Octollect",
         "type": "Psychic",
         "rarity": "Common",
@@ -1032,7 +1032,7 @@
     },
 
     {
-        "id": 25,
+        "database": 25,
         "name": "Skerdi",
         "type": "Ghost",
         "rarity": "Common",
@@ -1075,7 +1075,7 @@
     },
 
     {
-        "id": 26,
+        "database": 26,
         "name": "Aferaid",
         "type": "Ghost",
         "rarity": "Common",
@@ -1118,7 +1118,7 @@
     },
 
     {
-        "id": 27,
+        "database": 27,
         "name": "Dreddiful",
         "type": "Ghost",
         "rarity": "Common",
@@ -1161,7 +1161,7 @@
     },
 
     {
-        "id": 28,
+        "database": 28,
         "name": "Griff",
         "type": "Normal",
         "rarity": "Common",
@@ -1204,7 +1204,7 @@
     },
 
     {
-        "id": 29,
+        "database": 29,
         "name": "Griffgar",
         "type": "Normal",
         "rarity": "Common",
@@ -1247,7 +1247,7 @@
     },
 
     {
-        "id": 30,
+        "database": 30,
         "name": "Lioness",
         "type": "Normal",
         "rarity": "Common",
@@ -1290,7 +1290,7 @@
     },
 	
 	{
-        "id": 31,
+        "database": 31,
         "name": "Flizard",
         "type": "Fire",
         "rarity": "Common",
@@ -1333,7 +1333,7 @@
 	},
 		
 	{
-        "id": 32,
+        "database": 32,
         "name": "Stinger",
         "type": "Fire",
         "rarity": "Common",
@@ -1376,7 +1376,7 @@
 	},
 	
 	{
-        "id": 33,
+        "database": 33,
         "name": "Moonsting",
         "type": "Fire",
         "rarity": "Common",
@@ -1419,7 +1419,7 @@
 	},
 	
 	{
-        "id": 34,
+        "database": 34,
         "name": "Sunknight",
         "type": "Fire",
         "rarity": "Common",
