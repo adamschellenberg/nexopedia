@@ -278,15 +278,9 @@
         
 
 
-            fetch('database-extinction-dev.json')
+            fetch('/json/database-extinction-dev.json')
                     .then(response => response.json())
-                    .then(json => createTable(json))
-                    .then(testFunction()
-                    );
-
-            function testFunction(json) {
-                console.log(json);
-            }
+                    .then(json => createTable(json));
             
             function createTable(jsonData) {
                 // testing populating #root div with Nexomon names from jsonData array
@@ -294,15 +288,29 @@
                 nexomonDatabaseTable.setAttribute("border", "1px");
                 nexomonDatabaseTable.setAttribute("style", 
                     "border: 1px solid black; border-collapse: collapse;");
+                nexomonDatabaseTable.insertRow().insertCell().textContent = "DB#";
+                nexomonDatabaseTable.rows[0].insertCell().textContent = "Sprite";
+                nexomonDatabaseTable.rows[0].insertCell().textContent = "Nexomon";
+                nexomonDatabaseTable.rows[0].insertCell().textContent = "Type";
+
+
                 // looping through array to populate the rootDiv var
                 for (let i = 0; i < jsonData.length; i++) {
                     nexomonDatabaseTable.insertRow();
                     let number = nexomonDatabaseTable.rows[nexomonDatabaseTable.rows.length - 1].insertCell();
                     number.textContent = "#" + jsonData[i].database;
+                    let sprite = nexomonDatabaseTable.rows[nexomonDatabaseTable.rows.length - 1].insertCell();
+                    var img = document.createElement("img");
+                    img.src = "../assets/sprites/nexomon-extinction/small/" + jsonData[i].database + "-" + jsonData[i].name.toLowerCase() + ".png";
+                    sprite.appendChild(img);
                     let name = nexomonDatabaseTable.rows[nexomonDatabaseTable.rows.length - 1].insertCell();
                     name.textContent = jsonData[i].name;
                     let type = nexomonDatabaseTable.rows[nexomonDatabaseTable.rows.length - 1].insertCell();
                     type.textContent = jsonData[i].type;
+                    var typeImg = document.createElement("img");
+                    typeImg.setAttribute("width", "35px");
+                    typeImg.src = "../assets/sprites/elements/" + jsonData[i].type.toLowerCase() + ".png";
+                    type.appendChild(typeImg);
                 //    rootDiv += "Nexomon #" + jsonData[i].database + " " + jsonData[i].name + "<br />";
                 }
 
