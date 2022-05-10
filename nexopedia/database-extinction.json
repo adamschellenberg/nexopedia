@@ -1459,6 +1459,49 @@
             "60": "Fire Cross",
             "64": "Solar Flare"
             }
-	}
+	},
+	
+	{
+        "database": "",
+        "name": "",
+        "type": "Water",
+        "rarity": "Common",
+        "stats": {
+            "HP": ,
+            "Attack": ,
+            "Defense": ,
+            "Speed": ,
+            "Stamina": 
+            },
+        "description": "",
+        "food": {
+            "food1": "Donut",
+            "food2": "Lacreme",
+            "food3": "Lemon Pie"
+            },
+        "evolution": {
+            "base": "Faucefant",
+            "stage1": "Draniphant",
+            "stage2": "Tuskant"
+            },
+        "skills": {
+            "4": "Splash",
+            "7": "Frost Bite",
+            "12": "Freeze",
+            "13": "Torrent",
+            "19": "Ice Flakes",
+            "23": "Wave",
+            "26": "Water Blast",
+            "29": "Furious Torrent",
+            "36": "Pummel",
+            "39": "Tackle",
+            "41": "Healing Water",
+            "45": "Quick Feet",
+            "52": "Aqua Siphon",
+            "53": "Sonic Scream",
+            "60": "Plasma Cannon",
+            "62": "Tsunami"
+          	}
+}
 		
 ]
