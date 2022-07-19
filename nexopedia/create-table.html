@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nexomon</title>
+    </head>
+    <body>
+
+        <div id="root">
+
+        </div>
+
+
+        <script>
+            // Array of first 6 Nexomon
+            /* 
+            var jsonData = 
+                [
+                    {
+                        "database": "001",
+                        "name": "Cloddy",
+                        "type": "Normal",
+                        "rarity": "Uncommon",
+                        "stats": {
+                            "HP": 15,
+                            "Attack": 4,
+                            "Defense": 11,
+                            "Speed": 8,
+                            "Stamina": 7
+                            },
+                        "description": "A small cuddly Nexomon enveloped in fluffy fur that helps it keep balanced on its tiny legs.",
+                        "food": {
+                            "food1": "Green Pear",
+                            "food2": "Banana",
+                            "food3": "Cream Puff"
+                            },
+                        "evolution": {
+                            "base": "Cloddy",
+                            "stage1": "Cubdy",
+                            "stage2": "Lukuma"
+                            },
+                        "skills": {
+                            "1": "Scratch",
+                            "7": "Sandstorm",
+                            "10": "Battle Roar",
+                            "16": "Recover",
+                            "18": "Plasma",
+                            "24": "X Slash",
+                            "26": "Double Slash",
+                            "32": "Elemental Up",
+                            "35": "Drill",
+                            "37": "Pummel",
+                            "41": "Raging Focus",
+                            "46": "Seismic Move",
+                            "52": "Mud Attack",
+                            "54": "Snake Eyes",
+                            "60": "Sonic Scream",
+                            "63": "Corrupted Mineral"
+                            }
+                    },
+
+                    {
+                        "database": "002",
+                        "name": "Cubdy",
+                        "type": "Normal",
+                        "rarity": "Uncommon",
+                        "stats": {
+                            "HP": 23,
+                            "Attack": 18,
+                            "Defense": 18,
+                            "Speed": 13,
+                            "Stamina": 10
+                            },
+                        "description": "This Nexomon is usually very distracted making soft noises and mumbling while absorbed in its thoughts. However, it is among the most intelligent of Nexomon",
+                        "food": {
+                            "food1": "Green Pear",
+                            "food2": "Banana",
+                            "food3": "Cream Puff"
+                            },
+                        "evolution": {
+                            "base": "Cloddy",
+                            "stage1": "Cubdy",
+                            "stage2": "Lukuma"
+                            },
+                        "skills": {
+                            "1": "Scratch",
+                            "7": "Sandstorm",
+                            "10": "Battle Roar",
+                            "16": "Recover",
+                            "18": "Plasma",
+                            "24": "X Slash",
+                            "26": "Double Slash",
+                            "32": "Elemental Up",
+                            "35": "Drill",
+                            "37": "Pummel",
+                            "41": "Raging Focus",
+                            "46": "Seismic Move",
+                            "52": "Mud Attack",
+                            "54": "Snake Eyes",
+                            "60": "Sonic Scream",
+                            "63": "Corrupted Mineral"
+                            }
+                    },
+
+                    {
+                        "database": "003",
+                        "name": "Lukuma",
+                        "type": "Normal",
+                        "rarity": "Uncommon",
+                        "stats": {
+                            "HP": 38,
+                            "Attack": 31,
+                            "Defense": 28,
+                            "Speed": 15,
+                            "Stamina": 16
+                            },
+                        "description": "When a Cubdy evolves into Lukuma it becomes very grumpy and aggresive, as well as territorial. Yet, it tends to space out from time to time.",
+                        "food": {
+                            "food1": "Green Pear",
+                            "food2": "Banana",
+                            "food3": "Cream Puff"
+                            },
+                        "evolution": {
+                            "base": "Cloddy",
+                            "stage1": "Cubdy",
+                            "stage2": "Lukuma"
+                            },
+                        "skills": {
+                            "1": "Scratch",
+                            "7": "Sandstorm",
+                            "10": "Battle Roar",
+                            "16": "Recover",
+                            "18": "Plasma",
+                            "24": "X Slash",
+                            "26": "Double Slash",
+                            "32": "Elemental Up",
+                            "35": "Drill",
+                            "37": "Pummel",
+                            "41": "Raging Focus",
+                            "46": "Seismic Move",
+                            "52": "Mud Attack",
+                            "54": "Snake Eyes",
+                            "60": "Sonic Scream",
+                            "63": "Corrupted Mineral"
+                            }
+                    },
+
+                    {
+                        "database": "004",
+                        "name": "Kolphur",
+                        "type": "Fire",
+                        "rarity": "Common",
+                        "stats": {
+                            "HP": 14,
+                            "Attack": 9,
+                            "Defense": 6,
+                            "Speed": 6,
+                            "Stamina": 3
+                            },
+                        "description": "A scorching pebble with a magma core which also forms its one eye. When chasing it, be careful not to trip on its trail or your shoes might melt.",
+                        "food": {
+                            "food1": "Taco",
+                            "food2": "Canele",
+                            "food3": "Pincho"
+                            },
+                        "evolution": {
+                            "base": "Kolphur",
+                            "stage1": "Sulphlo",
+                            "stage2": "Moltano"
+                            },
+                        "skills": {
+                            "1": "Flame",
+                            "8": "Flame Column",
+                            "9": "COmbustion",
+                            "14": "Blaze",
+                            "20": "Pyro Bomb",
+                            "24": "Fire Cage",
+                            "25": "X Slash",
+                            "32": "Palm Flurry",
+                            "35": "Incinerate",
+                            "38": "Heal",
+                            "44": "Super Punch",
+                            "45": "Headbutt",
+                            "49": "Fire Barrier",
+                            "56": "Disintegrate",
+                            "59": "Fire Will",
+                            "63": "Suncore"
+                            }
+                    },
+
+                    {
+                        "database": "005",
+                        "name": "Sulphlo",
+                        "type": "Fire",
+                        "rarity": "Common",
+                        "stats": {
+                            "HP": 25,
+                            "Attack": 20,
+                            "Defense": 17,
+                            "Speed": 9,
+                            "Stamina": 8
+                            },
+                        "description": "When reaching adulthood, Kolphurs fulfills its dream and transforms into a small volcano. Hot bubbles of Sulphur can be seen moving throughout its boiling eye.",
+                        "food": {
+                            "food1": "Taco",
+                            "food2": "Canele",
+                            "food3": "Pincho"
+                            },
+                        "evolution": {
+                            "base": "Kolphur",
+                            "stage1": "Sulphlo",
+                            "stage2": "Moltano"
+                            },
+                        "skills": {
+                            "1": "Flame",
+                            "8": "Flame Column",
+                            "9": "COmbustion",
+                            "14": "Blaze",
+                            "20": "Pyro Bomb",
+                            "24": "Fire Cage",
+                            "25": "X Slash",
+                            "32": "Palm Flurry",
+                            "35": "Incinerate",
+                            "38": "Heal",
+                            "44": "Super Punch",
+                            "45": "Headbutt",
+                            "49": "Fire Barrier",
+                            "56": "Disintegrate",
+                            "59": "Fire Will",
+                            "63": "Suncore"
+                            }
+                    },
+
+                    {
+                        "database": "006",
+                        "name": "Moltano",
+                        "type": "Fire",
+                        "rarity": "Common",
+                        "stats": {
+                            "HP": 41,
+                            "Attack": 28,
+                            "Defense": 31,
+                            "Speed": 12,
+                            "Stamina": 16
+                            },
+                        "description": "This massive magma cyclopes will show you the meaning of pain. Stay away from it by all means.",
+                        "food": {
+                            "food1": "Taco",
+                            "food2": "Canele",
+                            "food3": "Pincho"
+                            },
+                        "evolution": {
+                            "base": "Kolphur",
+                            "stage1": "Sulphlo",
+                            "stage2": "Moltano"
+                            },
+                        "skills": {
+                            "1": "Flame",
+                            "8": "Flame Column",
+                            "9": "COmbustion",
+                            "14": "Blaze",
+                            "20": "Pyro Bomb",
+                            "24": "Fire Cage",
+                            "25": "X Slash",
+                            "32": "Palm Flurry",
+                            "35": "Incinerate",
+                            "38": "Heal",
+                            "44": "Super Punch",
+                            "45": "Headbutt",
+                            "49": "Fire Barrier",
+                            "56": "Disintegrate",
+                            "59": "Fire Will",
+                            "63": "Suncore"
+                            }
+                    }
+                ]
+
+            */
+        
+
+
+            fetch('/json/database-extinction-dev.json')
+                    .then(response => response.json())
+                    .then(json => createTable(json));
+            
+            function createTable(jsonData) {
+                // testing populating #root div with Nexomon names from jsonData array
+                let nexomonDatabaseTable = document.createElement('table');
+                nexomonDatabaseTable.setAttribute("border", "1px");
+                nexomonDatabaseTable.setAttribute("style", 
+                    "border: 1px solid black; border-collapse: collapse;");
+                nexomonDatabaseTable.insertRow().insertCell().textContent = "DB#";
+                nexomonDatabaseTable.rows[0].insertCell().textContent = "Sprite";
+                nexomonDatabaseTable.rows[0].insertCell().textContent = "Nexomon";
+                nexomonDatabaseTable.rows[0].insertCell().textContent = "Type";
+
+
+                // looping through array to populate the rootDiv var
+                for (let i = 0; i < jsonData.length; i++) {
+                    nexomonDatabaseTable.insertRow();
+                    let number = nexomonDatabaseTable.rows[nexomonDatabaseTable.rows.length - 1].insertCell();
+                    number.textContent = "#" + jsonData[i].database;
+                    let sprite = nexomonDatabaseTable.rows[nexomonDatabaseTable.rows.length - 1].insertCell();
+                    var img = document.createElement("img");
+                    img.src = "../assets/sprites/nexomon-extinction/small/" + jsonData[i].database + "-" + jsonData[i].name.toLowerCase() + ".png";
+                    sprite.appendChild(img);
+                    let name = nexomonDatabaseTable.rows[nexomonDatabaseTable.rows.length - 1].insertCell();
+                    name.textContent = jsonData[i].name;
+                    let type = nexomonDatabaseTable.rows[nexomonDatabaseTable.rows.length - 1].insertCell();
+                    type.textContent = jsonData[i].type;
+                    var typeImg = document.createElement("img");
+                    typeImg.setAttribute("width", "35px");
+                    typeImg.src = "../assets/sprites/elements/" + jsonData[i].type.toLowerCase() + ".png";
+                    type.appendChild(typeImg);
+                //    rootDiv += "Nexomon #" + jsonData[i].database + " " + jsonData[i].name + "<br />";
+                }
+
+                document.getElementById("root").appendChild(nexomonDatabaseTable);
+            }
+            
+            // update #root div with rootDiv var value
+            // document.getElementById("root").innerHTML = rootDiv;
+
+            // example of how to access a specific value within the array
+            // console.log(jsonData[0].food);
+        
+
+
+
+        </script>
+    </body>
+</html>
