@@ -1,0 +1,757 @@
+[
+  {
+    "name": "Potion",
+    "type": "Restoration",
+    "description": "Restores 40 HP."
+  },
+  {
+    "name": "Super Potion",
+    "type": "Restoration",
+    "description": "Restores 80 HP."
+  },
+  {
+    "name": "Ultra Potion",
+    "type": "Restoration",
+    "description": "Restores 120 HP."
+  },
+  {
+    "name": "Max Potion",
+    "type": "Restoration",
+    "description": "Restores 200 HP."
+  },
+  {
+    "name": "Ether",
+    "type": "Restoration",
+    "description": "Restores 60 stamina."
+  },
+  {
+    "name": "Super Ether",
+    "type": "Restoration",
+    "description": "Restores 100 stamina."
+  },
+  {
+    "name": "Ultra Ether",
+    "type": "Restoration",
+    "description": "Restores 150 stamina."
+  },
+  {
+    "name": "Max Ether",
+    "type": "Restoration",
+    "description": "Restores 200 stamina."
+  },
+  {
+    "name": "Elixir",
+    "type": "Restoration",
+    "description": "Restores both 50 HP and 50 stamina."
+  },
+  {
+    "name": "Super Elixir",
+    "type": "Restoration",
+    "description": "Restores both 90 HP and 90 stamina."
+  },
+  {
+    "name": "Ultra Elixir",
+    "type": "Restoration",
+    "description": "Restores both 140 HP and 140 stamina."
+  },
+  {
+    "name": "Max Elixir",
+    "type": "Restoration",
+    "description": "Restores both 200 HP and 200 stamina."
+  },
+  {
+    "name": "Revive",
+    "type": "Restoration",
+    "description": "Restores a fainted Nexomon along with 50 HP."
+  },
+  {
+    "name": "Super Revive",
+    "type": "Restoration",
+    "description": "Restores a fainted Nexomon along with 80 HP."
+  },
+  {
+    "name": "Ultra Revive",
+    "type": "Restoration",
+    "description": "Restores a fainted Nexomon along with 120 HP."
+  },
+  {
+    "name": "Anti Burn",
+    "type": "Restoration",
+    "description": "Cures the BURNING status effect on a Nexomon!"
+  },
+  {
+    "name": "Anti Paralyze",
+    "type": "Restoration",
+    "description": "Cures the PARALYZED status effect on a Nexomon!"
+  },
+  {
+    "name": "Anti Poison",
+    "type": "Restoration",
+    "description": "Cures the POISONED status effect on a Nexomon!"
+  },
+  {
+    "name": "Anti Freeze",
+    "type": "Restoration",
+    "description": "Cures the FROZEN status effect on a Nexomon!"
+  },
+  {
+    "name": "Anti Sleep",
+    "type": "Restoration",
+    "description": "Cures the ASLEEP status effect on a Nexomon!"
+  },
+  {
+    "name": "Anti Confusion",
+    "type": "Restoration",
+    "description": "Cures the CONFUSED status effect on a Nexomon!"
+  },
+  {
+    "name": "Anti Bind",
+    "type": "Restoration",
+    "description": "Cures the BOUND status effect on a Nexomon!"
+  },
+  {
+    "name": "Nexotrap",
+    "type": "Nexotrap",
+    "description": "A basic tool used to capture wild Nexomon."
+  },
+  {
+    "name": "Golden Nexotrap",
+    "type": "Nexotrap",
+    "description": "A perfect Nexotrap that can capture any Nexomon no matter what!"
+  },
+  {
+    "name": "Fire Nexotrap",
+    "type": "Nexotrap",
+    "description": "A Nexotrap designed to capture Fire-type Nexomon!"
+  },
+  {
+    "name": "Water Nexotrap",
+    "type": "Nexotrap",
+    "description": "A Nexotrap designed to capture Water-type Nexomon!"
+  },
+  {
+    "name": "Wind Nexotrap",
+    "type": "Nexotrap",
+    "description": "A Nexotrap designed to capture Wind-type Nexomon!"
+  },
+  {
+    "name": "Plant Nexotrap",
+    "type": "Nexotrap",
+    "description": "A Nexotrap designed to capture Plant-type Nexomon!"
+  },
+  {
+    "name": "Electric Nexotrap",
+    "type": "Nexotrap",
+    "description": "A Nexotrap designed to capture Electric-type Nexomon!"
+  },
+  {
+    "name": "Mineral Nexotrap",
+    "type": "Nexotrap",
+    "description": "A Nexotrap designed to capture Mineral-type Nexomon!"
+  },
+  {
+    "name": "Ghost Nexotrap",
+    "type": "Nexotrap",
+    "description": "A Nexotrap designed to capture Ghost-type Nexomon!"
+  },
+  {
+    "name": "Psychic Nexotrap",
+    "type": "Nexotrap",
+    "description": "A Nexotrap designed to capture Psychic-type Nexomon!"
+  },
+  {
+    "name": "Destruction Core (I)",
+    "type": "Core",
+    "description": "Boosts the ATK stat by 4%."
+  },
+  {
+    "name": "Desctruction Core (II)",
+    "type": "Core",
+    "description": "Boosts the ATK stat by 7%."
+  },
+  {
+    "name": "Desctruction Core (III)",
+    "type": "Core",
+    "description": "Boosts the ATK stat by 10%."
+  },
+  {
+    "name": "Protection Core (I)",
+    "type": "Core",
+    "description": "Boosts the DEF stat by 4%."
+  },
+  {
+    "name": "Protection Core (II)",
+    "type": "Core",
+    "description": "Boosts the DEF stat by 7%."
+  },
+  {
+    "name": "Protection Core (III)",
+    "type": "Core",
+    "description": "Boosts the DEF stat by 10%."
+  },
+  {
+    "name": "Vitality Core (I)",
+    "type": "Core",
+    "description": "Boosts the HP stat by 5%."
+  },
+  {
+    "name": "Vitality Core (II)",
+    "type": "Core",
+    "description": "Boosts the HP stat by 7%."
+  },
+  {
+    "name": "Vitality Core (III)",
+    "type": "Core",
+    "description": "Boosts the HP stat by 12%."
+  },
+  {
+    "name": "Stamina Core (I)",
+    "type": "Core",
+    "description": "Boosts the STA stat by 6%."
+  },
+  {
+    "name": "Stamina Core (II)",
+    "type": "Core",
+    "description": "Boosts the STA stat by 12%."
+  },
+  {
+    "name": "Stamina Core (III)",
+    "type": "Core",
+    "description": "Boosts the STA stat by 15%."
+  },
+  {
+    "name": "Immunity Core (I)",
+    "type": "Core",
+    "description": "Decreases the chance of receiving status effects by 5%."
+  },
+  {
+    "name": "Immunity Core (II)",
+    "type": "Core",
+    "description": "Decreases the chance of receiving status effects by 10%."
+  },
+  {
+    "name": "Immunity Core (III)",
+    "type": "Core",
+    "description": "Decreases the chance of receiving status effects by 15%."
+  },
+  {
+    "name": "Experience Core (I)",
+    "type": "Core",
+    "description": "Boosts the EXP earned by 7%."
+  },
+  {
+    "name": "Experience Core (II)",
+    "type": "Core",
+    "description": "Boosts the EXP earned by 13%."
+  },
+  {
+    "name": "Experience Core (III)",
+    "type": "Core",
+    "description": "Boosts the EXP earned by 20%."
+  },
+  {
+    "name": "Synergy Core (I)",
+    "type": "Core",
+    "description": "Copies 8% of the EXP received by other team members without having to fight."
+  },
+  {
+    "name": "Synergy Core (II)",
+    "type": "Core",
+    "description": "Copies 16% of the EXP received by other team members without having to fight."
+  },
+  {
+    "name": "Synergy Core (III)",
+    "type": "Core",
+    "description": "Copies 25% of the EXP received by other team members without having to fight."
+  },
+  {
+    "name": "Greed Core (I)",
+    "type": "Core",
+    "description": "Boosts the amount of coins earned in battle by 3%."
+  },
+  {
+    "name": "Greed Core (II)",
+    "type": "Core",
+    "description": "Boosts the amount of coins earned in battle by 6%."
+  },
+  {
+    "name": "Greed Core (III)",
+    "type": "Core",
+    "description": "Boosts the amount of coins earned in battle by 9%."
+  },
+  {
+    "name": "Blazing Shard",
+    "type": "Shard",
+    "description": "A Fire-type elemental shard. Use it for crafting or selling!"
+  },
+  {
+    "name": "Ocean Shard",
+    "type": "Shard",
+    "description": "A Water-type elemental shard. Use it for crafting or selling!"
+  },
+  {
+    "name": "Temptest Shard",
+    "type": "Shard",
+    "description": "A Wind-type elemental shard. Use it for crafting or selling!"
+  },
+  {
+    "name": "Nature Shard",
+    "type": "Shard",
+    "description": "A Plant-type elemental shard. Use it for crafting or selling!"
+  },
+  {
+    "name": "Thunder Shard",
+    "type": "Shard",
+    "description": "An Electric-type elemental shard. Use it for crafting or selling!"
+  },
+  {
+    "name": "Stone Shard",
+    "type": "Shard",
+    "description": "A Mineral-type elemental shard. Use it for crafting or selling!"
+  },
+  {
+    "name": "Phantom Shard",
+    "type": "Shard",
+    "description": "A Ghost-type elemental shard. Use it for crafting or selling!"
+  },
+  {
+    "name": "Mind Shard",
+    "type": "Shard",
+    "description": "A Psychic-type elemental shard. Use it for crafting or selling!"
+  },
+  {
+    "name": "Perfect Berry",
+    "type": "Food",
+    "description": "The ultimate meal! There is no Nexomon that can resist this!"
+  },
+  {
+    "name": "Strawberry Cake",
+    "type": "Food",
+    "description": "A delicious cake with strawberry top."
+  },
+  {
+    "name": "Canele",
+    "type": "Food",
+    "description": "An original recipe! Chocolate cake with a red berry gelatin top."
+  },
+  {
+    "name": "Lemon Pie",
+    "type": "Food",
+    "description": "A rich lemon-flavored cake filled with delicious cream."
+  },
+  {
+    "name": "Onigiri",
+    "type": "Food",
+    "description": "A traditional rice ball with subtle salty flavors."
+  },
+  {
+    "name": "Shrimpgiri",
+    "type": "Food",
+    "description": "Delicious and fresh rice with a funny looking top. Ideal for youngsters."
+  },
+  {
+    "name": "Taco",
+    "type": "Food",
+    "description": "Made of fresh ingredients and wrapped by a crunchy tortilla."
+  },
+  {
+    "name": "Lacreme",
+    "type": "Food",
+    "description": "Vanilla flavored ice cream filled with fresh nuts and sweet cream."
+  },
+  {
+    "name": "Omelette",
+    "type": "Food",
+    "description": "Only fresh eggs are used to create this masterpiece. Ideal for breakfast."
+  },
+  {
+    "name": "Pandulce",
+    "type": "Food",
+    "description": "A simple dish, very simple to bake thus making it ideal for travelers."
+  },
+  {
+    "name": "Baguette",
+    "type": "Food",
+    "description": "Especially made to remain fresh for days! It can be served with both sweet and salty dishes."
+  },
+  {
+    "name": "Donut",
+    "type": "Food",
+    "description": "A classic among tamers. It is not recommended to eat in large portions."
+  },
+  {
+    "name": "Chocolate Muffin",
+    "type": "Food",
+    "description": "A soft muffin filled with the sweetest chocolate you can find!"
+  },
+  {
+    "name": "Flan",
+    "type": "Food",
+    "description": "A wiggly dessert with a cherry on top. It is not too sweet, just enough to give it proper flavor."
+  },
+  {
+    "name": "Green Cake",
+    "type": "Food",
+    "description": "A delicious cake made with the finest green tea."
+  },
+  {
+    "name": "Chocolate Cake",
+    "type": "Food",
+    "description": "Only for chocolate fanatics. This rich flavored chocolate cake can be sometimes too sweet for some."
+  },
+  {
+    "name": "Glazed Cake",
+    "type": "Food",
+    "description": "A delicious pie mixed with fresh berries and fruits on top."
+  },
+  {
+    "name": "Cream Puff",
+    "type": "Food",
+    "description": "A creamy dessert, it melts almost immediately inside your mouth."
+  },
+  {
+    "name": "Pink Pecana",
+    "type": "Food",
+    "description": "A colorful dish. Very popular among young girls and some Nexomon too!"
+  },
+  {
+    "name": "Watermelon",
+    "type": "Food",
+    "description": "A juicy fruit perfect for hot days. A favorite among tamers in the southern areas."
+  },
+  {
+    "name": "Orange",
+    "type": "Food",
+    "description": "A sweet and juicy orange. It needs lots of sunshine and water to grow!"
+  },
+  {
+    "name": "Banana",
+    "type": "Food",
+    "description": "A standard banana. Hard to preserve for long periods."
+  },
+  {
+    "name": "Apple",
+    "type": "Food",
+    "description": "A sweet apple, ideal for long trips. It is easily found in the outskirts of any town."
+  },
+  {
+    "name": "Grape",
+    "type": "Food",
+    "description": "Usually used as an ingredient for desserts but it can also be eaten by itself. Very healthy!"
+  },
+  {
+    "name": "Peach",
+    "type": "Food",
+    "description": "A seasonal fruit. Grab them while you can!"
+  },
+  {
+    "name": "Green Pear",
+    "type": "Food",
+    "description": "It is said this fruit is not only delicious and easy to find but it is also used to make refreshing and healthy beverages."
+  },
+  {
+    "name": "Fries",
+    "type": "Food",
+    "description": "Fast food. Good for a quick snack, very popular among young tamers."
+  },
+  {
+    "name": "Sausage",
+    "type": "Food",
+    "description": "A product usually made of fake meat. Not the healthiest dish but definitely has a strong flavor."
+  },
+  {
+    "name": "Pincho",
+    "type": "Food",
+    "description": "A simple snack that includes a variety of fresh and delicious ingredients."
+  },
+  {
+    "name": "Egg Tart",
+    "type": "Food",
+    "description": "A very exclusive dish and it is not easy to cook. It requires a certain mastery to be cooked correctly."
+  },
+  {
+    "name": "Meat",
+    "type": "Food",
+    "description": "A simple dish that packs a strong flavor and a great source of energy!"
+  },
+  {
+    "name": "Tyrant Relic",
+    "type": "Key Item",
+    "description": "An ancient relic that once belonged to a so-called Tyrant of Light..."
+  },
+  {
+    "name": "Coin",
+    "type": "Key Item",
+    "description": "This can be exchanged for goods and services."
+  },
+  {
+    "name": "Challenge Badge",
+    "type": "Key Item",
+    "description": "Tamers across the world will want to rematch you even sooner!"
+  },
+  {
+    "name": "Repel Spray",
+    "type": "Key Item",
+    "description": "Avoids any wild battle, including caves! You can enable or disable this item."
+  },
+  {
+    "name": "Cosmic Charm",
+    "type": "Key Item",
+    "description": "It's said that this improves the chance of finding very peculiar Nexomon..."
+  },
+  {
+    "name": "Healthy Charm",
+    "type": "Key Item",
+    "description": "Causes your team to restore 3% HP after each battle. This can be stacked."
+  },
+  {
+    "name": "Workout Charm",
+    "type": "Key Item",
+    "description": "Causes your team to restore 3% stamina after each battle. This can be stacked."
+  },
+  {
+    "name": "Pickaxe",
+    "type": "Key Item",
+    "description": "A tool used to break small boulders that might contain elemental shards!"
+  },
+  {
+    "name": "Black Nexomite",
+    "type": "Key Item",
+    "description": "A fake legendary gemstone of immeasurable value!"
+  },
+  {
+    "name": "Tower Key",
+    "type": "Key Item",
+    "description": "Atlanta says that this key can open a locked door in the Cursed Tower..."
+  },
+  {
+    "name": "Shrine Key",
+    "type": "Key Item",
+    "description": "A key given by Lydia used to open an ancient shrine located in Drake Isles."
+  },
+  {
+    "name": "Cadium Key",
+    "type": "Key Item",
+    "description": "A key used to access Amelie's secret hideout in Cadium."
+  },
+  {
+    "name": "Vault Key",
+    "type": "Key Item",
+    "description": "An ancient key that can unlock a secret treasure vault. But where?"
+  },
+  {
+    "name": "Drake Vial",
+    "type": "Key Item",
+    "description": "A mysterious substance developed to lure dragons!"
+  },
+  {
+    "name": "Explosives",
+    "type": "Key Item",
+    "description": "A bunch of explosives prepared for Videll."
+  },
+  {
+    "name": "Bonnie's Access Card",
+    "type": "Key Item",
+    "description": "Bonnie's credentials to let you enter Khan Woods, located in Parum!"
+  },
+  {
+    "name": "Bronze Badge",
+    "type": "Key Item",
+    "description": "A badge worn by rookie tamers. This proves that you're a member of the Tamer's Guild!"
+  },
+  {
+    "name": "Silver Badge",
+    "type": "Key Item",
+    "description": "A badge granted to those who perform heroic acts! Keep up the good work!"
+  },
+  {
+    "name": "Golden Badge",
+    "type": "Key Item",
+    "description": "A high ranking badge. Proof of your hard work and dedication for the Tamer's Guild!"
+  },
+  {
+    "name": "Grandmaster Badge",
+    "type": "Key Item",
+    "description": "Only the strongest tamers in the entire world can wear this. Stand proud!"
+  },
+  {
+    "name": "Drake Sigil",
+    "type": "Key Item",
+    "description": "A gift of Lydia's. With this, the people of Drake Isles should now accept you into their village!"
+  },
+  {
+    "name": "Laterian Sigil",
+    "type": "Key Item",
+    "description": "A mark of respect among Laterians, proof that you're a true warrior!"
+  },
+  {
+    "name": "Airship Ticket",
+    "type": "Key Item",
+    "description": "Use this ticket to board the Drake Isles airship."
+  },
+  {
+    "name": "Stolen Letter",
+    "type": "Key Item",
+    "description": "A letter that was stolen from Liam, the mailman."
+  },
+  {
+    "name": "Experimental Lure",
+    "type": "Key Item",
+    "description": "A strange lure that attracts extinct Nexomon to you while exploring the wild."
+  },
+  {
+    "name": "Tribute of Power",
+    "type": "Key Item",
+    "description": "An ancient elemental relic emitting a faint aura..."
+  },
+  {
+    "name": "Tribute of Blaze",
+    "type": "Key Item",
+    "description": "An ancient elemental relic emitting a faint aura..."
+  },
+  {
+    "name": "Tribute of Ocean",
+    "type": "Key Item",
+    "description": "An ancient elemental relic emitting a faint aura..."
+  },
+  {
+    "name": "Tribute of Tempest",
+    "type": "Key Item",
+    "description": "An ancient elemental relic emitting a faint aura..."
+  },
+  {
+    "name": "Tribute of Nature",
+    "type": "Key Item",
+    "description": "An ancient elemental relic emitting a faint aura..."
+  },
+  {
+    "name": "Tribute of Thunder",
+    "type": "Key Item",
+    "description": "An ancient elemental relic emitting a faint aura..."
+  },
+  {
+    "name": "Tribute of Stone",
+    "type": "Key Item",
+    "description": "An ancient elemental relic emitting a faint aura..."
+  },
+  {
+    "name": "Tribute of Decay",
+    "type": "Key Item",
+    "description": "An ancient elemental relic emitting a faint aura..."
+  },
+  {
+    "name": "Tribute of Mind",
+    "type": "Key Item",
+    "description": "An ancient elemental relic emitting a faint aura..."
+  },
+  {
+    "name": "Normal Whistle",
+    "type": "Key Item",
+    "description": "With this item, NexoTraps are 3% more likely to capture Normal-Type Nexomon. This can be stacked!"
+  },
+  {
+    "name": "Fire Whistle",
+    "type": "Key Item",
+    "description": "With this item, NexoTraps are 3% more likely to capture Fire-Type Nexomon. This can be stacked!"
+  },
+  {
+    "name": "Water Whistle",
+    "type": "Key Item",
+    "description": "With this item, NexoTraps are 3% more likely to capture Water-Type Nexomon. This can be stacked!"
+  },
+  {
+    "name": "Plant Whistle",
+    "type": "Key Item",
+    "description": "With this item, NexoTraps are 3% more likely to capture Plant-Type Nexomon. This can be stacked!"
+  },
+  {
+    "name": "Wind Whistle",
+    "type": "Key Item",
+    "description": "With this item, NexoTraps are 3% more likely to capture Wind-Type Nexomon. This can be stacked!"
+  },
+  {
+    "name": "Electric Whistle",
+    "type": "Key Item",
+    "description": "With this item, NexoTraps are 3% more likely to capture Electric-Type Nexomon. This can be stacked!"
+  },
+  {
+    "name": "Mineral Whistle",
+    "type": "Key Item",
+    "description": "With this item, NexoTraps are 3% more likely to capture Mineral-Type Nexomon. This can be stacked!"
+  },
+  {
+    "name": "Psychic Whistle",
+    "type": "Key Item",
+    "description": "With this item, NexoTraps are 3% more likely to capture Psychic-Type Nexomon. This can be stacked!"
+  },
+  {
+    "name": "Ghost Whistle",
+    "type": "Key Item",
+    "description": "With this item, NexoTraps are 3% more likely to capture Ghost-Type Nexomon. This can be stacked!"
+  },
+  {
+    "name": "Dragon Whistle",
+    "type": "Key Item",
+    "description": "With this item, NexoTraps are 3% more likely to capture dragons. This can be stacked!"
+  },
+  {
+    "name": "Ultra Pickaxe",
+    "type": "Key Item",
+    "description": "With this, mining ore boulders will yield more shards than usual!"
+  },
+  {
+    "name": "Secret Sauce",
+    "type": "Key Item",
+    "description": "Any meal you feed a wild Nexomon will be 3% more effective. This can be stacked!"
+  },
+  {
+    "name": "Running Shoes",
+    "type": "Key Item",
+    "description": "Having this item guarantees that you can escape from any wild battle."
+  },
+  {
+    "name": "Greed Wallet",
+    "type": "Key Item",
+    "description": "Having this item in your inventory causes battles to yield 10% more coins! This can be stacked!"
+  },
+  {
+    "name": "Exp Booster",
+    "type": "Key Item",
+    "description": "Having this item in your inventory causes enemies to yield 3% more EXP! This can be stacked!"
+  },
+  {
+    "name": "Discount Voucher",
+    "type": "Key Item",
+    "description": "Merchants will lower thier prices by 3%! This item can be stacked!"
+  },
+  {
+    "name": "Miner's Goggles",
+    "type": "Key Item",
+    "description": "With this item, ore boulders will take less time to respawn!"
+  },
+  {
+    "name": "Resurrection Blueprint",
+    "type": "Key Item",
+    "description": "A very complicated machine could be built with these..."
+  },
+  {
+    "name": "Pile of Garbage",
+    "type": "Key Item",
+    "description": "Rubbish that we found while cleaning up the city."
+  },
+  {
+    "name": "Lisa's Lunch",
+    "type": "Key Item",
+    "description": "Food that Lisa, the Nexotrap crafter, made us pay for."
+  },
+  {
+    "name": "Precious Ring",
+    "type": "Key Item",
+    "description": "A very valuable ring! Someone must have lost it..."
+  },
+  {
+    "name": "Supply Box",
+    "type": "Key Item",
+    "description": "A box full of valuable tamer supplies! Someone needs this delivered!"
+  }
+]

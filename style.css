@@ -1,0 +1,24 @@
+.navbar-brand {
+    font-size: 3.5rem;
+}
+
+.nav-link {
+    font-size: 2.5rem;
+}
+
+.navbar-toggler-icon {
+    height: 100px;
+    width: 100px;
+}
+
+.display-1 {
+    font-size: 7rem;
+}
+
+.lead {
+    font-size: 2.75rem;
+}
+
+#landing-page-img {
+    width: 100%;
+}
