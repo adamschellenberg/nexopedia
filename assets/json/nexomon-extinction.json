@@ -176,7 +176,7 @@
   },
   {
     "database": "036",
-    "name": "Drainiphant",
+    "name": "Draniphant",
     "type": "Water"
   },
   {
@@ -246,7 +246,7 @@
   },
   {
     "database": "050",
-    "name": "Deaver",
+    "name": "Dreaver",
     "type": "Psychic"
   },
   {
@@ -495,152 +495,152 @@
     "type": "Psychic"
   },
   {
-    "database": 100,
+    "database": "100",
     "name": "Caninui",
     "type": "Psychic"
   },
   {
-    "database": 101,
+    "database": "101",
     "name": "Candly",
     "type": "Normal"
   },
   {
-    "database": 102,
+    "database": "102",
     "name": "Porklet",
     "type": "Fire"
   },
   {
-    "database": 103,
+    "database": "103",
     "name": "Hoglet",
     "type": "Fire"
   },
   {
-    "database": 104,
+    "database": "104",
     "name": "Barboraco",
     "type": "Fire"
   },
   {
-    "database": 105,
+    "database": "105",
     "name": "Kawsnow",
     "type": "Water"
   },
   {
-    "database": 106,
+    "database": "106",
     "name": "Harectic",
     "type": "Water"
   },
   {
-    "database": 107,
+    "database": "107",
     "name": "Seedko",
     "type": "Plant"
   },
   {
-    "database": 108,
+    "database": "108",
     "name": "Seedkorsky",
     "type": "Plant"
   },
   {
-    "database": 109,
+    "database": "109",
     "name": "Pont",
     "type": "Mineral"
   },
   {
-    "database": 110,
+    "database": "110",
     "name": "Stalagca",
     "type": "Mineral"
   },
   {
-    "database": 111,
+    "database": "111",
     "name": "Hinazuru",
     "type": "Wind"
   },
   {
-    "database": 112,
+    "database": "112",
     "name": "Nakazuru",
     "type": "Wind"
   },
   {
-    "database": 113,
+    "database": "113",
     "name": "Senshizuru",
     "type": "Wind"
   },
   {
-    "database": 114,
+    "database": "114",
     "name": "Eqo",
     "type": "Electric"
   },
   {
-    "database": 115,
+    "database": "115",
     "name": "Soniqo",
     "type": "Electric"
   },
   {
-    "database": 116,
+    "database": "116",
     "name": "Eqoloptera",
     "type": "Electric"
   },
   {
-    "database": 117,
+    "database": "117",
     "name": "Sectoc",
     "type": "Psychic"
   },
   {
-    "database": 118,
+    "database": "118",
     "name": "Minet",
     "type": "Psychic"
   },
   {
-    "database": 119,
+    "database": "119",
     "name": "Orologikus",
     "type": "Psychic"
   },
   {
-    "database": 120,
+    "database": "120",
     "name": "Folicurse",
     "type": "Ghost"
   },
   {
-    "database": 121,
+    "database": "121",
     "name": "Malitress",
     "type": "Ghost"
   },
   {
-    "database": 122,
+    "database": "122",
     "name": "Poyal",
     "type": "Normal"
   },
   {
-    "database": 123,
+    "database": "123",
     "name": "Puggard",
     "type": "Normal"
   },
   {
-    "database": 124,
+    "database": "124",
     "name": "Brauncer",
     "type": "Normal"
   },
   {
-    "database": 125,
+    "database": "125",
     "name": "Chowser",
     "type": "Fire"
   },
   {
-    "database": 126,
+    "database": "126",
     "name": "Cuisizle",
     "type": "Fire"
   },
   {
-    "database": 127,
+    "database": "127",
     "name": "Jeloon",
     "type": "Water"
   },
   {
-    "database": 128,
+    "database": "128",
     "name": "Jeliflo",
     "type": "Water"
   },
   {
-    "database": 129,
+    "database": "129",
     "name": "Jeliflux",
     "type": "Water"
   },
@@ -756,7 +756,7 @@
   },
   {
     "database": 152,
-    "name": "Globlub",
+    "name": "Globlob",
     "type": "Water"
   },
   {
@@ -1036,7 +1036,7 @@
   },
   {
     "database": 208,
-    "name": "Skunqueau",
+    "name": "Skunqeau",
     "type": "Normal"
   },
   {
@@ -1301,7 +1301,7 @@
   },
   {
     "database": 261,
-    "name": "Dalsa",
+    "name": "Dalsae",
     "type": "Wind"
   },
   {
@@ -1496,7 +1496,7 @@
   },
   {
     "database": 300,
-    "name": "Terragon",
+    "name": "Tarragon",
     "type": "Normal"
   },
   {
@@ -1731,7 +1731,7 @@
   },
   {
     "database": 347,
-    "name": "Masquat",
+    "name": "Masqat",
     "type": "Psychic"
   },
   {
@@ -1796,7 +1796,7 @@
   },
   {
     "database": 360,
-    "name": "Krainnul",
+    "name": "Krainnull",
     "type": "Ghost"
   },
   {
@@ -1902,6 +1902,236 @@
   {
     "database": 381,
     "name": "Omnisun",
+    "type": "Psychic"
+  },
+  {
+    "database": "382",
+    "name": "Abbadog",
+    "type": "fire"
+  },
+  {
+    "database": "383",
+    "name": "Arctivore",
+    "type": "Mineral"
+  },
+  {
+    "database": "384",
+    "name": "Bogarp",
+    "type": "Water"
+  },
+  {
+    "database": "385",
+    "name": "Broshield",
+    "type": "Mineral"
+  },
+  {
+    "database": "386",
+    "name": "Columbra",
+    "type": "Normal"
+  },
+  {
+    "database": "387",
+    "name": "Felicient",
+    "type": "Normal"
+  },
+  {
+    "database": "388",
+    "name": "Ferodile",
+    "type": "Water"
+  },
+  {
+    "database": "389",
+    "name": "Froppe",
+    "type": "Normal"
+  },
+  {
+    "database": "390",
+    "name": "Hurristag",
+    "type": "Normal"
+  },
+  {
+    "database": "391",
+    "name": "Kromatice",
+    "type": "Wind"
+  },
+  {
+    "database": "392",
+    "name": "Lycopain",
+    "type": "Plant"
+  },
+  {
+    "database": "393",
+    "name": "Mistralion",
+    "type": "Wind"
+  },
+  {
+    "database": "394",
+    "name": "Raamu",
+    "type": "Normal"
+  },
+  {
+    "database": "395",
+    "name": "Resonect",
+    "type": "Electric"
+  },
+  {
+    "database": "396",
+    "name": "Torrex",
+    "type": "Water"
+  },
+  {
+    "database": "397",
+    "name": "Trondle",
+    "type": "Fire"
+  },
+  {
+    "database": "398",
+    "name": "Vaprat",
+    "type": "Fire"
+  },
+  {
+    "database": "399",
+    "name": "Voltosfere",
+    "type": "Electric"
+  },
+  {
+    "database": "400",
+    "name": "Weavolt",
+    "type": "Electric"
+  },
+  {
+    "database": "401",
+    "name": "Wiselie",
+    "type": "Wind"
+  },
+  {
+    "database": "402",
+    "name": "Bedam",
+    "type": "Water"
+  },
+  {
+    "database": "403",
+    "name": "Carnigrius",
+    "type": "Fire"
+  },
+  {
+    "database": "404",
+    "name": "Prismazor",
+    "type": "Plant"
+  },
+  {
+    "database": "405",
+    "name": "Jeeta",
+    "type": "Electric"
+  },
+  {
+    "database": "406",
+    "name": "Gemeen",
+    "type": "Mineral"
+  },
+  {
+    "database": "407",
+    "name": "Maraudin",
+    "type": "Wind"
+  },
+  {
+    "database": "408",
+    "name": "Tephragon",
+    "type": "Fire"
+  },
+  {
+    "database": "409",
+    "name": "Frominence",
+    "type": "Water"
+  },
+  {
+    "database": "410",
+    "name": "Mandrass",
+    "type": "Plant"
+  },
+  {
+    "database": "411",
+    "name": "Luhava",
+    "type": "Wind"
+  },
+  {
+    "database": "412",
+    "name": "Hexia",
+    "type": "Wind"
+  },
+  {
+    "database": "413",
+    "name": "Krowr",
+    "type": "Electric"
+  },
+  {
+    "database": "414",
+    "name": "Ogoon",
+    "type": "Fire"
+  },
+  {
+    "database": "415",
+    "name": "Agita",
+    "type": "Mineral"
+  },
+  {
+    "database": "416",
+    "name": "Anima",
+    "type": "Wind"
+  },
+  {
+    "database": "417",
+    "name": "",
+    "type": ""
+  },
+  {
+    "database": "418",
+    "name": "",
+    "type": ""
+  },
+  {
+    "database": "419",
+    "name": "Helovolk",
+    "type": "Fire"
+  },
+  {
+    "database": "420",
+    "name": "Volcel",
+    "type": "Electric"
+  },
+  {
+    "database": "421",
+    "name": "Caelesa",
+    "type": "Normal"
+  },
+  {
+    "database": "422",
+    "name": "Pluvean",
+    "type": "Water"
+  },
+  {
+    "database": "423",
+    "name": "Inominox",
+    "type": "Wind"
+  },
+  {
+    "database": "424",
+    "name": "Rotramus",
+    "type": "Plant"
+  },
+  {
+    "database": "425",
+    "name": "Kroma",
+    "type": "Ghost"
+  },
+  {
+    "database": "426",
+    "name": "Braccus",
+    "type": "Mineral"
+  },
+  {
+    "database": "427",
+    "name": "Venefelis",
     "type": "Psychic"
   }
 ]

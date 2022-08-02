@@ -22,3 +22,18 @@
 #landing-page-img {
     width: 100%;
 }
+
+.database-icon-element {
+    width: 70px;
+}
+
+.database-icon-nexomon {
+    width: 350px;
+}
+
+.table {
+    margin: auto;
+    width: 80%;
+    font-size: 2rem;
+}
+
