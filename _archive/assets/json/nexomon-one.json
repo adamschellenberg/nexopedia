@@ -1430,122 +1430,122 @@
     "type": "Fire"
   },
   {
-    "database": 287,
+    "database": "287",
     "name": "Expunk",
     "type": "Fire"
   },
   {
-    "database": 288,
+    "database": "288",
     "name": "Fetidoom",
     "type": "Fire"
   },
   {
-    "database": 289,
+    "database": "289",
     "name": "Velokitti",
     "type": "Electric"
   },
   {
-    "database": 290,
+    "database": "290",
     "name": "Acca",
     "type": "Electric"
   },
   {
-    "database": 291,
+    "database": "291",
     "name": "Jeeta",
     "type": "Electric"
   },
   {
-    "database": 292,
+    "database": "292",
     "name": "Petril",
     "type": "Plant"
   },
   {
-    "database": 293,
+    "database": "293",
     "name": "Frilla",
     "type": "Plant"
   },
   {
-    "database": 294,
+    "database": "294",
     "name": "Corozard",
     "type": "Plant"
   },
   {
-    "database": 295,
+    "database": "295",
     "name": "Luxa",
     "type": "Electric"
   },
   {
-    "database": 296,
+    "database": "296",
     "name": "Metta",
     "type": "Normal"
   },
   {
-    "database": 297,
+    "database": "297",
     "name": "Nara",
     "type": "Mineral"
   },
   {
-    "database": 298,
+    "database": "298",
     "name": "Fona",
     "type": "Fire"
   },
   {
-    "database": 299,
+    "database": "299",
     "name": "Grunda",
     "type": "Plant"
   },
   {
-    "database": 300,
+    "database": "300",
     "name": "Ventra",
     "type": "Wind"
   },
   {
-    "database": 301,
+    "database": "301",
     "name": "Arqua",
     "type": "Water"
   },
   {
-    "database": 302,
+    "database": "302",
     "name": "Omnicron",
     "type": "Normal"
   },
   {
-    "database": 303,
+    "database": "303",
     "name": "Darine",
     "type": "Water"
   },
   {
-    "database": 304,
+    "database": "304",
     "name": "Hexia",
     "type": "Wind"
   },
   {
-    "database": 305,
+    "database": "305",
     "name": "Krowr",
     "type": "Electric"
   },
   {
-    "database": 306,
+    "database": "306",
     "name": "Ogoon",
     "type": "Fire"
   },
   {
-    "database": 307,
+    "database": "307",
     "name": "Tikala",
     "type": "Plant"
   },
   {
-    "database": 308,
+    "database": "308",
     "name": "Titan",
     "type": "Mineral"
   },
   {
-    "database": 309,
+    "database": "309",
     "name": "Ziegler",
     "type": "Normal"
   },
   {
-    "database": 310,
+    "database": "310",
     "name": "Luhava",
     "type": "Wind"
   }
