@@ -13,31 +13,31 @@ export const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                     <Nav>
                         <Nav.Item>
-                            <Nav.Link href="#">Home</Nav.Link>
+                            <Nav.Link href="/">Home</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#">Database</Nav.Link>
+                            <Nav.Link href="/database">Database</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#">Guides</Nav.Link>
+                            <Nav.Link href="/guides">Guides</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#">Items</Nav.Link>
+                            <Nav.Link href="/items">Items</Nav.Link>
+                        </Nav.Item>
+                        {/* <Nav.Item>
+                            <Nav.Link href="/locations">Locations</Nav.Link>
+                        </Nav.Item> */}
+                        <Nav.Item>
+                            <Nav.Link href="/sign-in">Sign In</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#">Locations</Nav.Link>
+                            <Nav.Link href="/sign-up">Sign Up</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#">Sign In</Nav.Link>
+                            <Nav.Link href="/profile">Profile</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#">Sign Up</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link href="#">Profile</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link href="#">Logout</Nav.Link>
+                            <Nav.Link href="/logout">Logout</Nav.Link>
                         </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>

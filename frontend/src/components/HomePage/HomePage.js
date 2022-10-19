@@ -8,6 +8,7 @@ import { Footer } from '../Footer';
 export const HomePage = () => {
   return (
     <div>
+      <div className="homeBackground"/>
       <NavBar />
       <Container>
         <div className="main">
@@ -23,7 +24,7 @@ export const HomePage = () => {
             Happy taming!
           </div>
           <hr />
-          <img src={Masquiti} className="img"/>
+          <img src={Masquiti} className="img" alt="Masquiti"/>
         </div>
         <Footer />
       </Container>
