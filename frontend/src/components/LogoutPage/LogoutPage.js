@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './LogoutPage.css';
+import { NavBar } from '../NavBar';
 
 export const LogoutPage = () => {
   return (
-    <div>LogoutPage</div>
+    <div className='logoutBackground'>
+      <NavBar />
+      LogoutPage
+    </div>
   )
 }

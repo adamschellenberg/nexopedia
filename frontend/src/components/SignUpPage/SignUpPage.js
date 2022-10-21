@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './SignUpPage.css';
+import { NavBar } from '../NavBar';
 
 export const SignUpPage = () => {
   return (
-    <div>SignUpPage</div>
+    <div className='signupBackground'>
+      <NavBar />
+      SignUpPage
+    </div>
   )
 }
