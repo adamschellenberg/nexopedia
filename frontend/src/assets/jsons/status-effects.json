@@ -1,0 +1,86 @@
+[
+  {
+    "effect": "Bind",
+    "description": "The affected Nexomon can't be swapped for another one. Receives damage each turn equal to 8% of its maximum HP."
+  },
+  {
+    "effect": "Burn",
+    "description": "The affected Nexomon receives damage each turn equal to 8% of its maximum HP."
+  },
+  {
+    "effect": "Confusion",
+    "description": "The affected Nexomon has a 35% chance of failing when using a skill. If this happens, it receives damage equal to 8% of its maximum HP."
+  },
+  {
+    "effect": "Cursed",
+    "description": "All skills that the affected Nexomon uses are \"not effective"
+  },
+  {
+    "effect": "Demotivation",
+    "description": "The affected Nexomon has a 50% chance of failing when using a skill."
+  },
+  {
+    "effect": "Frail",
+    "description": "The affected Nexomon receives 30% extra damage from non-elemental attacks."
+  },
+  {
+    "effect": "Freeze",
+    "description": "The affected Nexomon can't use any skills, unless it's a Fire skill (which also removes Freeze). Each turn there is a 30% chance that the Nexomon will thaw."
+  },
+  {
+    "effect": "Hex",
+    "description": "The affected Nexomon receives damage each turn equal to 12% of its maximum HP."
+  },
+  {
+    "effect": "Inception",
+    "description": "The affected Nexomon receives damage each turn equal to 15% of its maximum HP, if it's asleep. This effect is cured if the Nexomon is no longer asleep."
+  },
+  {
+    "effect": "Invincible",
+    "description": "The affected Nexomon receives no damage from incoming attacks."
+  },
+  {
+    "effect": "Leech",
+    "description": "The affected Nexomon receives damage each turn equal to 10% of its maximum HP. The opponent will be healed for the same amount, even if it's not the original cause of this status effect."
+  },
+  {
+    "effect": "Nervous",
+    "description": "The affected Nexomon has a 60% chance of failing when using a skill, if it was using the same skill last turn."
+  },
+  {
+    "effect": "Paralyze",
+    "description": "The affected Nexomon has a 30% chance of failing when using a skill."
+  },
+  {
+    "effect": "Planted",
+    "description": "The affected Nexomon can neither be swapped or escape from the battle."
+  },
+  {
+    "effect": "Poison",
+    "description": "The affected Nexomon receives damage each turn equal to 10% of its maximum HP."
+  },
+  {
+    "effect": "Provoked",
+    "description": "The affected Nexomon can't inflict status effects."
+  },
+  {
+    "effect": "Puzzled",
+    "description": "The affected Nexomon can only use the same skill as last turn, otherwise it loses its turn."
+  },
+  {
+    "effect": "Recover",
+    "description": "The affected Nexomon restores HP each turn equal to 8% of its maximum HP."
+  },
+  {
+    "effect": "Sick",
+    "description": "The affected Nexomon can't be healed. Incoming heals are nullified."
+  },
+  {
+    "effect": "Sleep",
+    "description": "The afftected Nexomon can't use any skills or evade attacks."
+  },
+  {
+    "effect": "Survive",
+    "description": "The affected Nexomon won't drop below 1HP for the duration of this effect."
+  }
+]
