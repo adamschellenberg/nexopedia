@@ -3,19 +3,20 @@ import { server_calls } from '../api';
 
 export const useGetData = {
     useItems: () => {
-        const [itemsData, setItemsData ] = useState<[]>([]);
-        async function handleDataFetch(){
-            const result = await server_calls.items();
-            setItemsData(result);
-        }
+        return (server_calls.items());
+        // const [itemsData, setItemsData ] = useState<[]>([]);
+        // async function handleDataFetch(){
+        //     const result = await server_calls.items();
+        //     setItemsData(result);
+        // }
 
-        useEffect( () => {
-            handleDataFetch();
-        }, []);
+        // useEffect( () => {
+        //     handleDataFetch();
+        // }, []);
 
-        return (
-            {itemsData, getItemData:handleDataFetch}
-        )
+        // return (
+        //     {itemsData, getItemData:handleDataFetch}
+        // )
     },
 
     useNexomon: () => {
@@ -36,34 +37,40 @@ export const useGetData = {
     },
 
     useStatus: () => {
-        const [ statusData, setStatusData ] = useState<[]>([]);
-        async function handleDataFetch(){
-            const result = await server_calls.status();
-            setStatusData(result);
-        }
+        return (server_calls.status());
+        // const [ statusData, setStatusData ] = useState<[]>([]);
+        // async function handleDataFetch(){
+        //     const result = await server_calls.status();
+        //     setStatusData(result);
+        // }
 
-        useEffect( () => {
-            handleDataFetch();
-        }, []);
+        // useEffect( () => {
+        //     handleDataFetch();
+        // }, []);
 
-        return (
-            {statusData, getStatusData:handleDataFetch}
-        )
+        // return (
+        //     {statusData, getStatusData:handleDataFetch}
+        // )
     },
 
     useType: () => {
-        const [ typeData, setTypeData ] = useState <[]>([]);
-        async function handleDataFetch() {
-            const result = await server_calls.type();
-            setTypeData(result);
-        }
+        return (server_calls.type());
+        // const [ typeData, setTypeData ] = useState <[]>([]);
+        // async function handleDataFetch() {
+        //     const result = await server_calls.type();
+        //     setTypeData(result);
+        // }
 
-        useEffect( () => {
-            handleDataFetch();
-        }, []);
+        // useEffect( () => {
+        //     handleDataFetch();
+        // }, []);
 
-        return (
-            { typeData, getTypeData:handleDataFetch}
-        )
+        // return (
+        //     { typeData, getTypeData:handleDataFetch}
+        // )
+    },
+
+    useVault: () => {
+        return (server_calls.vaults());
     }
 }

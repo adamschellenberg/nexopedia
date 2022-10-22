@@ -1,225 +1,167 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { NavBar } from '../NavBar';
 import { Footer } from '../Footer';
+import { useGetData } from '../../custom-hooks';
 import './GuidesPage.css';
-import Button from 'react-bootstrap/Button';
-import Collapse from 'react-bootstrap/Collapse';
 import Container from 'react-bootstrap/Container';
 import ListGroup from 'react-bootstrap/ListGroup';
 import CosmicIndicator from '../../assets/images/cosmic-indicator.gif';
 
 export const GuidesPage = () => {
-  const [typeOpen, setTypeOpen ] = useState(false);
-  const [statusOpen, setStatusOpen ] = useState(false);
-  const [vaultOpen, setVaultOpen ] = useState(false);
-  const [cosmicOpen, setCosmicOpen ] = useState(false);
-
+  let statusData = useGetData.useStatus();
+  let typeData = useGetData.useType();
+  let vaultData = useGetData.useVault();
 
   return (
     <div className="guidesBackground">
       <NavBar />
       <Container>
-        <div className="guidesMain overflow-visible">
-        
-          {/* Type effectiveness */}
-          <div className="type-effectiveness guide">
-          
-                Type Effectiveness Chart
-             
-                <div id="type-effectiveness-collapse">
+        <h1 className='display-3 guides-header text-center'>Guides and FAQ</h1>
 
-                <table className="table table-sm table-bordered table-dark table-striped">
+{/* Type Effectiveness Chart */}
+        <h6 className='display-6' id="type-chart-title">Type Effectiveness Chart</h6>
+        <table className='table table-dark table-bordered table-sm' id="type-table">
+              <thead>
+                <tr>
+                  <th>Type</th>
+                  <th>Normal</th>
+                  <th>Fire</th>
+                  <th>Water</th>
+                  <th>Plant</th>
+                  <th>Wind</th>
+                  <th>Electric</th>
+                  <th>Mineral</th>
+                  <th>Ghost</th>
+                  <th>Psychic</th>
+                </tr>
+              </thead>
+              <tbody>
+                {
+                  typeData.map( (element) => {
+                    let displayType = element.type;
+                    let normal = element.normal;
+                    let fire = element.fire;
+                    let water = element.water;
+                    let plant = element.plant;
+                    let wind = element.wind;
+                    let electric = element.electric;
+                    let mineral = element.mineral;
+                    let ghost = element.ghost;
+                    let psychic = element.psychic;
+
+                    return (
+                      <tr>
+                        <td>{displayType}</td>
+                        <td>{normal}</td>
+                        <td>{fire}</td>
+                        <td>{water}</td>
+                        <td>{plant}</td>
+                        <td>{wind}</td>
+                        <td>{electric}</td>
+                        <td>{mineral}</td>
+                        <td>{ghost}</td>
+                        <td>{psychic}</td>
+                      </tr>
+                    );
+                  })
+                }
+              </tbody>
+            </table>
+
+{/* Status Effects Chart */}
+        <h6 className='display-6' id="status-effects-title">Status Effects Chart</h6>
+        <table className='table table-dark table-bordered table-sm' id="status-table">
+          <thead>
             <tr>
-              <td></td>
-              <td>Normal</td>
-              <td>Fire</td>
-              <td>Water</td>
-              <td>Plant</td>
-              <td>Wind</td>
-              <td>Electric</td>
-              <td>Mineral</td>
-              <td>Ghost</td>
-              <td>Psychic</td>
+              <th>Status</th>
+              <th>Description</th>
             </tr>
-            
+          </thead>
+          <tbody>
+            {
+              statusData.map( (status) => {
+                let effect = status.effect;
+                let description = status.description;
+
+                return (
+                  <tr>
+                    <td>{effect}</td>
+                    <td>{description}</td>
+                  </tr>
+                )
+              })
+            }
+          </tbody>
+        </table>
+
+{/* Vaults and Keys List */}
+        <h6 className='display-6' id="vaults-title">Spencer's Vault and Key Locations</h6>
+        <h6>Keys:</h6>
+        <table className="table table-bordered table-dark table-sm" id="key-table">
+          <tbody>
+            {
+              vaultData.map( (key) => {
+                let type = key.type;
+                let keyLocation = key.location;
+
+                if(type == "Key") {
+                  return (
+                    <tr>
+                      <td>{keyLocation}</td>
+                    </tr>
+                  )
+                }
+
+              })
+            }
+          </tbody>
+        </table>
+        <h6>Vaults:</h6>
+        <table className='table table-bordered table-dark table-sm' id="vault-table">
+          <thead>
             <tr>
-              <td>Normal</td>
-              <td>1</td>
-              <td>1</td>
-              <td>1</td>
-              <td>1</td>
-              <td>1</td>
-              <td>1</td>
-              <td>1</td>
-              <td>1.25</td>
-              <td>1.25</td>
+              <th>Location</th>
+              <th>Rewards</th>
             </tr>
-            
-            <tr>
-              <td>Fire</td>
-              <td>1</td>
-              <td>0.65</td>
-              <td>1.25</td>
-              <td>0.65</td>
-              <td>0.65</td>
-              <td>1</td>
-              <td>1.25</td>
-              <td>0.65</td>
-              <td>1</td>
-            </tr>
-            
-            <tr>
-              <td>Water</td>
-              <td>1</td>
-              <td>0.65</td>
-              <td>0.65</td>
-              <td>1.25</td>
-              <td>1</td>
-              <td>1.25</td>
-              <td>0.65</td>
-              <td>0.65</td>
-              <td>1</td>
-            </tr>
-            
-            <tr>
-              <td>Plant</td>
-              <td>1</td>
-              <td>1.25</td>
-              <td>0.65</td>
-              <td>0.65</td>
-              <td>1.25</td>
-              <td>0.65</td>
-              <td>1</td>
-              <td>1</td>
-              <td>1</td>
-            </tr>
-            
-            <tr>
-              <td>Wind</td>
-              <td>1</td>
-              <td>1.25</td>
-              <td>1</td>
-              <td>0.65</td>
-              <td>1</td>
-              <td>1.25</td>
-              <td>0.65</td>
-              <td>1.25</td>
-              <td>1</td>
-            </tr>
-            
-            <tr>
-              <td>Electric</td>
-              <td>1</td>
-              <td>1</td>
-              <td>0.65</td>
-              <td>1.25</td>
-              <td>0.65</td>
-              <td>0.65</td>
-              <td>1.25</td>
-              <td>1</td>
-              <td>1.25</td>
-            </tr>
-            
-            <tr>
-              <td>Mineral</td>
-              <td>1</td>
-              <td>0.65</td>
-              <td>1.25</td>
-              <td>1</td>
-              <td>1.25</td>
-              <td>0.65</td>
-              <td>1</td>
-              <td>1</td>
-              <td>0.65</td>
-            </tr>
-            
-            <tr>
-              <td>Ghost</td>
-              <td>0.65</td>
-              <td>1.25</td>
-              <td>1.25</td>
-              <td>1</td>
-              <td>0.65</td>
-              <td>1</td>
-              <td>1</td>
-              <td>1</td>
-              <td>1.25</td>
-            </tr>
-            
-            <tr>
-              <td>Psychic</td>
-              <td>0.65</td>
-              <td>1</td>
-              <td>1</td>
-              <td>1.25</td>
-              <td>1</td>
-              <td>1.25</td>
-              <td>0.65</td>
-              <td>1.25</td>
-              <td>0.65</td>
-            </tr>
-                </table>
+          </thead>
+          <tbody>
+            {
+              vaultData.map( (vault) => {
+                let type = vault.type;
+                let vaultLocation = vault.location;
+                
+                if (type == "Vault") {
+                  let vaultReward = vault.contents;
+                  return (
+                    <tr>
+                      <td>{vaultLocation}</td>
+                      <td>{vaultReward}</td>
+                    </tr>
+                  )
+                }
+              })
+            }
+          </tbody>
+        </table>
 
-                </div>
-
-          </div>
-
-          {/* Status Effects Chart */}
-          <div className="status-effects guide">
-            
-                Status Effects Chart
-           
-              <div id="status-effects-collapse">Status Effects</div>
- 
-          </div>
-
-
-          {/* Spencer's Vaults and Keys Locations Chart */}
-          <div className="vaults guide">
-           
-                Spencer's Vaults and Keys Locations
-            
-              <div id="vaults-collapse">Locations list</div>
-   
-          </div>
-
-
-          {/* Cosmic Nexomon FAQ */}
-          <div className="cosmic guide">
-            
-                Cosmic Nexomon FAQ
-           
-              <div id="cosmic-collapse">
-
-                <ListGroup variant="flush">
-                  <ListGroup.Item className="bg-transparent">
-                    <h6>What is a Cosmic Nexomon?</h6>
-                    Cosmic Nexomon are the equivalent of shiny Pokemon.
-                    Color variants of the Nexomon you know and love.
-                  </ListGroup.Item>
-                  <ListGroup.Item className="bg-transparent"><h6>How will I know if a Nexomon is cosmic?</h6>
-                    Cosmic Nexomon name boxes will flash red, like in the gif below <br />
-                    <img src={CosmicIndicator} alt="cosmic indicator" className="cosmic-indicator"/>
-                  </ListGroup.Item>
-                  <ListGroup.Item className="bg-transparent">
-                    <h6>What are the odds of finding a cosmic Nexomon?</h6>
-                    The rate of finding a cosmic Nexomon starts at 1/4000 (0.025%) at the beginning of the game.
-                    However, as you progress through the game, these odds will increase as follows:
-                      <ul>
-                        <li>Odds increase to 1/3500 (0.029%) after saving Ignitia, and increase again to 1/3000 (0.033%) after completing the Drake Isles chapter.</li>
-                        <li>The rate increases by 1 point for each uniquely seen Nexomon. Example: 1/3000 odds are increased to 1/2950 if you have seen 50 different Nexomon.</li>
-                        <li>The rate increases by 2 points for each uniquely owned Nexomon. Example: 1/2950 odds are increased to 1/2900 if you have captured 25 different Nexomon.</li>
-                        <li>The rate increases 50 points for each Cosmic Charm owned. Example: 1/2900 odds are increased to 1/2800 if two Cosmic Charms are owned.</li>
-                        <li>The best possible odds of finding a cosmic Nexomon are 1/1607 (0.0622%) if you are in the late-game, have captured every Nexomon, and have found all five Cosmic Charms.</li>
-                      </ul>
-                  </ListGroup.Item>
-
-                </ListGroup>
-              </div>
-            
-          </div>
-
+{/* Cosmic Nexomon FAQ */}
+        <h6 className="display-6" id="cosmic-title">Cosmic Nexomon</h6>
+        <div className='cosmic-info'>
+        <ul>
+				<li><bold>What is a cosmic Nexomon?</bold> Cosmic Nexomon are the equivalent to shiny Pokemon. Color variants of the Nexomon you know and love.</li>
+                <li><bold>How will I know if a Nexomon is cosmic?</bold> Cosmic Nexomon name boxes will flash red, like in the gif below.</li>
+                <img src={CosmicIndicator} />
+				<li><bold>What are the odds of finding a cosmic Nexomon?</bold> The rate of finding a cosmic Nexomon starts at 1/4000 (0.025%) at the beginning of the game. However, as you progress through the game, this oods will increase as follows:</li>
+				<ul>
+					<li>Odds increase to 1/3500 (0.029%) after saving Ignitia, and increases again to 1/3000 (0.033%) after completing the Drake Isles chapter</li>
+					<li>The rate increases by 1 point for each uniquely seen Nexomon. Example: 1/3000 odds are increased to 1/2950, if you have seen 50 different Nexomon.</li>
+					<li>The rate increases by 2 points for each uniquely owned Nexomon. Example: 1/2950 odds are increased to 1/2900, if you have captured 50 different Nexomon.</li>
+					<li>The rate increases 50 points for each Cosmic Charm owned. Example: 1/2900 odds are increased to 1/2800, if two Cosmic Charms are owned.</li>
+					<li>The best possible odds of finding a cosmic Nexomon are 1/1607 (0.0622%), if you are in the late-game, have captured every Nexomon, and have found all five Cosmic Charms.</li>
+				</ul>
+			  </ul>
         </div>
+
         <Footer />
       </Container>
     </div>

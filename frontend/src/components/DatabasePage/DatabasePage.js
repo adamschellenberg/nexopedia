@@ -16,7 +16,7 @@ export const DatabasePage = () => {
           <h1 className="display-3 databaseHeader text-center">
             Nexomon Database
           </h1>
-            <table className='table table-bordered table-sm mx-auto' id="database-table">
+            <table className='table table-light table-bordered table-sm mx-auto' id="database-table">
               <thead>
                 <tr>
                   <th>#</th>

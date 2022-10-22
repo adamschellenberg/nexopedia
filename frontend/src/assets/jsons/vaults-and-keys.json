@@ -1,0 +1,83 @@
+[
+  {
+    "type": "Key",
+    "location": "Beginning of the game, behind the orphanage. Salem wants to play."
+  },
+  {
+    "type": "Key",
+    "location": "Parum City, and old lady with a broom wants you to clean the city."
+  },
+  {
+    "type": "Key",
+    "location": "Frozen Tundra, lady behind guild counter, explore a cave with a ghost in it."
+  },
+  {
+    "type": "Key",
+    "location": "Frozen Tundra, a guy freezing wants an Imburion and Glontern."
+  },
+  {
+    "type": "Key",
+    "location": "On the bridge to the lower Frozen Tundra, a girl lost her wedding ring east of Lateria."
+  },
+  {
+    "type": "Key",
+    "location": "Dragon Isles, to the left where the researchers house is. He wants a Namansi."
+  },
+  {
+    "type": "Key",
+    "location": "Talking tree in the spooky forest, he wants two Nexomon."
+  },
+  {
+    "type": "Key",
+    "location": "News reporter in Ignitia after beating the tyrant."
+  },
+  {
+    "type": "Key",
+    "location": "Obtaining by completing the Immortal Citadel portion of the story."
+  },
+  {
+    "type": "Vault",
+    "location": "West of the Outlanders camp, there should be a cave covered up in weeds. After using the fire power, you'll be able to enter. Inside the cave, go to the top-right corner and you'll find an entrace to the vault room.",
+    "contents": "Holoch Companion, Tribute of Power, 550 Coins, Ghost Nexotraps"
+  },
+  {
+    "type": "Vault",
+    "location": "East of the Immortal Citadel lies a cave with a vault room. To get there, go east from the Immortal Citadel and keep going east until you reach the next area, further than the camp area (there should be an exit at the top-right corner). Go up and you should eventually find a cave. Inside the cave, go forward and use the wind power to jump to the next side, then head right until you find the vault room entrance.",
+    "contents": "Malitress Companion, Tribute of Decay, 550 Coins, 2 Max Elixers, 2 Fire Nexotraps"
+  },
+  {
+    "type": "Vault",
+    "location": "Located in cave West-North of Ignitia.",
+    "contents": "Acegon Companion, Tribute of Blaze, 550 Coins, 2 Ultra Revives, 2 Wind Nexotraps"
+  },
+  {
+    "type": "Vault",
+    "location": "After teleporting yourself to Ignitia, go east and through the routes until you’re in an area with where wild Nexomon can be encountered. Go down and follow the path. You should find a cave and someone outside of it. Enter the cave, go to the right entrance, and eventually, you’ll find the vault room.",
+    "contents": "Vodo Companion, Tribute of Mind, 550 Coins, Max Ether, Electric Nexotraps"
+  },
+  {
+    "type": "Vault",
+    "location": "Go to The Drake Isles and head east. At the bottom-left corner, there should be a cave. Go inside, follow the route, climb up the stairs, make a left, and go up instead of leaving through the left exit. Keep moving forward and use the wind power to get to the other side. There should be an entrance to the vault.",
+    "contents": "Wargovle Companion, Tribute of Tempest, 550 Coins, Dragon Whistle"
+  },
+  {
+    "type": "Vault",
+    "location": "Located in cave South of Frozen Tundra.",
+    "contents": "Tribute of Ocean, Blizstrong Companion, Coins"
+  },
+  {
+    "type": "Vault",
+    "location": "Warp yourself to the Orphanage. Go left until you see the camp with the healer and several other NPCs. Go south and you’ll eventually come across an area surrounded by water to the left with a hole. Use the wind power to cross the water and enter. Spencer’s Vault #7 should be inside after going through the top-left entrance.",
+    "contents": "Lioness Companion, Tribute of Thunder, Coins"
+  },
+  {
+    "type": "Vault",
+    "location": "Teleport to the Frozen Tundra Base. Move down and then left to enter the next area. It should be a bridge. Cross it and move to the next area. Go down the stairs and go next to the tamer. There should be a cave above him. Enter it. Inside at the top-left corner of the cave, there should be stairs. Go down it and enter the next area. Follow the direct path until you discover two routes – one leading to the vault room and the other leading to an exit. Go to the vault room.",
+    "contents": "Raksuma Companion, Tribute of Nature, 500 Coins, Golden Nexotrap"
+  },
+  {
+    "type": "Vault",
+    "location": "Teleport to Lateria and go to the east exit. Keep going right and you’ll eventually find a cave surrounded by water. An old, explorer tamer should be on the left side seeking a battle, claiming it’s his cave. Use the power to freeze the water and enter the cave. Straight ahead should be an entrance to the vault to claim the goodies.",
+    "contents": "Lunabelle Companion, Tribute of Stone, 450 Coins, Discount Voucher"
+  }
+]
