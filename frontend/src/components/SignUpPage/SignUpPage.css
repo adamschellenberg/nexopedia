@@ -6,3 +6,13 @@
     position: fixed;
     top: 0;
 }
+
+.signup-header {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.signup-form-container {
+    width: 40%;
+    min-width: 275px;
+}

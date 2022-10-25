@@ -6,3 +6,14 @@
     position: fixed;
     top: 0;
 }
+
+.profile-header {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.avatar-container {
+    width: fit-content;
+    padding: 10px;
+    margin-bottom: 15px;
+}
