@@ -20,22 +20,20 @@ class User(db.Model, UserMixin):
     id = db.Column(db.String, primary_key=True)
     email = db.Column(db.String(150), nullable=False)
     password = db.Column(db.String, nullable=True, default='')
-    avatar = db.Column(db.String, nullable=True, default='masquiti-follower.png')
-    g_auth_verify = db.Column(db.Boolean, default=False)
+    avatar = db.Column(db.String(100), nullable=True, default='masquiti.png')
     token = db.Column(db.String, default='', unique=True)
     date_created = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
 
-    def __init__(self, email, password='', avatar='masquiti-follower.png', token='', g_auth_verify=False):
+    def __init__(self, email, password='', avatar='masquiti.png', token=''):
         self.id = self.set_id()
         self.password = self.set_password(password)
         self.email = email
         self.avatar = avatar
         self.token = self.set_token(24)
-        self.g_auth_verify = g_auth_verify
 
     def set_token(self, length):
         return secrets.token_hex(length)
-    
+
     def set_id(self):
         return str(uuid.uuid4())
 
@@ -44,4 +42,4 @@ class User(db.Model, UserMixin):
         return self.pw_hash
 
     def __repr__(self):
-        return f'User {self.email} has been created.'
+        return f'User {self.email} has been created and added to the database.'
