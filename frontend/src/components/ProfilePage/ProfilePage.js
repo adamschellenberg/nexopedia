@@ -65,9 +65,9 @@ export const ProfilePage = () => {
 
   const handleUpdate = (event) => {
     let token = Cookies.get('nexopedia-token');
-    server_calls.updateAvatar(token, selectedAvatar);
+    server_calls.updateAvatar(token, selectedAvatar)
+      .then(function() {window.location.reload(false)});
     setShow(false);
-    window.location.reload(false)
   }
 
   const handleRadioChange = (event) => {

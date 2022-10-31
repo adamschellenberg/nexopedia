@@ -4,15 +4,21 @@ import { NavBar } from '../NavBar';
 import { Footer } from '../Footer';
 import Container from 'react-bootstrap/Container';
 import { server_calls } from '../../api';
+import { useNavigate } from 'react-router-dom';
 
 export const SignUpPage = () => {
+  let navigate = useNavigate();
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    server_calls.signup(email, password);
+    server_calls.signup(email, password).then(
+      function() {
+        navigate('/');
+      }
+    );
   }
   return (
     <div className='signupBackground'>

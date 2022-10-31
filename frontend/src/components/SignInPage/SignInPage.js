@@ -3,17 +3,21 @@ import './SignInPage.css';
 import { NavBar } from '../NavBar';
 import { Footer } from '../Footer';
 import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
 import { server_calls } from '../../api/server';
+import { useNavigate } from 'react-router-dom';
 
 export const SignInPage = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  let navigate = useNavigate();
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    server_calls.signin(email, password);
+    server_calls.signin(email, password).then(
+      function() {
+        navigate('/');
+      }
+    );
   }
   
 
