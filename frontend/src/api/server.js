@@ -1,33 +1,131 @@
-import ItemsJSON from '../assets/jsons/items.json';
-import NexomonJSON from '../assets/jsons/nexomon-extinction.json';
-import StatusJSON from '../assets/jsons/status-effects.json';
-import TypeJSON from '../assets/jsons/type-effectiveness.json';
-import VaultJSON from '../assets/jsons/vaults-and-keys.json';
+import Cookies from 'js-cookie';
 
-let token = '';
+const base_url = 'http://128.199.5.111/api';
+const base_url_heroku = 'https://ct-nexopedia-adamschellenberg.herokuapp.com';
+const base_url_testing = 'http://127.0.0.1:5000'
+
 export const server_calls = {
-    items: () => {
-        let result = ItemsJSON;
-        return result;
+    
+    items: async () => {
+        const response = await fetch(`${base_url}/item/all`);
+        let data = await response.json();
+        return data;
     },
 
-    nexomon: () => {
-        let result = NexomonJSON;
-        return result;
+    nexomon: async () => {
+        const response = await fetch(`${base_url}/nexomon/all`);
+        let data = await response.json();
+        return data;
     },
 
-    status: () => {
-        let result = StatusJSON;
-        return result;
+    status: async () => {
+        const response = await fetch(`${base_url}/statusEffect/all`);
+        let data = await response.json();
+        return data;
     },
 
-    type: () => {
-        let result = TypeJSON;
-        return result;
+    type: async () => {
+        const response = await fetch(`${base_url}/typeeffectiveness/all`);
+        let data = await response.json();
+        return data;
     },
 
-    vaults: () => {
-        let result = VaultJSON;
-        return result;
+    vaults: async () => {
+        const response = await fetch(`${base_url}/vault/all`);
+        let data = await response.json();
+        return data;
+    },
+
+    keys: async () => {
+        const response = await fetch(`${base_url}/key/all`);
+        let data = await response.json();
+        return data;    
+    },
+
+    signin: async (email, password) => {
+        const response = await fetch(`${base_url_testing}/signin`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                email: email,
+                password: password
+            })
+        });
+
+        if (!response.ok) {
+            throw new Error ('Failed to login')
+        };
+        let data = await response.json()
+        console.log ('Token: ', data.token);
+        Cookies.set('nexopedia-token', data.token, {expires: 2 });
+        return alert('Successfully signed in!');
+    },
+
+    signup: async (email, password) => {
+        const response = await fetch(`${base_url_testing}/signup`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                email: email,
+                password: password
+            })
+        });
+
+        if (!response.ok) {
+            throw new Error ('Failed to create new account')
+        };
+        server_calls.signin(email, password);
+        let data = await response.json()
+        console.log('Response: ', data.success);
+
+        return alert('Successfully created an account!');
+    },
+
+    logout: () => {
+
+    },
+
+    updateAvatar: async (token, avatar) => {
+        const response = await fetch(`${base_url_testing}/avatar/update`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'x-access-token': `Bearer ${token}`
+            },
+            body: JSON.stringify( {
+                avatar: avatar,
+                token: token
+            })
+        });
+
+        if (!response.ok) {
+            throw new Error ('Failed to update avatar');
+        };
+        let data = await response.json();
+        console.log('Update response: ', data);
+        return data;
+    },
+
+    getAvatar: async (token) => {
+        const response = await fetch(`${base_url_testing}/avatar`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'x-access-token': `Bearer ${token}`
+            },
+            body: JSON.stringify( {
+                token: token
+            })
+        });
+
+        if (!response.ok) {
+            throw new Error('Failed to fetch avatar data')
+        }
+
+        return await response.json()
     }
 }

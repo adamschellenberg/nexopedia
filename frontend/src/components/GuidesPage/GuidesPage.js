@@ -1,16 +1,33 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavBar } from '../NavBar';
 import { Footer } from '../Footer';
 import { useGetData } from '../../custom-hooks';
 import './GuidesPage.css';
 import Container from 'react-bootstrap/Container';
-import ListGroup from 'react-bootstrap/ListGroup';
 import CosmicIndicator from '../../assets/images/cosmic-indicator.gif';
 
 export const GuidesPage = () => {
-  let statusData = useGetData.useStatus();
-  let typeData = useGetData.useType();
-  let vaultData = useGetData.useVault();
+
+  const [statusData, setStatusData] = useState([]);
+  const [typeData, setTypeData] = useState([]);
+  const [vaultData, setVaultData] = useState([]);
+  const [keyData, setKeyData] = useState([]);
+
+  const getData = async () => {
+    const statusResult = await useGetData.useStatus();
+    const typeResult = await useGetData.useType();
+    const vaultResult = await useGetData.useVault();
+    const keyResult = await useGetData.useKey();
+
+    setStatusData(statusResult);
+    setTypeData(typeResult);
+    setVaultData(vaultResult);
+    setKeyData(keyResult);
+  };
+
+  useEffect( () => {
+    getData();
+  }, []);
 
   return (
     <div className="guidesBackground">
@@ -100,17 +117,14 @@ export const GuidesPage = () => {
         <table className="table table-bordered table-dark table-sm" id="key-table">
           <tbody>
             {
-              vaultData.map( (key) => {
-                let type = key.type;
+              keyData.map( (key) => {
                 let keyLocation = key.location;
 
-                if(type == "Key") {
-                  return (
-                    <tr>
-                      <td>{keyLocation}</td>
-                    </tr>
-                  )
-                }
+                return (
+                  <tr>
+                    <td>{keyLocation}</td>
+                  </tr>
+                )
 
               })
             }
@@ -127,18 +141,15 @@ export const GuidesPage = () => {
           <tbody>
             {
               vaultData.map( (vault) => {
-                let type = vault.type;
                 let vaultLocation = vault.location;
-                
-                if (type == "Vault") {
-                  let vaultReward = vault.contents;
+                let vaultContents = vault.contents;
+
                   return (
                     <tr>
                       <td>{vaultLocation}</td>
-                      <td>{vaultReward}</td>
+                      <td>{vaultContents}</td>
                     </tr>
                   )
-                }
               })
             }
           </tbody>
@@ -148,17 +159,17 @@ export const GuidesPage = () => {
         <h6 className="display-6" id="cosmic-title">Cosmic Nexomon</h6>
         <div className='cosmic-info'>
         <ul>
-				<li><bold>What is a cosmic Nexomon?</bold> Cosmic Nexomon are the equivalent to shiny Pokemon. Color variants of the Nexomon you know and love.</li>
-                <li><bold>How will I know if a Nexomon is cosmic?</bold> Cosmic Nexomon name boxes will flash red, like in the gif below.</li>
-                <img src={CosmicIndicator} />
-				<li><bold>What are the odds of finding a cosmic Nexomon?</bold> The rate of finding a cosmic Nexomon starts at 1/4000 (0.025%) at the beginning of the game. However, as you progress through the game, this oods will increase as follows:</li>
-				<ul>
-					<li>Odds increase to 1/3500 (0.029%) after saving Ignitia, and increases again to 1/3000 (0.033%) after completing the Drake Isles chapter</li>
-					<li>The rate increases by 1 point for each uniquely seen Nexomon. Example: 1/3000 odds are increased to 1/2950, if you have seen 50 different Nexomon.</li>
-					<li>The rate increases by 2 points for each uniquely owned Nexomon. Example: 1/2950 odds are increased to 1/2900, if you have captured 50 different Nexomon.</li>
-					<li>The rate increases 50 points for each Cosmic Charm owned. Example: 1/2900 odds are increased to 1/2800, if two Cosmic Charms are owned.</li>
-					<li>The best possible odds of finding a cosmic Nexomon are 1/1607 (0.0622%), if you are in the late-game, have captured every Nexomon, and have found all five Cosmic Charms.</li>
-				</ul>
+          <li><span className='font-weight-bold'>What is a cosmic Nexomon?</span> Cosmic Nexomon are the equivalent to shiny Pokemon. Color variants of the Nexomon you know and love.</li>
+                  <li><span className='font-weight-bold'>How will I know if a Nexomon is cosmic?</span> Cosmic Nexomon name boxes will flash red, like in the gif below.</li>
+                  <img src={CosmicIndicator} />
+          <li><span className='font-weight-bold'>What are the odds of finding a cosmic Nexomon?</span> The rate of finding a cosmic Nexomon starts at 1/4000 (0.025%) at the beginning of the game. However, as you progress through the game, this oods will increase as follows:</li>
+          <ul>
+            <li>Odds increase to 1/3500 (0.029%) after saving Ignitia, and increases again to 1/3000 (0.033%) after completing the Drake Isles chapter</li>
+            <li>The rate increases by 1 point for each uniquely seen Nexomon. Example: 1/3000 odds are increased to 1/2950, if you have seen 50 different Nexomon.</li>
+            <li>The rate increases by 2 points for each uniquely owned Nexomon. Example: 1/2950 odds are increased to 1/2900, if you have captured 50 different Nexomon.</li>
+            <li>The rate increases 50 points for each Cosmic Charm owned. Example: 1/2900 odds are increased to 1/2800, if two Cosmic Charms are owned.</li>
+            <li>The best possible odds of finding a cosmic Nexomon are 1/1607 (0.0622%), if you are in the late-game, have captured every Nexomon, and have found all five Cosmic Charms.</li>
+          </ul>
 			  </ul>
         </div>
 

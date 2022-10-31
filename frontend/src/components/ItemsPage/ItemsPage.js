@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './ItemsPage.css';
 import { NavBar } from '../NavBar';
 import { Footer } from '../Footer';
@@ -6,7 +6,16 @@ import { useGetData } from '../../custom-hooks';
 import Container from 'react-bootstrap/Container';
 
 export const ItemsPage = () => {
-  const itemData = useGetData.useItems();
+  const [itemData, setItemData] = useState([]);
+
+  const getItemData = async () => {
+    const result = await useGetData.useItems();
+    setItemData(result);
+  }
+
+  useEffect( () => {
+    getItemData();
+  }, []);
 
   return (
     <div className="itemsBackground">
@@ -26,7 +35,7 @@ export const ItemsPage = () => {
           <tbody>
             {
               itemData
-                .filter(item => item.type == 'Restoration')
+                .filter(item => item.itemType == 'Restoration')
                 .map( (item) => {
                   let itemName = item.name;
                   let itemDescription = item.description;
@@ -54,7 +63,7 @@ export const ItemsPage = () => {
           <tbody>
             {
               itemData
-                .filter(item => item.type == 'Nexotrap')
+                .filter(item => item.itemType == 'Nexotrap')
                 .map( (item) => {
                   let itemName = item.name;
                   let itemDescription = item.description;
@@ -82,7 +91,7 @@ export const ItemsPage = () => {
           <tbody>
             {
               itemData
-                .filter(item => item.type == 'Core')
+                .filter(item => item.itemType == 'Core')
                 .map( (item) => {
                   let itemName = item.name;
                   let itemDescription = item.description;
@@ -110,7 +119,7 @@ export const ItemsPage = () => {
           <tbody>
             {
               itemData
-                .filter(item => item.type == 'Shard')
+                .filter(item => item.itemType == 'Shard')
                 .map( (item) => {
                   let itemName = item.name;
                   let itemDescription = item.description;
@@ -138,7 +147,7 @@ export const ItemsPage = () => {
           <tbody>
             {
               itemData
-                .filter(item => item.type == 'Food')
+                .filter(item => item.itemType == 'Food')
                 .map( (item) => {
                   let itemName = item.name;
                   let itemDescription = item.description;
@@ -166,7 +175,7 @@ export const ItemsPage = () => {
           <tbody>
             {
               itemData
-                .filter(item => item.type == 'Key Item')
+                .filter(item => item.itemType == 'Key Item')
                 .map( (item) => {
                   let itemName = item.name;
                   let itemDescription = item.description;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavBar } from '../NavBar';
 import { useGetData } from '../../custom-hooks';
 import Container from 'react-bootstrap/Container';
@@ -6,7 +6,17 @@ import './DatabasePage.css';
 
 
 export const DatabasePage = () => {
-  let nexomonData = useGetData.useNexomon();
+
+  const [nexomonData, setNexomonData] = useState([]);
+
+  const getNexomonData = async () => {
+    const result = await useGetData.useNexomon();
+    setNexomonData(result);
+  };
+
+  useEffect( () => {
+    getNexomonData();
+  }, []);
 
   return (
     <div>
@@ -27,9 +37,9 @@ export const DatabasePage = () => {
               <tbody>
                 {
                   nexomonData.map( (nexomon) => {
-                    let nexomonNumber = nexomon.database;
+                    let nexomonNumber = nexomon.number;
                     let nexomonName = nexomon.name;
-                    let nexomonType = nexomon.type;
+                    let nexomonType = nexomon.nexomonType;
 
                     return (
                       <tr>

@@ -1,76 +1,42 @@
 import React, { useState, useEffect } from 'react';
 import { server_calls } from '../api';
+import Cookies from 'js-cookie';
 
 export const useGetData = {
-    useItems: () => {
-        return (server_calls.items());
-        // const [itemsData, setItemsData ] = useState<[]>([]);
-        // async function handleDataFetch(){
-        //     const result = await server_calls.items();
-        //     setItemsData(result);
-        // }
-
-        // useEffect( () => {
-        //     handleDataFetch();
-        // }, []);
-
-        // return (
-        //     {itemsData, getItemData:handleDataFetch}
-        // )
+    useItems: async () => {
+        const result = await server_calls.items();
+        return result;
     },
 
-    useNexomon: () => {
-        return (server_calls.nexomon());
-        // const [ nexomonData, setNexomonData ] = useState<[]>([]);
-        // async function handleDataFetch(){
-        //     const result = await server_calls.nexomon();
-        //     setNexomonData(result);
-        // }
-
-        // useEffect( () => {
-        //     handleDataFetch();
-        // }, []);
-
-        // return (
-        //     {nexomonData, getNexomonData:handleDataFetch}
-        // )
+    useNexomon: async () => {
+        const result = await server_calls.nexomon();
+        return result;
     },
 
-    useStatus: () => {
-        return (server_calls.status());
-        // const [ statusData, setStatusData ] = useState<[]>([]);
-        // async function handleDataFetch(){
-        //     const result = await server_calls.status();
-        //     setStatusData(result);
-        // }
-
-        // useEffect( () => {
-        //     handleDataFetch();
-        // }, []);
-
-        // return (
-        //     {statusData, getStatusData:handleDataFetch}
-        // )
+    useStatus: async () => {
+        const result = await server_calls.status();
+        return result;
     },
 
-    useType: () => {
-        return (server_calls.type());
-        // const [ typeData, setTypeData ] = useState <[]>([]);
-        // async function handleDataFetch() {
-        //     const result = await server_calls.type();
-        //     setTypeData(result);
-        // }
-
-        // useEffect( () => {
-        //     handleDataFetch();
-        // }, []);
-
-        // return (
-        //     { typeData, getTypeData:handleDataFetch}
-        // )
+    useType: async () => {
+        const result = await server_calls.type();
+        return result;
     },
 
-    useVault: () => {
-        return (server_calls.vaults());
+    useVault: async () => {
+        const result = await server_calls.vaults();
+        return result;
+    },
+
+    useKey: async () => {
+        const result = await server_calls.keys();
+        return result; 
+    },
+
+    useUserAvatar: async () => {
+        let token = Cookies.get('nexopedia-token');
+        const result = await server_calls.getAvatar(token);
+        console.log(result);
+        return result;
     }
 }
