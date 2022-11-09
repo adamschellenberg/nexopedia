@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { server_calls } from '../api';
-import Cookies from 'js-cookie';
 
 export const useGetData = {
     useItems: async () => {
@@ -31,12 +30,5 @@ export const useGetData = {
     useKey: async () => {
         const result = await server_calls.keys();
         return result; 
-    },
-
-    useUserAvatar: async () => {
-        let token = Cookies.get('nexopedia-token');
-        const result = await server_calls.getAvatar(token);
-        console.log(result);
-        return result;
     }
 }
