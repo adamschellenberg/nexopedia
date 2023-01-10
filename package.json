@@ -1,6 +1,7 @@
 {
   "name": "nexopedia",
   "version": "1.0.0",
+  "homepage": ".",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "dependencies": {
@@ -811,6 +812,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/adamschellenberg/nexopedia/issues"
-  },
-  "homepage": "https://github.com/adamschellenberg/nexopedia#readme"
+  }
 }
