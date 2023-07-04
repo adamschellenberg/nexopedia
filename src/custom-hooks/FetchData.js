@@ -1,4 +1,3 @@
-import React from 'react';
 import { server_calls } from '../api';
 
 export const useGetData = {
