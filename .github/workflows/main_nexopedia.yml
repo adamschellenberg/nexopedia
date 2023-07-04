@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'Nexopedia'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CEDFC7C23BEB42E3BB99E1C341B2572B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_55C1BF3C0E6E482292140A553D4E7173 }}
           package: .
