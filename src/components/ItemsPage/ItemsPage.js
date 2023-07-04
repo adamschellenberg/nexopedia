@@ -35,7 +35,7 @@ export const ItemsPage = () => {
           <tbody>
             {
               itemData
-                .filter(item => item.itemType == 'Restoration')
+                .filter(item => item.itemType === 'Restoration')
                 .map( (item) => {
                   let itemName = item.name;
                   let itemDescription = item.description;
@@ -63,7 +63,7 @@ export const ItemsPage = () => {
           <tbody>
             {
               itemData
-                .filter(item => item.itemType == 'Nexotrap')
+                .filter(item => item.itemType === 'Nexotrap')
                 .map( (item) => {
                   let itemName = item.name;
                   let itemDescription = item.description;
@@ -91,7 +91,7 @@ export const ItemsPage = () => {
           <tbody>
             {
               itemData
-                .filter(item => item.itemType == 'Core')
+                .filter(item => item.itemType === 'Core')
                 .map( (item) => {
                   let itemName = item.name;
                   let itemDescription = item.description;
@@ -119,7 +119,7 @@ export const ItemsPage = () => {
           <tbody>
             {
               itemData
-                .filter(item => item.itemType == 'Shard')
+                .filter(item => item.itemType === 'Shard')
                 .map( (item) => {
                   let itemName = item.name;
                   let itemDescription = item.description;
@@ -147,7 +147,7 @@ export const ItemsPage = () => {
           <tbody>
             {
               itemData
-                .filter(item => item.itemType == 'Food')
+                .filter(item => item.itemType === 'Food')
                 .map( (item) => {
                   let itemName = item.name;
                   let itemDescription = item.description;
@@ -175,7 +175,7 @@ export const ItemsPage = () => {
           <tbody>
             {
               itemData
-                .filter(item => item.itemType == 'Key Item')
+                .filter(item => item.itemType === 'Key Item')
                 .map( (item) => {
                   let itemName = item.name;
                   let itemDescription = item.description;
