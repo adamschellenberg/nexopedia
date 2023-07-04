@@ -1,0 +1,20 @@
+.itemsBackground {
+    background-color: #8bc79c;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    overflow-y: scroll;
+}
+
+.items-header {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#restoration-title, #nexotrap-title, #core-title, #shard-title, #food-title, #key-title {
+    font-size: 1.15rem;
+    font-weight: bolder;
+    margin-top: 40px;
+}

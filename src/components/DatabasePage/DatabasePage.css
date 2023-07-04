@@ -1,0 +1,23 @@
+.databaseBackground {
+    background-color: #E4FFFF;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+}
+
+.databaseHeader {
+    margin-top: 100px;
+}
+
+#database-table {
+    margin-top: 50px;
+    width: fit-content;
+    text-align: center;
+}
+
+#database-table > thead > tr > th {
+    padding-left: 30px;
+    padding-right: 30px;
+}

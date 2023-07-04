@@ -1,5 +1,6 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/static/css/main.6a737f5d.css",
     "main.js": "/static/js/main.edfdefde.js",
     "static/media/masquiti.png": "/static/media/masquiti.2d38c36ded54cab11647.png",
@@ -11,5 +12,18 @@
   "entrypoints": [
     "static/css/main.6a737f5d.css",
     "static/js/main.edfdefde.js"
+=======
+    "main.css": "/nexopedia/static/css/main.6a737f5d.css",
+    "main.js": "/nexopedia/static/js/main.147b4612.js",
+    "static/media/masquiti.png": "/nexopedia/static/media/masquiti.2d38c36ded54cab11647.png",
+    "static/media/cosmic-indicator.gif": "/nexopedia/static/media/cosmic-indicator.b2581b0f0b4480569484.gif",
+    "index.html": "/nexopedia/index.html",
+    "main.6a737f5d.css.map": "/nexopedia/static/css/main.6a737f5d.css.map",
+    "main.147b4612.js.map": "/nexopedia/static/js/main.147b4612.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a737f5d.css",
+    "static/js/main.147b4612.js"
+>>>>>>> parent of b1b4ccd9 (Updates)
   ]
 }

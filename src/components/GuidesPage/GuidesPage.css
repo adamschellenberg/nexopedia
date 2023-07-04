@@ -1,0 +1,33 @@
+.guidesBackground {
+    background-color: #f7b7df;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: scroll;
+}
+
+.guides-header {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#type-chart-title, #status-effects-title, #vaults-title, #cosmic-title {
+    font-size: 1.15rem;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+
+#type-table {
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media (max-width:620px) {
+    #type-table {
+        font-size: 8px;
+    }
+}
+
