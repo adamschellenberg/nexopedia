@@ -161,7 +161,7 @@ export const GuidesPage = () => {
         <ul>
           <li><span className='font-weight-bold'>What is a cosmic Nexomon?</span> Cosmic Nexomon are the equivalent to shiny Pokemon. Color variants of the Nexomon you know and love.</li>
                   <li><span className='font-weight-bold'>How will I know if a Nexomon is cosmic?</span> Cosmic Nexomon name boxes will flash red, like in the gif below.</li>
-                  <img src={CosmicIndicator} />
+                  <img src={CosmicIndicator} alt="cosmic indicator"/>
           <li><span className='font-weight-bold'>What are the odds of finding a cosmic Nexomon?</span> The rate of finding a cosmic Nexomon starts at 1/4000 (0.025%) at the beginning of the game. However, as you progress through the game, this oods will increase as follows:</li>
           <ul>
             <li>Odds increase to 1/3500 (0.029%) after saving Ignitia, and increases again to 1/3000 (0.033%) after completing the Drake Isles chapter</li>
