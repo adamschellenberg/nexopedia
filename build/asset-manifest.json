@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nexopedia/static/css/main.6a737f5d.css",
-    "main.js": "/nexopedia/static/js/main.147b4612.js",
-    "static/media/masquiti.png": "/nexopedia/static/media/masquiti.2d38c36ded54cab11647.png",
-    "static/media/cosmic-indicator.gif": "/nexopedia/static/media/cosmic-indicator.b2581b0f0b4480569484.gif",
-    "index.html": "/nexopedia/index.html",
-    "main.6a737f5d.css.map": "/nexopedia/static/css/main.6a737f5d.css.map",
-    "main.147b4612.js.map": "/nexopedia/static/js/main.147b4612.js.map"
+    "main.css": "/adamschellenberg/nexopedia/static/css/main.9bc70581.css",
+    "main.js": "/adamschellenberg/nexopedia/static/js/main.1d456cc8.js",
+    "static/media/masquiti.png": "/adamschellenberg/nexopedia/static/media/masquiti.2d38c36ded54cab11647.png",
+    "static/media/cosmic-indicator.gif": "/adamschellenberg/nexopedia/static/media/cosmic-indicator.b2581b0f0b4480569484.gif",
+    "index.html": "/adamschellenberg/nexopedia/index.html",
+    "main.9bc70581.css.map": "/adamschellenberg/nexopedia/static/css/main.9bc70581.css.map",
+    "main.1d456cc8.js.map": "/adamschellenberg/nexopedia/static/js/main.1d456cc8.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a737f5d.css",
-    "static/js/main.147b4612.js"
+    "static/css/main.9bc70581.css",
+    "static/js/main.1d456cc8.js"
   ]
 }
