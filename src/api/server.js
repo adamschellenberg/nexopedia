@@ -1,4 +1,4 @@
-const base_url = 'https://nexomonapi.com/api';
+const base_url = 'https://nexomonapi.azurewebsites.net/api';
 
 export const server_calls = {
     
