@@ -1,0 +1,18 @@
+.signinBackground {
+    background-color: #8ddbfc;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+}
+
+.signin-header {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.signin-form-container {
+    width: 40%;
+    min-width: 275px;
+}
