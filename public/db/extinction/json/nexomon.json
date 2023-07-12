@@ -1,0 +1,2991 @@
+[
+    {
+      "nexomonId": 1,
+      "name": "Cloddy",
+      "number": 1,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 2,
+      "name": "Cubdy",
+      "number": 2,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 3,
+      "name": "Lukuma",
+      "number": 3,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 4,
+      "name": "Kolphur",
+      "number": 4,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 5,
+      "name": "Sulphlo",
+      "number": 5,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 6,
+      "name": "Moltano",
+      "number": 6,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 7,
+      "name": "Bloopish",
+      "number": 7,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 8,
+      "name": "Glimoory",
+      "number": 8,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 9,
+      "name": "Glamoory",
+      "number": 9,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 10,
+      "name": "Spikus",
+      "number": 10,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 11,
+      "name": "Spikarm",
+      "number": 11,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 12,
+      "name": "Thornox",
+      "number": 12,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 13,
+      "name": "Pebglem",
+      "number": 13,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 14,
+      "name": "Gemock",
+      "number": 14,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 15,
+      "name": "Gemaxar",
+      "number": 15,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 16,
+      "name": "Heliwurm",
+      "number": 16,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 17,
+      "name": "Helipa",
+      "number": 17,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 18,
+      "name": "Heliventus",
+      "number": 18,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 19,
+      "name": "Zumble",
+      "number": 19,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 20,
+      "name": "Zasp",
+      "number": 20,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 21,
+      "name": "Zappnic",
+      "number": 21,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 22,
+      "name": "Branipus",
+      "number": 22,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 23,
+      "name": "Cerebrius",
+      "number": 23,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 24,
+      "name": "Octollect",
+      "number": 24,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 25,
+      "name": "Skerdi",
+      "number": 25,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 26,
+      "name": "Aferaid",
+      "number": 26,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 27,
+      "name": "Dreddiful",
+      "number": 27,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 28,
+      "name": "Griff",
+      "number": 28,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 29,
+      "name": "Griffgar",
+      "number": 29,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 30,
+      "name": "Lioness",
+      "number": 30,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 31,
+      "name": "Flizard",
+      "number": 31,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 32,
+      "name": "Stinger",
+      "number": 32,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 33,
+      "name": "Moonsting",
+      "number": 33,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 34,
+      "name": "Sunknight",
+      "number": 34,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 35,
+      "name": "Faucefant",
+      "number": 35,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 36,
+      "name": "Draniphant",
+      "number": 36,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 37,
+      "name": "Tuskant",
+      "number": 37,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 38,
+      "name": "Shromporo",
+      "number": 38,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 39,
+      "name": "Shrombrela",
+      "number": 39,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 40,
+      "name": "Shromboff",
+      "number": 40,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 41,
+      "name": "Fortle",
+      "number": 41,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 42,
+      "name": "Fortoise",
+      "number": 42,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 43,
+      "name": "Fortank",
+      "number": 43,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 44,
+      "name": "Larkito",
+      "number": 44,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 45,
+      "name": "Moska",
+      "number": 45,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 46,
+      "name": "Sakka",
+      "number": 46,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 47,
+      "name": "Chibbit",
+      "number": 47,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 48,
+      "name": "Xotor",
+      "number": 48,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 49,
+      "name": "Odiborg",
+      "number": 49,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 50,
+      "name": "Dreaver",
+      "number": 50,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 51,
+      "name": "Dredmore",
+      "number": 51,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 52,
+      "name": "Dredrone",
+      "number": 52,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 53,
+      "name": "Ghouze",
+      "number": 53,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 54,
+      "name": "Mazecter",
+      "number": 54,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 55,
+      "name": "Taipluff",
+      "number": 55,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 56,
+      "name": "Fistuff",
+      "number": 56,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 57,
+      "name": "Ninstuff",
+      "number": 57,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 58,
+      "name": "Keromb",
+      "number": 58,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 59,
+      "name": "Kerosion",
+      "number": 59,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 60,
+      "name": "Snaibble",
+      "number": 60,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 61,
+      "name": "Snaiflow",
+      "number": 61,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 62,
+      "name": "Snaijet",
+      "number": 62,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 63,
+      "name": "Onin",
+      "number": 63,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 64,
+      "name": "Peltry",
+      "number": 64,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 65,
+      "name": "Bouldion",
+      "number": 65,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 66,
+      "name": "Bouldcran",
+      "number": 66,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 67,
+      "name": "Baloompa",
+      "number": 67,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 68,
+      "name": "Blimpapa",
+      "number": 68,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 69,
+      "name": "Bulbrit",
+      "number": 69,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 70,
+      "name": "Cromeon",
+      "number": 70,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 71,
+      "name": "Virox",
+      "number": 71,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 72,
+      "name": "Bactoul",
+      "number": 72,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 73,
+      "name": "Cranillow",
+      "number": 73,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 74,
+      "name": "Swactrum",
+      "number": 74,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 75,
+      "name": "Rubby",
+      "number": 75,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 76,
+      "name": "Runk",
+      "number": 76,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 77,
+      "name": "Deember",
+      "number": 77,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 78,
+      "name": "Deebuz",
+      "number": 78,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 79,
+      "name": "Antlorm",
+      "number": 79,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 80,
+      "name": "Varawirl",
+      "number": 80,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 81,
+      "name": "Ploriol",
+      "number": 81,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 82,
+      "name": "Bomriol",
+      "number": 82,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 83,
+      "name": "Bloomriol",
+      "number": 83,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 84,
+      "name": "Shardrine",
+      "number": 84,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 85,
+      "name": "Shardrillion",
+      "number": 85,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 86,
+      "name": "Sounse",
+      "number": 86,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 87,
+      "name": "Mound",
+      "number": 87,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 88,
+      "name": "Scaratic",
+      "number": 88,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 89,
+      "name": "Enercer",
+      "number": 89,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 90,
+      "name": "Medlass",
+      "number": 90,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 91,
+      "name": "Madamusa",
+      "number": 91,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 92,
+      "name": "Brumtler",
+      "number": 92,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 93,
+      "name": "Brumenie",
+      "number": 93,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 94,
+      "name": "Moga",
+      "number": 94,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 95,
+      "name": "Monkapow",
+      "number": 95,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 96,
+      "name": "Scalder",
+      "number": 96,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 97,
+      "name": "Scailla",
+      "number": 97,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 98,
+      "name": "Bushnome",
+      "number": 98,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 99,
+      "name": "Rappub",
+      "number": 99,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 100,
+      "name": "Caninui",
+      "number": 100,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 101,
+      "name": "Candly",
+      "number": 101,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 102,
+      "name": "Porklet",
+      "number": 102,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 103,
+      "name": "Hoglet",
+      "number": 103,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 104,
+      "name": "Barboraco",
+      "number": 104,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 105,
+      "name": "Kawsnow",
+      "number": 105,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 106,
+      "name": "Harectic",
+      "number": 106,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 107,
+      "name": "Seedko",
+      "number": 107,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 108,
+      "name": "Seedkorsky",
+      "number": 108,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 109,
+      "name": "Pont",
+      "number": 109,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 110,
+      "name": "Stalagca",
+      "number": 110,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 111,
+      "name": "Hinazuru",
+      "number": 111,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 112,
+      "name": "Nakazuru",
+      "number": 112,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 113,
+      "name": "Senshizuru",
+      "number": 113,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 114,
+      "name": "Eqo",
+      "number": 114,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 115,
+      "name": "Soniqo",
+      "number": 115,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 116,
+      "name": "Eqoloptera",
+      "number": 116,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 117,
+      "name": "Sectoc",
+      "number": 117,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 118,
+      "name": "Minet",
+      "number": 118,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 119,
+      "name": "Orologikus",
+      "number": 119,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 120,
+      "name": "Folicurse",
+      "number": 120,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 121,
+      "name": "Malitress",
+      "number": 121,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 122,
+      "name": "Poyal",
+      "number": 122,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 123,
+      "name": "Puggard",
+      "number": 123,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 124,
+      "name": "Brauncer",
+      "number": 124,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 125,
+      "name": "Chowser",
+      "number": 125,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 126,
+      "name": "Cuisizle",
+      "number": 126,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 127,
+      "name": "Jeloon",
+      "number": 127,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 128,
+      "name": "Jeliflo",
+      "number": 128,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 129,
+      "name": "Jeliflux",
+      "number": 129,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 130,
+      "name": "Snush",
+      "number": 130,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 131,
+      "name": "Shloom",
+      "number": 131,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 132,
+      "name": "Swamplow",
+      "number": 132,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 133,
+      "name": "Durtacles",
+      "number": 133,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 134,
+      "name": "Roclas",
+      "number": 134,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 135,
+      "name": "Fanling",
+      "number": 135,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 136,
+      "name": "Fandiose",
+      "number": 136,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 137,
+      "name": "Fainglori",
+      "number": 137,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 138,
+      "name": "Scooptor",
+      "number": 138,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 139,
+      "name": "Excravator",
+      "number": 139,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 140,
+      "name": "Minetor",
+      "number": 140,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 141,
+      "name": "Tundri",
+      "number": 141,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 142,
+      "name": "Tundrox",
+      "number": 142,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 143,
+      "name": "Prankrow",
+      "number": 143,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 144,
+      "name": "Kromicide",
+      "number": 144,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 145,
+      "name": "Calfter",
+      "number": 145,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 146,
+      "name": "Calplex",
+      "number": 146,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 147,
+      "name": "Bullogan",
+      "number": 147,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 148,
+      "name": "Blit",
+      "number": 148,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 149,
+      "name": "Glontern",
+      "number": 149,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 150,
+      "name": "Lamparos",
+      "number": 150,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 151,
+      "name": "Blublub",
+      "number": 151,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 152,
+      "name": "Globlob",
+      "number": 152,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 153,
+      "name": "Stalkee",
+      "number": 153,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 154,
+      "name": "Mantoo",
+      "number": 154,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 155,
+      "name": "Mantrass",
+      "number": 155,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 156,
+      "name": "Rust",
+      "number": 156,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 157,
+      "name": "Rustu",
+      "number": 157,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 158,
+      "name": "Rustung",
+      "number": 158,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 159,
+      "name": "Leechy",
+      "number": 159,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 160,
+      "name": "Dracly",
+      "number": 160,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 161,
+      "name": "Chirrent",
+      "number": 161,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 162,
+      "name": "Ostrolt",
+      "number": 162,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 163,
+      "name": "Gomarm",
+      "number": 163,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 164,
+      "name": "Guazharm",
+      "number": 164,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 165,
+      "name": "Vodo",
+      "number": 165,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 166,
+      "name": "Malevodo",
+      "number": 166,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 167,
+      "name": "Malenostra",
+      "number": 167,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 168,
+      "name": "Goateeze",
+      "number": 168,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 169,
+      "name": "Goatlanche",
+      "number": 169,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 170,
+      "name": "Lumbi",
+      "number": 170,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 171,
+      "name": "Tiki",
+      "number": 171,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 172,
+      "name": "Streamole",
+      "number": 172,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 173,
+      "name": "Streamog",
+      "number": 173,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 174,
+      "name": "Streamoad",
+      "number": 174,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 175,
+      "name": "Potpot",
+      "number": 175,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 176,
+      "name": "Neglente",
+      "number": 176,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 177,
+      "name": "Outgrov",
+      "number": 177,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 178,
+      "name": "Babicle",
+      "number": 178,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 179,
+      "name": "Shardice",
+      "number": 179,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 180,
+      "name": "Shardberg",
+      "number": 180,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 181,
+      "name": "Foxdra",
+      "number": 181,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 182,
+      "name": "Hohopi",
+      "number": 182,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 183,
+      "name": "Mojompu",
+      "number": 183,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 184,
+      "name": "Ribombo",
+      "number": 184,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 185,
+      "name": "Bombargrof",
+      "number": 185,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 186,
+      "name": "Bomblasta",
+      "number": 186,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 187,
+      "name": "Cruff",
+      "number": 187,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 188,
+      "name": "Croncho",
+      "number": 188,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 189,
+      "name": "Domigator",
+      "number": 189,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 190,
+      "name": "Singletti",
+      "number": 190,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 191,
+      "name": "Singlette",
+      "number": 191,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 192,
+      "name": "Couplet",
+      "number": 192,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 193,
+      "name": "Sandillo",
+      "number": 193,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 194,
+      "name": "Gravello",
+      "number": 194,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 195,
+      "name": "Quarmor",
+      "number": 195,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 196,
+      "name": "Croo",
+      "number": 196,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 197,
+      "name": "Cadeto",
+      "number": 197,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 198,
+      "name": "Navrigal",
+      "number": 198,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 199,
+      "name": "Woozy",
+      "number": 199,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 200,
+      "name": "Frictingle",
+      "number": 200,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 201,
+      "name": "Magnipub",
+      "number": 201,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 202,
+      "name": "Sunnos",
+      "number": 202,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 203,
+      "name": "Starckal",
+      "number": 203,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 204,
+      "name": "Ponic",
+      "number": 204,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 205,
+      "name": "Giddiyelp",
+      "number": 205,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 206,
+      "name": "Centeror",
+      "number": 206,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 207,
+      "name": "Skunqute",
+      "number": 207,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 208,
+      "name": "Skunqeau",
+      "number": 208,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 209,
+      "name": "Skounquet",
+      "number": 209,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 210,
+      "name": "Tiliamber",
+      "number": 210,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 211,
+      "name": "Blazetilia",
+      "number": 211,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 212,
+      "name": "Mallish",
+      "number": 212,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 213,
+      "name": "Mallark",
+      "number": 213,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 214,
+      "name": "Thrammer",
+      "number": 214,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 215,
+      "name": "Graciful",
+      "number": 215,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 216,
+      "name": "Floreina",
+      "number": 216,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 217,
+      "name": "Worb",
+      "number": 217,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 218,
+      "name": "Parchidna",
+      "number": 218,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 219,
+      "name": "Holoch",
+      "number": 219,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 220,
+      "name": "Frogick",
+      "number": 220,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 221,
+      "name": "Cranoad",
+      "number": 221,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 222,
+      "name": "Tesling",
+      "number": 222,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 223,
+      "name": "Teslad",
+      "number": 223,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 224,
+      "name": "Volpressor",
+      "number": 224,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 225,
+      "name": "Mimi",
+      "number": 225,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 226,
+      "name": "Mimorus",
+      "number": 226,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 227,
+      "name": "Ripha",
+      "number": 227,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 228,
+      "name": "Grimmon",
+      "number": 228,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 229,
+      "name": "Devoul",
+      "number": 229,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 230,
+      "name": "Rapi",
+      "number": 230,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 231,
+      "name": "Rapilux",
+      "number": 231,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 232,
+      "name": "Pongo",
+      "number": 232,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 233,
+      "name": "Imbuzi",
+      "number": 233,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 234,
+      "name": "Imburion",
+      "number": 234,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 235,
+      "name": "Hydrip",
+      "number": 235,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 236,
+      "name": "Hydrose",
+      "number": 236,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 237,
+      "name": "Auga",
+      "number": 237,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 238,
+      "name": "Florauga",
+      "number": 238,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 239,
+      "name": "Quarauga",
+      "number": 239,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 240,
+      "name": "Moonline",
+      "number": 240,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 241,
+      "name": "Duh",
+      "number": 241,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 242,
+      "name": "Duktar",
+      "number": 242,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 243,
+      "name": "Spektar",
+      "number": 243,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 244,
+      "name": "Bira",
+      "number": 244,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 245,
+      "name": "Biralo",
+      "number": 245,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 246,
+      "name": "Bisina",
+      "number": 246,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 247,
+      "name": "Nekpanchi",
+      "number": 247,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 248,
+      "name": "Nekgiri",
+      "number": 248,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 249,
+      "name": "Felclaw",
+      "number": 249,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 250,
+      "name": "Coral",
+      "number": 250,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 251,
+      "name": "Grebal",
+      "number": 251,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 252,
+      "name": "Greben",
+      "number": 252,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 253,
+      "name": "Siki",
+      "number": 253,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 254,
+      "name": "Sikihob",
+      "number": 254,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 255,
+      "name": "Sikipha",
+      "number": 255,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 256,
+      "name": "Moonica",
+      "number": 256,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 257,
+      "name": "Moonette",
+      "number": 257,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 258,
+      "name": "Lunabelle",
+      "number": 258,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 259,
+      "name": "Sae",
+      "number": 259,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 260,
+      "name": "Palsae",
+      "number": 260,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 261,
+      "name": "Dalsae",
+      "number": 261,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 262,
+      "name": "Omentic",
+      "number": 262,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 263,
+      "name": "Omepark",
+      "number": 263,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 264,
+      "name": "Omecharge",
+      "number": 264,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 265,
+      "name": "Yummo",
+      "number": 265,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 266,
+      "name": "Yomnom",
+      "number": 266,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 267,
+      "name": "Glunch",
+      "number": 267,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 268,
+      "name": "Muu",
+      "number": 268,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 269,
+      "name": "Carcaros",
+      "number": 269,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 270,
+      "name": "Immortis",
+      "number": 270,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 271,
+      "name": "Paupo",
+      "number": 271,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 272,
+      "name": "Arispauva",
+      "number": 272,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 273,
+      "name": "Tantrunt",
+      "number": 273,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 274,
+      "name": "Grath",
+      "number": 274,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 275,
+      "name": "Mermella",
+      "number": 275,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 276,
+      "name": "Sirnymfa",
+      "number": 276,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 277,
+      "name": "Algon",
+      "number": 277,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 278,
+      "name": "Reeferus",
+      "number": 278,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 279,
+      "name": "Waser",
+      "number": 279,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 280,
+      "name": "Wargoyle",
+      "number": 280,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 281,
+      "name": "Glidlee",
+      "number": 281,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 282,
+      "name": "Sorvian",
+      "number": 282,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 283,
+      "name": "Smanic",
+      "number": 283,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 284,
+      "name": "Resonic",
+      "number": 284,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 285,
+      "name": "Lovinu",
+      "number": 285,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 286,
+      "name": "Lovidovi",
+      "number": 286,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 287,
+      "name": "Lurkost",
+      "number": 287,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 288,
+      "name": "Lurkennie",
+      "number": 288,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 289,
+      "name": "Rapnux",
+      "number": 289,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 290,
+      "name": "Boilgog",
+      "number": 290,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 291,
+      "name": "Antarzen",
+      "number": 291,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 292,
+      "name": "Florozard",
+      "number": 292,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 293,
+      "name": "Blizstrong",
+      "number": 293,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 294,
+      "name": "Hyphoon",
+      "number": 294,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 295,
+      "name": "Goblat",
+      "number": 295,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 296,
+      "name": "Divette",
+      "number": 296,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 297,
+      "name": "Gradow",
+      "number": 297,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 298,
+      "name": "Basil",
+      "number": 298,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 299,
+      "name": "Wysil",
+      "number": 299,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 300,
+      "name": "Tarragon",
+      "number": 300,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 301,
+      "name": "Drare",
+      "number": 301,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 302,
+      "name": "Ignigon",
+      "number": 302,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 303,
+      "name": "Acegon",
+      "number": 303,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 304,
+      "name": "Cryzzard",
+      "number": 304,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 305,
+      "name": "Blizzarm",
+      "number": 305,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 306,
+      "name": "Blizzaur",
+      "number": 306,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 307,
+      "name": "Briar",
+      "number": 307,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 308,
+      "name": "Chaparral",
+      "number": 308,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 309,
+      "name": "Foreer",
+      "number": 309,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 310,
+      "name": "Oren",
+      "number": 310,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 311,
+      "name": "Orgot",
+      "number": 311,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 312,
+      "name": "Oregoon",
+      "number": 312,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 313,
+      "name": "Flotter",
+      "number": 313,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 314,
+      "name": "Dratter",
+      "number": 314,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 315,
+      "name": "Furrygon",
+      "number": 315,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 316,
+      "name": "Volt",
+      "number": 316,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 317,
+      "name": "Volnamic",
+      "number": 317,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 318,
+      "name": "Voltaic",
+      "number": 318,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 319,
+      "name": "Wadgon",
+      "number": 319,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 320,
+      "name": "Wadtail",
+      "number": 320,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 321,
+      "name": "Horget",
+      "number": 321,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 322,
+      "name": "Deyam",
+      "number": 322,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 323,
+      "name": "Deyama",
+      "number": 323,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 324,
+      "name": "Phantra",
+      "number": 324,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 325,
+      "name": "Dinja",
+      "number": 325,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 326,
+      "name": "Dichala",
+      "number": 326,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 327,
+      "name": "Namansi",
+      "number": 327,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 328,
+      "name": "Lume",
+      "number": 328,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 329,
+      "name": "Lumefur",
+      "number": 329,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 330,
+      "name": "Lumerei",
+      "number": 330,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 331,
+      "name": "Noki",
+      "number": 331,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 332,
+      "name": "Vainok",
+      "number": 332,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 333,
+      "name": "Hainok",
+      "number": 333,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 334,
+      "name": "Mara",
+      "number": 334,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 335,
+      "name": "Marasuma",
+      "number": 335,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 336,
+      "name": "Raksuma",
+      "number": 336,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 337,
+      "name": "Trebly",
+      "number": 337,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 338,
+      "name": "Treclay",
+      "number": 338,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 339,
+      "name": "Tresaur",
+      "number": 339,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 340,
+      "name": "Mearn",
+      "number": 340,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 341,
+      "name": "Felarnia",
+      "number": 341,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 342,
+      "name": "Yarnesty",
+      "number": 342,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 343,
+      "name": "Gekoko",
+      "number": 343,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 344,
+      "name": "Kamelevo",
+      "number": 344,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 345,
+      "name": "Reptomotor",
+      "number": 345,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 346,
+      "name": "Masquiti",
+      "number": 346,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 347,
+      "name": "Masqat",
+      "number": 347,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 348,
+      "name": "Feliblanqo",
+      "number": 348,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 349,
+      "name": "Behilda",
+      "number": 349,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 350,
+      "name": "Heddeca",
+      "number": 350,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 351,
+      "name": "Noocidal",
+      "number": 351,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 352,
+      "name": "Wyverne",
+      "number": 352,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 353,
+      "name": "Dracon",
+      "number": 353,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 354,
+      "name": "Glamond",
+      "number": 354,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 355,
+      "name": "Boscage",
+      "number": 355,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 356,
+      "name": "Graloon",
+      "number": 356,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 357,
+      "name": "Tyrake",
+      "number": 357,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 358,
+      "name": "Volta",
+      "number": 358,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 359,
+      "name": "Mystogen",
+      "number": 359,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 360,
+      "name": "Krainnull",
+      "number": 360,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 361,
+      "name": "Byeol",
+      "number": 361,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 362,
+      "name": "Mulcimer",
+      "number": 362,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 363,
+      "name": "Nivalis",
+      "number": 363,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 364,
+      "name": "Tikala",
+      "number": 364,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 365,
+      "name": "Petram",
+      "number": 365,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 366,
+      "name": "Eurus",
+      "number": 366,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 367,
+      "name": "Bolzen",
+      "number": 367,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 368,
+      "name": "Ziegler",
+      "number": 368,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 369,
+      "name": "Fona",
+      "number": 369,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 370,
+      "name": "Arqua",
+      "number": 370,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 371,
+      "name": "Nara",
+      "number": 371,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 372,
+      "name": "Grunda",
+      "number": 372,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 373,
+      "name": "Ventra",
+      "number": 373,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 374,
+      "name": "Luxa",
+      "number": 374,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 375,
+      "name": "Darine",
+      "number": 375,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 376,
+      "name": "Titan",
+      "number": 376,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 377,
+      "name": "Fane",
+      "number": 377,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 378,
+      "name": "Protovados",
+      "number": 378,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 379,
+      "name": "Vados",
+      "number": 379,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 380,
+      "name": "Solus",
+      "number": 380,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 381,
+      "name": "Omnisun",
+      "number": 381,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    },
+    {
+      "nexomonId": 382,
+      "name": "Abbadog",
+      "number": 382,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 383,
+      "name": "Arctivore",
+      "number": 383,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 384,
+      "name": "Bogarp",
+      "number": 384,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 385,
+      "name": "Broshield",
+      "number": 385,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 386,
+      "name": "Columbra",
+      "number": 386,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 387,
+      "name": "Felicient",
+      "number": 387,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 388,
+      "name": "Ferodile",
+      "number": 388,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 389,
+      "name": "Froppe",
+      "number": 389,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 390,
+      "name": "Hurristag",
+      "number": 390,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 391,
+      "name": "Kromatice",
+      "number": 391,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 392,
+      "name": "Lycopain",
+      "number": 392,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 393,
+      "name": "Mistralion",
+      "number": 393,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 394,
+      "name": "Raamu",
+      "number": 394,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 395,
+      "name": "Resonect",
+      "number": 395,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 396,
+      "name": "Torrex",
+      "number": 396,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 397,
+      "name": "Trondle",
+      "number": 397,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 398,
+      "name": "Vaprat",
+      "number": 398,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 399,
+      "name": "Voltosfere",
+      "number": 399,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 400,
+      "name": "Weavolt",
+      "number": 400,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 401,
+      "name": "Wiselie",
+      "number": 401,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 402,
+      "name": "Bedam",
+      "number": 402,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 403,
+      "name": "Carnagrius",
+      "number": 403,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 404,
+      "name": "Prismazor",
+      "number": 404,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 405,
+      "name": "Jeeta",
+      "number": 405,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 406,
+      "name": "Gemeen",
+      "number": 406,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 407,
+      "name": "Maraudin",
+      "number": 407,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 408,
+      "name": "Tephragon",
+      "number": 408,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 409,
+      "name": "Frominence",
+      "number": 409,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 410,
+      "name": "Mandrass",
+      "number": 410,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 411,
+      "name": "Luhava",
+      "number": 411,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 412,
+      "name": "Hexia",
+      "number": 412,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 413,
+      "name": "Krowr",
+      "number": 413,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 414,
+      "name": "Ogoon",
+      "number": 414,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 415,
+      "name": "Agita",
+      "number": 415,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 416,
+      "name": "Anima",
+      "number": 416,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 417,
+      "name": "Fulmina",
+      "number": 417,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 418,
+      "name": "Gurgita",
+      "number": 418,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 419,
+      "name": "Helovolk",
+      "number": 419,
+      "nexomonType": "Fire",
+      "nexomonTypeId": 2
+    },
+    {
+      "nexomonId": 420,
+      "name": "Volcel",
+      "number": 420,
+      "nexomonType": "Electric",
+      "nexomonTypeId": 7
+    },
+    {
+      "nexomonId": 421,
+      "name": "Caelesa",
+      "number": 421,
+      "nexomonType": "Normal",
+      "nexomonTypeId": 1
+    },
+    {
+      "nexomonId": 422,
+      "name": "Pluvean",
+      "number": 422,
+      "nexomonType": "Water",
+      "nexomonTypeId": 3
+    },
+    {
+      "nexomonId": 423,
+      "name": "Inominox",
+      "number": 423,
+      "nexomonType": "Wind",
+      "nexomonTypeId": 6
+    },
+    {
+      "nexomonId": 424,
+      "name": "Rotramus",
+      "number": 424,
+      "nexomonType": "Plant",
+      "nexomonTypeId": 4
+    },
+    {
+      "nexomonId": 425,
+      "name": "Kroma",
+      "number": 425,
+      "nexomonType": "Ghost",
+      "nexomonTypeId": 9
+    },
+    {
+      "nexomonId": 426,
+      "name": "Braccus",
+      "number": 426,
+      "nexomonType": "Mineral",
+      "nexomonTypeId": 5
+    },
+    {
+      "nexomonId": 427,
+      "name": "Venefelis",
+      "number": 427,
+      "nexomonType": "Psychic",
+      "nexomonTypeId": 8
+    }
+  ]

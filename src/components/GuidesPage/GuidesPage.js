@@ -41,15 +41,15 @@ export const GuidesPage = () => {
               <thead>
                 <tr>
                   <th>Type</th>
-                  <th>Normal</th>
-                  <th>Fire</th>
-                  <th>Water</th>
-                  <th>Plant</th>
-                  <th>Wind</th>
-                  <th>Electric</th>
-                  <th>Mineral</th>
-                  <th>Ghost</th>
-                  <th>Psychic</th>
+                  <th>Normal <img className="element-img" src="db/extinction/images/elements/normal.png" alt="Normal"/></th>
+                  <th>Fire <img className="element-img" src="db/extinction/images/elements/fire.png" alt="Fire"/></th>
+                  <th>Water <img className="element-img" src="db/extinction/images/elements/water.png" alt="Water"/></th>
+                  <th>Plant <img className="element-img" src="db/extinction/images/elements/plant.png" alt="Plant"/></th>
+                  <th>Wind <img className="element-img" src="db/extinction/images/elements/wind.png" alt="Wind"/></th>
+                  <th>Electric <img className="element-img" src="db/extinction/images/elements/electric.png" alt="Electric"/></th>
+                  <th>Mineral <img className="element-img" src="db/extinction/images/elements/mineral.png" alt="Mineral"/></th>
+                  <th>Ghost <img className="element-img" src="db/extinction/images/elements/ghost.png" alt="Ghost"/></th>
+                  <th>Psychic <img className="element-img" src="db/extinction/images/elements/psychic.png" alt="Psychic"/></th>
                 </tr>
               </thead>
               <tbody>
@@ -65,10 +65,11 @@ export const GuidesPage = () => {
                     let mineral = element.mineral;
                     let ghost = element.ghost;
                     let psychic = element.psychic;
+                    let elementImagePath = "db/extinction/images/elements/" + displayType + ".png";
 
                     return (
                       <tr>
-                        <td>{displayType}</td>
+                        <td>{displayType} <img className="element-img" src={elementImagePath} alt={displayType} /></td>
                         <td>{normal}</td>
                         <td>{fire}</td>
                         <td>{water}</td>
@@ -91,6 +92,7 @@ export const GuidesPage = () => {
           <thead>
             <tr>
               <th>Status</th>
+              <th>Sprite</th>
               <th>Description</th>
             </tr>
           </thead>
@@ -99,10 +101,12 @@ export const GuidesPage = () => {
               statusData.map( (status) => {
                 let effect = status.effect;
                 let description = status.description;
+                let statusImagePath = "db/extinction/images/status/" + effect.replace(/\s+/g, '-').toLowerCase() + ".png";
 
                 return (
                   <tr>
                     <td>{effect}</td>
+                    <td className="status-img"><img src={statusImagePath} alt={effect} /></td>
                     <td>{description}</td>
                   </tr>
                 )
@@ -115,13 +119,21 @@ export const GuidesPage = () => {
         <h6 className='display-6' id="vaults-title">Spencer's Vault and Key Locations</h6>
         <h6>Keys:</h6>
         <table className="table table-bordered table-dark table-sm" id="key-table">
+          <thead>
+            <tr>
+              <th>Key #</th>
+              <th>Location</th>
+            </tr>
+          </thead>
           <tbody>
             {
               keyData.map( (key) => {
+                let keyNumber = key.keyId;
                 let keyLocation = key.location;
 
                 return (
                   <tr>
+                    <td>{keyNumber}</td>
                     <td>{keyLocation}</td>
                   </tr>
                 )
@@ -134,6 +146,7 @@ export const GuidesPage = () => {
         <table className='table table-bordered table-dark table-sm' id="vault-table">
           <thead>
             <tr>
+              <th>Vault #</th>
               <th>Location</th>
               <th>Rewards</th>
             </tr>
@@ -141,11 +154,13 @@ export const GuidesPage = () => {
           <tbody>
             {
               vaultData.map( (vault) => {
+                let vaultNumber = vault.vaultId;
                 let vaultLocation = vault.location;
                 let vaultContents = vault.contents;
 
                   return (
                     <tr>
+                      <td>{vaultNumber}</td>
                       <td>{vaultLocation}</td>
                       <td>{vaultContents}</td>
                     </tr>

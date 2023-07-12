@@ -25,6 +25,14 @@
     text-align: center;
 }
 
+.element-img {
+    width: 30px;
+}
+
+.status-img {
+    width: 50px;
+}
+
 @media (max-width:620px) {
     #type-table {
         font-size: 8px;

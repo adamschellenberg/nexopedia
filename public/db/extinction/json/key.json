@@ -1,0 +1,38 @@
+[
+    {
+      "keyId": 1,
+      "location": "Beginning of the game, behind the orphanage. Salem wants to play."
+    },
+    {
+      "keyId": 2,
+      "location": "Parum City, and old lady with a broom wants you to clean the city."
+    },
+    {
+      "keyId": 3,
+      "location": "Frozen Tundra, lady behind guild counter, explore a cave with a ghost in it."
+    },
+    {
+      "keyId": 4,
+      "location": "Frozen Tundra, a guy freezing wants an Imburion and Glontern."
+    },
+    {
+      "keyId": 5,
+      "location": "On the bridge to the lower Frozen Tundra, a girl lost her wedding ring east of Lateria."
+    },
+    {
+      "keyId": 6,
+      "location": "Dragon Isles, to the left where the researchers house is. He wants a Namansi."
+    },
+    {
+      "keyId": 7,
+      "location": "Talking tree in the spooky forest, he wants two Nexomon."
+    },
+    {
+      "keyId": 8,
+      "location": "News reporter in Ignitia after beating the tyrant."
+    },
+    {
+      "keyId": 9,
+      "location": "Obtaining by completing the Immortal Citadel portion of the story."
+    }
+  ]

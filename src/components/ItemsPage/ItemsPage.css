@@ -18,3 +18,16 @@
     font-weight: bolder;
     margin-top: 40px;
 }
+
+.name-column {
+    width: 140px;
+}
+
+.sprite-column {
+    width: 60px;
+}
+
+.sprite-img {
+    width: 50px;
+}
+

@@ -1,0 +1,1552 @@
+[
+  {
+    "database": "001",
+    "name": "Platyfoo",
+    "type": "Normal"
+  },
+  {
+    "database": "002",
+    "name": "Gnob",
+    "type": "Mineral"
+  },
+  {
+    "database": "003",
+    "name": "Hobyn",
+    "type": "Wind"
+  },
+  {
+    "database": "004",
+    "name": "Algamaid",
+    "type": "Water"
+  },
+  {
+    "database": "005",
+    "name": "Pira",
+    "type": "Fire"
+  },
+  {
+    "database": "006",
+    "name": "Golematon",
+    "type": "Electric"
+  },
+  {
+    "database": "007",
+    "name": "Toxipore",
+    "type": "Plant"
+  },
+  {
+    "database": "008",
+    "name": "Pandicub",
+    "type": "Normal"
+  },
+  {
+    "database": "009",
+    "name": "Gorgonita",
+    "type": "Mineral"
+  },
+  {
+    "database": "010",
+    "name": "Flybuster",
+    "type": "Wind"
+  },
+  {
+    "database": "011",
+    "name": "Fropip",
+    "type": "Water"
+  },
+  {
+    "database": "012",
+    "name": "Ignia",
+    "type": "Fire"
+  },
+  {
+    "database": "013",
+    "name": "Shashock",
+    "type": "Electric"
+  },
+  {
+    "database": "014",
+    "name": "Spina",
+    "type": "Plant"
+  },
+  {
+    "database": "015",
+    "name": "Flexel",
+    "type": "Normal"
+  },
+  {
+    "database": "016",
+    "name": "Tyregg",
+    "type": "Mineral"
+  },
+  {
+    "database": "017",
+    "name": "Stoogu",
+    "type": "Wind"
+  },
+  {
+    "database": "018",
+    "name": "Perleo",
+    "type": "Water"
+  },
+  {
+    "database": "019",
+    "name": "Bulken",
+    "type": "Fire"
+  },
+  {
+    "database": "020",
+    "name": "Kiklick",
+    "type": "Electric"
+  },
+  {
+    "database": "021",
+    "name": "Florantis",
+    "type": "Plant"
+  },
+  {
+    "database": "022",
+    "name": "Camoleon",
+    "type": "Normal"
+  },
+  {
+    "database": "023",
+    "name": "Fanfrou",
+    "type": "Mineral"
+  },
+  {
+    "database": "024",
+    "name": "Arigami",
+    "type": "Wind"
+  },
+  {
+    "database": "025",
+    "name": "Turbina",
+    "type": "Water"
+  },
+  {
+    "database": "026",
+    "name": "Nekomba",
+    "type": "Fire"
+  },
+  {
+    "database": "027",
+    "name": "Emotel",
+    "type": "Electric"
+  },
+  {
+    "database": "028",
+    "name": "Tryflap",
+    "type": "Plant"
+  },
+  {
+    "database": "029",
+    "name": "Scurrel",
+    "type": "Normal"
+  },
+  {
+    "database": "030",
+    "name": "Digga",
+    "type": "Mineral"
+  },
+  {
+    "database": "031",
+    "name": "Parrpy",
+    "type": "Wind"
+  },
+  {
+    "database": "032",
+    "name": "Bowish",
+    "type": "Water"
+  },
+  {
+    "database": "033",
+    "name": "Candrama",
+    "type": "Fire"
+  },
+  {
+    "database": "034",
+    "name": "Replicanti",
+    "type": "Electric"
+  },
+  {
+    "database": "035",
+    "name": "Saxia",
+    "type": "Plant"
+  },
+  {
+    "database": "036",
+    "name": "Arnut",
+    "type": "Normal"
+  },
+  {
+    "database": "037",
+    "name": "Nutchok",
+    "type": "Normal"
+  },
+  {
+    "database": "038",
+    "name": "Durtworm",
+    "type": "Mineral"
+  },
+  {
+    "database": "039",
+    "name": "Dethwurm",
+    "type": "Mineral"
+  },
+  {
+    "database": "040",
+    "name": "Breeshy",
+    "type": "Wind"
+  },
+  {
+    "database": "041",
+    "name": "Skoi",
+    "type": "Wind"
+  },
+  {
+    "database": "042",
+    "name": "Trampole",
+    "type": "Water"
+  },
+  {
+    "database": "043",
+    "name": "Frogue",
+    "type": "Water"
+  },
+  {
+    "database": "044",
+    "name": "Charoon",
+    "type": "Fire"
+  },
+  {
+    "database": "045",
+    "name": "Parchyon",
+    "type": "Fire"
+  },
+  {
+    "database": "046",
+    "name": "Amphant",
+    "type": "Electric"
+  },
+  {
+    "database": "047",
+    "name": "Boltusk",
+    "type": "Electric"
+  },
+  {
+    "database": "048",
+    "name": "Polenblom",
+    "type": "Plant"
+  },
+  {
+    "database": "049",
+    "name": "Polerina",
+    "type": "Plant"
+  },
+  {
+    "database": "050",
+    "name": "Mudlug",
+    "type": "Normal"
+  },
+  {
+    "database": "051",
+    "name": "Grumug",
+    "type": "Normal"
+  },
+  {
+    "database": "052",
+    "name": "Molobomb",
+    "type": "Mineral"
+  },
+  {
+    "database": "053",
+    "name": "Excavat",
+    "type": "Mineral"
+  },
+  {
+    "database": "054",
+    "name": "Chirpoint",
+    "type": "Wind"
+  },
+  {
+    "database": "055",
+    "name": "Vanarosta",
+    "type": "Wind"
+  },
+  {
+    "database": "056",
+    "name": "Furpy",
+    "type": "Water"
+  },
+  {
+    "database": "057",
+    "name": "Walnormous",
+    "type": "Water"
+  },
+  {
+    "database": "058",
+    "name": "Kindala",
+    "type": "Fire"
+  },
+  {
+    "database": "059",
+    "name": "Serala",
+    "type": "Fire"
+  },
+  {
+    "database": "060",
+    "name": "Robatt",
+    "type": "Electric"
+  },
+  {
+    "database": "061",
+    "name": "Francelstud",
+    "type": "Electric"
+  },
+  {
+    "database": "062",
+    "name": "Cactino",
+    "type": "Plant"
+  },
+  {
+    "database": "063",
+    "name": "Cacteone",
+    "type": "Plant"
+  },
+  {
+    "database": "064",
+    "name": "Monkapow",
+    "type": "Normal"
+  },
+  {
+    "database": "065",
+    "name": "Grush",
+    "type": "Normal"
+  },
+  {
+    "database": "066",
+    "name": "Terbite",
+    "type": "Mineral"
+  },
+  {
+    "database": "067",
+    "name": "Scizarina",
+    "type": "Mineral"
+  },
+  {
+    "database": "068",
+    "name": "Silkmaid",
+    "type": "Wind"
+  },
+  {
+    "database": "069",
+    "name": "Weabride",
+    "type": "Wind"
+  },
+  {
+    "database": "070",
+    "name": "Pentapus",
+    "type": "Water"
+  },
+  {
+    "database": "071",
+    "name": "Hexopus",
+    "type": "Water"
+  },
+  {
+    "database": "072",
+    "name": "Flaminglo",
+    "type": "Fire"
+  },
+  {
+    "database": "073",
+    "name": "Flaringo",
+    "type": "Fire"
+  },
+  {
+    "database": "074",
+    "name": "Eele",
+    "type": "Electric"
+  },
+  {
+    "database": "075",
+    "name": "Eelowatt",
+    "type": "Electric"
+  },
+  {
+    "database": "076",
+    "name": "Cordyant",
+    "type": "Plant"
+  },
+  {
+    "database": "077",
+    "name": "Zombyant",
+    "type": "Plant"
+  },
+  {
+    "database": "078",
+    "name": "Thrano",
+    "type": "Normal"
+  },
+  {
+    "database": "079",
+    "name": "Onsloceros",
+    "type": "Normal"
+  },
+  {
+    "database": "080",
+    "name": "Dunefin",
+    "type": "Mineral"
+  },
+  {
+    "database": "081",
+    "name": "Sharnoll",
+    "type": "Mineral"
+  },
+  {
+    "database": "082",
+    "name": "Miglet",
+    "type": "Wind"
+  },
+  {
+    "database": "083",
+    "name": "Moink",
+    "type": "Wind"
+  },
+  {
+    "database": "084",
+    "name": "Venemona",
+    "type": "Water"
+  },
+  {
+    "database": "085",
+    "name": "Venowar",
+    "type": "Water"
+  },
+  {
+    "database": "086",
+    "name": "Flandle",
+    "type": "Fire"
+  },
+  {
+    "database": "087",
+    "name": "Thermofly",
+    "type": "Fire"
+  },
+  {
+    "database": "088",
+    "name": "Jellufo",
+    "type": "Electric"
+  },
+  {
+    "database": "089",
+    "name": "Jellien",
+    "type": "Electric"
+  },
+  {
+    "database": "090",
+    "name": "Dandelloon",
+    "type": "Plant"
+  },
+  {
+    "database": "091",
+    "name": "Dandemill",
+    "type": "Plant"
+  },
+  {
+    "database": "092",
+    "name": "Alpoca",
+    "type": "Normal"
+  },
+  {
+    "database": "093",
+    "name": "Alpania",
+    "type": "Normal"
+  },
+  {
+    "database": "094",
+    "name": "Gemir",
+    "type": "Mineral"
+  },
+  {
+    "database": "095",
+    "name": "Gemeen",
+    "type": "Mineral"
+  },
+  {
+    "database": "096",
+    "name": "Fowling",
+    "type": "Wind"
+  },
+  {
+    "database": "097",
+    "name": "Suavian",
+    "type": "Wind"
+  },
+  {
+    "database": "098",
+    "name": "Mellow",
+    "type": "Water"
+  },
+  {
+    "database": "099",
+    "name": "Twillow",
+    "type": "Water"
+  },
+  {
+    "database": 100,
+    "name": "Drash",
+    "type": "Fire"
+  },
+  {
+    "database": 101,
+    "name": "Tephragon",
+    "type": "Fire"
+  },
+  {
+    "database": 102,
+    "name": "Kyte",
+    "type": "Electric"
+  },
+  {
+    "database": 103,
+    "name": "Satray",
+    "type": "Electric"
+  },
+  {
+    "database": 104,
+    "name": "Sprouti",
+    "type": "Plant"
+  },
+  {
+    "database": 105,
+    "name": "Lantora",
+    "type": "Plant"
+  },
+  {
+    "database": 106,
+    "name": "Ratapon",
+    "type": "Normal"
+  },
+  {
+    "database": 107,
+    "name": "Ratatusk",
+    "type": "Normal"
+  },
+  {
+    "database": 108,
+    "name": "Aulot",
+    "type": "Mineral"
+  },
+  {
+    "database": 109,
+    "name": "Aulion",
+    "type": "Mineral"
+  },
+  {
+    "database": 110,
+    "name": "Silkpha",
+    "type": "Wind"
+  },
+  {
+    "database": 111,
+    "name": "Pharamoth",
+    "type": "Wind"
+  },
+  {
+    "database": 112,
+    "name": "Seatail",
+    "type": "Water"
+  },
+  {
+    "database": 113,
+    "name": "Seatusk",
+    "type": "Water"
+  },
+  {
+    "database": 114,
+    "name": "Bozofin",
+    "type": "Fire"
+  },
+  {
+    "database": 115,
+    "name": "Drakuza",
+    "type": "Fire"
+  },
+  {
+    "database": 116,
+    "name": "Vultic",
+    "type": "Electric"
+  },
+  {
+    "database": 117,
+    "name": "Enerfox",
+    "type": "Electric"
+  },
+  {
+    "database": 118,
+    "name": "Seedread",
+    "type": "Plant"
+  },
+  {
+    "database": 119,
+    "name": "Hollowretch",
+    "type": "Plant"
+  },
+  {
+    "database": 120,
+    "name": "Mustino",
+    "type": "Normal"
+  },
+  {
+    "database": 121,
+    "name": "Fuzztino",
+    "type": "Normal"
+  },
+  {
+    "database": 122,
+    "name": "Bunrock",
+    "type": "Mineral"
+  },
+  {
+    "database": 123,
+    "name": "Boxrock",
+    "type": "Mineral"
+  },
+  {
+    "database": 124,
+    "name": "Nightite",
+    "type": "Wind"
+  },
+  {
+    "database": 125,
+    "name": "Nocgoyle",
+    "type": "Wind"
+  },
+  {
+    "database": 126,
+    "name": "Blurk",
+    "type": "Water"
+  },
+  {
+    "database": 127,
+    "name": "Spurk",
+    "type": "Water"
+  },
+  {
+    "database": 128,
+    "name": "Igneamp",
+    "type": "Fire"
+  },
+  {
+    "database": 129,
+    "name": "Lavamp",
+    "type": "Fire"
+  },
+  {
+    "database": 130,
+    "name": "Honbuzz",
+    "type": "Electric"
+  },
+  {
+    "database": 131,
+    "name": "Emperabee",
+    "type": "Electric"
+  },
+  {
+    "database": 132,
+    "name": "Porapora",
+    "type": "Plant"
+  },
+  {
+    "database": 133,
+    "name": "Mushamusha",
+    "type": "Plant"
+  },
+  {
+    "database": 134,
+    "name": "Treemi",
+    "type": "Normal"
+  },
+  {
+    "database": 135,
+    "name": "Trimion",
+    "type": "Normal"
+  },
+  {
+    "database": 136,
+    "name": "Pincer",
+    "type": "Mineral"
+  },
+  {
+    "database": 137,
+    "name": "Pincertron",
+    "type": "Mineral"
+  },
+  {
+    "database": 138,
+    "name": "Pompatiel",
+    "type": "Wind"
+  },
+  {
+    "database": 139,
+    "name": "Bosdour",
+    "type": "Wind"
+  },
+  {
+    "database": 140,
+    "name": "Azite",
+    "type": "Water"
+  },
+  {
+    "database": 141,
+    "name": "Aziton",
+    "type": "Water"
+  },
+  {
+    "database": 142,
+    "name": "Magpot",
+    "type": "Fire"
+  },
+  {
+    "database": 143,
+    "name": "Magpillar",
+    "type": "Fire"
+  },
+  {
+    "database": 144,
+    "name": "Gervore",
+    "type": "Electric"
+  },
+  {
+    "database": 145,
+    "name": "Vorapest",
+    "type": "Electric"
+  },
+  {
+    "database": 146,
+    "name": "Berawn",
+    "type": "Plant"
+  },
+  {
+    "database": 147,
+    "name": "Kumacho",
+    "type": "Plant"
+  },
+  {
+    "database": 148,
+    "name": "Ventofawn",
+    "type": "Normal"
+  },
+  {
+    "database": 149,
+    "name": "Tornadyr",
+    "type": "Normal"
+  },
+  {
+    "database": 150,
+    "name": "Hurristag",
+    "type": "Normal"
+  },
+  {
+    "database": 151,
+    "name": "Browi",
+    "type": "Mineral"
+  },
+  {
+    "database": 152,
+    "name": "Broduo",
+    "type": "Mineral"
+  },
+  {
+    "database": 153,
+    "name": "Broshield",
+    "type": "Mineral"
+  },
+  {
+    "database": 154,
+    "name": "Owlie",
+    "type": "Wind"
+  },
+  {
+    "database": 155,
+    "name": "Bulie",
+    "type": "Wind"
+  },
+  {
+    "database": 156,
+    "name": "Wiselie",
+    "type": "Wind"
+  },
+  {
+    "database": 157,
+    "name": "Seaguard",
+    "type": "Water"
+  },
+  {
+    "database": 158,
+    "name": "Seadian",
+    "type": "Water"
+  },
+  {
+    "database": 159,
+    "name": "Seaphon",
+    "type": "Water"
+  },
+  {
+    "database": 160,
+    "name": "Trophi",
+    "type": "Fire"
+  },
+  {
+    "database": 161,
+    "name": "Tropite",
+    "type": "Fire"
+  },
+  {
+    "database": 162,
+    "name": "Trondle",
+    "type": "Fire"
+  },
+  {
+    "database": 163,
+    "name": "Stoaic",
+    "type": "Electric"
+  },
+  {
+    "database": 164,
+    "name": "Enermine",
+    "type": "Electric"
+  },
+  {
+    "database": 165,
+    "name": "Weavolt",
+    "type": "Electric"
+  },
+  {
+    "database": 166,
+    "name": "Leafegg",
+    "type": "Plant"
+  },
+  {
+    "database": 167,
+    "name": "Flousper",
+    "type": "Plant"
+  },
+  {
+    "database": 168,
+    "name": "Floreus",
+    "type": "Plant"
+  },
+  {
+    "database": 169,
+    "name": "Basten",
+    "type": "Normal"
+  },
+  {
+    "database": 170,
+    "name": "Felynth",
+    "type": "Normal"
+  },
+  {
+    "database": 171,
+    "name": "Felicient",
+    "type": "Normal"
+  },
+  {
+    "database": 172,
+    "name": "Cavel",
+    "type": "Mineral"
+  },
+  {
+    "database": 173,
+    "name": "Dromeruf",
+    "type": "Mineral"
+  },
+  {
+    "database": 174,
+    "name": "Moundrain",
+    "type": "Mineral"
+  },
+  {
+    "database": 175,
+    "name": "Chicolo",
+    "type": "Wind"
+  },
+  {
+    "database": 176,
+    "name": "Spectrice",
+    "type": "Wind"
+  },
+  {
+    "database": 177,
+    "name": "Kromatice",
+    "type": "Wind"
+  },
+  {
+    "database": 178,
+    "name": "Ballery",
+    "type": "Water"
+  },
+  {
+    "database": 179,
+    "name": "Sliffery",
+    "type": "Water"
+  },
+  {
+    "database": 180,
+    "name": "Bogarp",
+    "type": "Water"
+  },
+  {
+    "database": 181,
+    "name": "Barky",
+    "type": "Fire"
+  },
+  {
+    "database": 182,
+    "name": "Barkrunch",
+    "type": "Fire"
+  },
+  {
+    "database": 183,
+    "name": "Abaddog",
+    "type": "Fire"
+  },
+  {
+    "database": 184,
+    "name": "Cronic",
+    "type": "Electric"
+  },
+  {
+    "database": 185,
+    "name": "Sonicoco",
+    "type": "Electric"
+  },
+  {
+    "database": 186,
+    "name": "Resonect",
+    "type": "Electric"
+  },
+  {
+    "database": 187,
+    "name": "Hoppeti",
+    "type": "Plant"
+  },
+  {
+    "database": 188,
+    "name": "Shrubbit",
+    "type": "Plant"
+  },
+  {
+    "database": 189,
+    "name": "Lagorove",
+    "type": "Plant"
+  },
+  {
+    "database": 190,
+    "name": "Roohopu",
+    "type": "Normal"
+  },
+  {
+    "database": 191,
+    "name": "Rooskipa",
+    "type": "Normal"
+  },
+  {
+    "database": 192,
+    "name": "Jampa",
+    "type": "Normal"
+  },
+  {
+    "database": 193,
+    "name": "Obelink",
+    "type": "Mineral"
+  },
+  {
+    "database": 194,
+    "name": "Monexus",
+    "type": "Mineral"
+  },
+  {
+    "database": 195,
+    "name": "Monolix",
+    "type": "Mineral"
+  },
+  {
+    "database": 196,
+    "name": "Sylphi",
+    "type": "Wind"
+  },
+  {
+    "database": 197,
+    "name": "Vozette",
+    "type": "Wind"
+  },
+  {
+    "database": 198,
+    "name": "Idolette",
+    "type": "Wind"
+  },
+  {
+    "database": 199,
+    "name": "Tycroc",
+    "type": "Water"
+  },
+  {
+    "database": 200,
+    "name": "Gnaligator",
+    "type": "Water"
+  },
+  {
+    "database": 201,
+    "name": "Ferodile",
+    "type": "Water"
+  },
+  {
+    "database": 202,
+    "name": "Fumous",
+    "type": "Fire"
+  },
+  {
+    "database": 203,
+    "name": "Steamous",
+    "type": "Fire"
+  },
+  {
+    "database": 204,
+    "name": "Vaprat",
+    "type": "Fire"
+  },
+  {
+    "database": 205,
+    "name": "Clobolt",
+    "type": "Electric"
+  },
+  {
+    "database": 206,
+    "name": "Clunder",
+    "type": "Electric"
+  },
+  {
+    "database": 207,
+    "name": "Nimburst",
+    "type": "Electric"
+  },
+  {
+    "database": 208,
+    "name": "Tinito",
+    "type": "Plant"
+  },
+  {
+    "database": 209,
+    "name": "Tomathorn",
+    "type": "Plant"
+  },
+  {
+    "database": 210,
+    "name": "Lycopain",
+    "type": "Plant"
+  },
+  {
+    "database": 211,
+    "name": "Hissa",
+    "type": "Normal"
+  },
+  {
+    "database": 212,
+    "name": "Slithera",
+    "type": "Normal"
+  },
+  {
+    "database": 213,
+    "name": "Columbra",
+    "type": "Normal"
+  },
+  {
+    "database": 214,
+    "name": "Rafodillo",
+    "type": "Mineral"
+  },
+  {
+    "database": 215,
+    "name": "Scabrillo",
+    "type": "Mineral"
+  },
+  {
+    "database": 216,
+    "name": "Cragodillo",
+    "type": "Mineral"
+  },
+  {
+    "database": 217,
+    "name": "Angalo",
+    "type": "Wind"
+  },
+  {
+    "database": 218,
+    "name": "Seraforna",
+    "type": "Wind"
+  },
+  {
+    "database": 219,
+    "name": "Angelique",
+    "type": "Wind"
+  },
+  {
+    "database": 220,
+    "name": "Sheral",
+    "type": "Water"
+  },
+  {
+    "database": 221,
+    "name": "Shereef",
+    "type": "Water"
+  },
+  {
+    "database": 222,
+    "name": "Shermit",
+    "type": "Water"
+  },
+  {
+    "database": 223,
+    "name": "Heifry",
+    "type": "Fire"
+  },
+  {
+    "database": 224,
+    "name": "Hamoo",
+    "type": "Fire"
+  },
+  {
+    "database": 225,
+    "name": "Bovicue",
+    "type": "Fire"
+  },
+  {
+    "database": 226,
+    "name": "Magnego",
+    "type": "Electric"
+  },
+  {
+    "database": 227,
+    "name": "Magnymph",
+    "type": "Electric"
+  },
+  {
+    "database": 228,
+    "name": "Magonfly",
+    "type": "Electric"
+  },
+  {
+    "database": 229,
+    "name": "Mandrass",
+    "type": "Plant"
+  },
+  {
+    "database": 230,
+    "name": "Mandrove",
+    "type": "Plant"
+  },
+  {
+    "database": 231,
+    "name": "Manzan",
+    "type": "Plant"
+  },
+  {
+    "database": 232,
+    "name": "Cotondee",
+    "type": "Normal"
+  },
+  {
+    "database": 233,
+    "name": "Taffaca",
+    "type": "Normal"
+  },
+  {
+    "database": 234,
+    "name": "Froppe",
+    "type": "Normal"
+  },
+  {
+    "database": 235,
+    "name": "Rocstrich",
+    "type": "Mineral"
+  },
+  {
+    "database": 236,
+    "name": "Jagstrich",
+    "type": "Mineral"
+  },
+  {
+    "database": 237,
+    "name": "Ostridge",
+    "type": "Mineral"
+  },
+  {
+    "database": 238,
+    "name": "Toka",
+    "type": "Wind"
+  },
+  {
+    "database": 239,
+    "name": "Bilabeka",
+    "type": "Wind"
+  },
+  {
+    "database": 240,
+    "name": "Aristokan",
+    "type": "Wind"
+  },
+  {
+    "database": 241,
+    "name": "Floatle",
+    "type": "Water"
+  },
+  {
+    "database": 242,
+    "name": "Driftle",
+    "type": "Water"
+  },
+  {
+    "database": 243,
+    "name": "Tirtrauma",
+    "type": "Water"
+  },
+  {
+    "database": 244,
+    "name": "Kindeor",
+    "type": "Fire"
+  },
+  {
+    "database": 245,
+    "name": "Asteor",
+    "type": "Fire"
+  },
+  {
+    "database": 246,
+    "name": "Stelmo",
+    "type": "Fire"
+  },
+  {
+    "database": 247,
+    "name": "Clinkey",
+    "type": "Electric"
+  },
+  {
+    "database": 248,
+    "name": "Gritch",
+    "type": "Electric"
+  },
+  {
+    "database": 249,
+    "name": "Malfunctor",
+    "type": "Electric"
+  },
+  {
+    "database": 250,
+    "name": "Cheekmunk",
+    "type": "Plant"
+  },
+  {
+    "database": 251,
+    "name": "Cheekmunch",
+    "type": "Plant"
+  },
+  {
+    "database": 252,
+    "name": "Hoardent",
+    "type": "Plant"
+  },
+  {
+    "database": 253,
+    "name": "Fleecius",
+    "type": "Normal"
+  },
+  {
+    "database": 254,
+    "name": "Shrepian",
+    "type": "Normal"
+  },
+  {
+    "database": 255,
+    "name": "Raamu",
+    "type": "Normal"
+  },
+  {
+    "database": 256,
+    "name": "Frulf",
+    "type": "Mineral"
+  },
+  {
+    "database": 257,
+    "name": "Luberg",
+    "type": "Mineral"
+  },
+  {
+    "database": 258,
+    "name": "Arctivore",
+    "type": "Mineral"
+  },
+  {
+    "database": 259,
+    "name": "Fluzard",
+    "type": "Water"
+  },
+  {
+    "database": 260,
+    "name": "Hydrax",
+    "type": "Water"
+  },
+  {
+    "database": 261,
+    "name": "Torrex",
+    "type": "Water"
+  },
+  {
+    "database": 262,
+    "name": "Ferosera",
+    "type": "Fire"
+  },
+  {
+    "database": 263,
+    "name": "Firius",
+    "type": "Fire"
+  },
+  {
+    "database": 264,
+    "name": "Carnagrius",
+    "type": "Fire"
+  },
+  {
+    "database": 265,
+    "name": "Perchara",
+    "type": "Electric"
+  },
+  {
+    "database": 266,
+    "name": "Galvaria",
+    "type": "Electric"
+  },
+  {
+    "database": 267,
+    "name": "Voltosfere",
+    "type": "Electric"
+  },
+  {
+    "database": 268,
+    "name": "Ponirius",
+    "type": "Wind"
+  },
+  {
+    "database": 269,
+    "name": "Favolia",
+    "type": "Wind"
+  },
+  {
+    "database": 270,
+    "name": "Mistralion",
+    "type": "Wind"
+  },
+  {
+    "database": 271,
+    "name": "Spink",
+    "type": "Plant"
+  },
+  {
+    "database": 272,
+    "name": "Vivizard",
+    "type": "Plant"
+  },
+  {
+    "database": 273,
+    "name": "Prismazor",
+    "type": "Plant"
+  },
+  {
+    "database": 274,
+    "name": "Vulazy",
+    "type": "Normal"
+  },
+  {
+    "database": 275,
+    "name": "Vulpep",
+    "type": "Normal"
+  },
+  {
+    "database": 276,
+    "name": "Kitsunox",
+    "type": "Normal"
+  },
+  {
+    "database": 277,
+    "name": "Blizo",
+    "type": "Mineral"
+  },
+  {
+    "database": 278,
+    "name": "Blizbrow",
+    "type": "Mineral"
+  },
+  {
+    "database": 279,
+    "name": "Blizloo",
+    "type": "Mineral"
+  },
+  {
+    "database": 280,
+    "name": "Fethra",
+    "type": "Wind"
+  },
+  {
+    "database": 281,
+    "name": "Tempestra",
+    "type": "Wind"
+  },
+  {
+    "database": 282,
+    "name": "Draclone",
+    "type": "Wind"
+  },
+  {
+    "database": 283,
+    "name": "Bevy",
+    "type": "Water"
+  },
+  {
+    "database": 284,
+    "name": "Barver",
+    "type": "Water"
+  },
+  {
+    "database": 285,
+    "name": "Bedam",
+    "type": "Water"
+  },
+  {
+    "database": 286,
+    "name": "Sprunk",
+    "type": "Fire"
+  },
+  {
+    "database": "287",
+    "name": "Expunk",
+    "type": "Fire"
+  },
+  {
+    "database": "288",
+    "name": "Fetidoom",
+    "type": "Fire"
+  },
+  {
+    "database": "289",
+    "name": "Velokitti",
+    "type": "Electric"
+  },
+  {
+    "database": "290",
+    "name": "Acca",
+    "type": "Electric"
+  },
+  {
+    "database": "291",
+    "name": "Jeeta",
+    "type": "Electric"
+  },
+  {
+    "database": "292",
+    "name": "Petril",
+    "type": "Plant"
+  },
+  {
+    "database": "293",
+    "name": "Frilla",
+    "type": "Plant"
+  },
+  {
+    "database": "294",
+    "name": "Corozard",
+    "type": "Plant"
+  },
+  {
+    "database": "295",
+    "name": "Luxa",
+    "type": "Electric"
+  },
+  {
+    "database": "296",
+    "name": "Metta",
+    "type": "Normal"
+  },
+  {
+    "database": "297",
+    "name": "Nara",
+    "type": "Mineral"
+  },
+  {
+    "database": "298",
+    "name": "Fona",
+    "type": "Fire"
+  },
+  {
+    "database": "299",
+    "name": "Grunda",
+    "type": "Plant"
+  },
+  {
+    "database": "300",
+    "name": "Ventra",
+    "type": "Wind"
+  },
+  {
+    "database": "301",
+    "name": "Arqua",
+    "type": "Water"
+  },
+  {
+    "database": "302",
+    "name": "Omnicron",
+    "type": "Normal"
+  },
+  {
+    "database": "303",
+    "name": "Darine",
+    "type": "Water"
+  },
+  {
+    "database": "304",
+    "name": "Hexia",
+    "type": "Wind"
+  },
+  {
+    "database": "305",
+    "name": "Krowr",
+    "type": "Electric"
+  },
+  {
+    "database": "306",
+    "name": "Ogoon",
+    "type": "Fire"
+  },
+  {
+    "database": "307",
+    "name": "Tikala",
+    "type": "Plant"
+  },
+  {
+    "database": "308",
+    "name": "Titan",
+    "type": "Mineral"
+  },
+  {
+    "database": "309",
+    "name": "Ziegler",
+    "type": "Normal"
+  },
+  {
+    "database": "310",
+    "name": "Luhava",
+    "type": "Wind"
+  }
+]

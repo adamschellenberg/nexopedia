@@ -31,6 +31,7 @@ export const DatabasePage = () => {
                 <tr>
                   <th>#</th>
                   <th>Nexomon</th>
+                  <th>Sprite</th>
                   <th>Type</th>
                 </tr>
               </thead>
@@ -38,14 +39,18 @@ export const DatabasePage = () => {
                 {
                   nexomonData.map( (nexomon) => {
                     let nexomonNumber = nexomon.number;
+                    let nexomonNumberPadded = nexomonNumber.toString().padStart(3, "0");
                     let nexomonName = nexomon.name;
                     let nexomonType = nexomon.nexomonType;
+                    let nexomonTypeImagePath = "db/extinction/images/elements/" + nexomonType.toLowerCase() + ".png";
+                    let nexomonImagePath = "db/extinction/images/nexomon/small/" + nexomonNumberPadded + "-" + nexomonName.toLowerCase() + ".png";
 
                     return (
                       <tr>
-                        <td>{nexomonNumber}</td>
+                        <td>{nexomonNumberPadded}</td>
                         <td>{nexomonName}</td>
-                        <td>{nexomonType}</td>
+                        <td><img className="nexomon-sprite-img" src={nexomonImagePath} alt={nexomonName} /></td>
+                        <td>{nexomonType} <img className="element-img" src={nexomonTypeImagePath} alt={nexomonType} /></td>
                       </tr>
                     );
                   })

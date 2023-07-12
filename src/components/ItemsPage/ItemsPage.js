@@ -28,7 +28,8 @@ export const ItemsPage = () => {
         <table className="table table-dark table-bordered table-sm">
           <thead>
             <tr>
-              <th>Name</th>
+              <th className="name-column">Name</th>
+              <th className="sprite-column">Sprite</th>
               <th>Description</th>
             </tr>
           </thead>
@@ -39,10 +40,16 @@ export const ItemsPage = () => {
                 .map( (item) => {
                   let itemName = item.name;
                   let itemDescription = item.description;
+<<<<<<< Updated upstream
+=======
+                  let itemId = item.itemId;
+                  let itemImagePath = "db/extinction/images/items/restoration/" + itemName.replace(/\s+/g, '-').toLowerCase() + ".png";
+>>>>>>> Stashed changes
 
                   return(
                     <tr>
                       <td>{itemName}</td>
+                      <td><img className="sprite-img" src={itemImagePath} alt={itemName}/></td>
                       <td>{itemDescription}</td>
                     </tr>
                   )
@@ -56,7 +63,8 @@ export const ItemsPage = () => {
         <table className="table table-dark table-bordered table-sm">
           <thead>
             <tr>
-              <th>Name</th>
+              <th className="name-column">Name</th>
+              <th className="sprite-column">Sprite</th>
               <th>Description</th>
             </tr>
           </thead>
@@ -67,10 +75,16 @@ export const ItemsPage = () => {
                 .map( (item) => {
                   let itemName = item.name;
                   let itemDescription = item.description;
+<<<<<<< Updated upstream
+=======
+                  let itemId = item.itemId;
+                  let itemImagePath = "db/extinction/images/items/nexotraps/" + itemName.replace(/\s+/g, '-').toLowerCase() + ".png";
+>>>>>>> Stashed changes
 
                   return(
                     <tr>
                       <td>{itemName}</td>
+                      <td><img className="sprite-img" src={itemImagePath} alt={itemName}/></td>
                       <td>{itemDescription}</td>
                     </tr>
                   )
@@ -84,7 +98,8 @@ export const ItemsPage = () => {
         <table className="table table-dark table-bordered table-sm">
           <thead>
             <tr>
-              <th>Name</th>
+              <th className="name-column">Name</th>
+              <th className="sprite-column">Sprite</th>
               <th>Description</th>
             </tr>
           </thead>
@@ -95,10 +110,16 @@ export const ItemsPage = () => {
                 .map( (item) => {
                   let itemName = item.name;
                   let itemDescription = item.description;
+<<<<<<< Updated upstream
+=======
+                  let itemId = item.itemId;
+                  let itemImagePath = "db/extinction/images/items/cores/" + itemName.replace(/\s+/g, '-').toLowerCase() + ".png";
+>>>>>>> Stashed changes
 
                   return(
                     <tr>
                       <td>{itemName}</td>
+                      <td><img className="sprite-img" src={itemImagePath} alt={itemName}/></td>
                       <td>{itemDescription}</td>
                     </tr>
                   )
@@ -112,7 +133,8 @@ export const ItemsPage = () => {
         <table className="table table-dark table-bordered table-sm">
           <thead>
             <tr>
-              <th>Name</th>
+              <th className="name-column">Name</th>
+              <th className="sprite-column">Sprite</th>
               <th>Description</th>
             </tr>
           </thead>
@@ -123,10 +145,16 @@ export const ItemsPage = () => {
                 .map( (item) => {
                   let itemName = item.name;
                   let itemDescription = item.description;
+<<<<<<< Updated upstream
+=======
+                  let itemId = item.itemId;
+                  let itemImagePath = "db/extinction/images/items/shards/" + itemName.replace(/\s+/g, '-').toLowerCase() + ".png";
+>>>>>>> Stashed changes
 
                   return(
                     <tr>
                       <td>{itemName}</td>
+                      <td><img className="sprite-img" src={itemImagePath} alt={itemName}/></td>
                       <td>{itemDescription}</td>
                     </tr>
                   )
@@ -140,7 +168,8 @@ export const ItemsPage = () => {
         <table className="table table-dark table-bordered table-sm">
           <thead>
             <tr>
-              <th>Name</th>
+              <th className="name-column">Name</th>
+              <th className="sprite-column">Sprite</th>
               <th>Description</th>
             </tr>
           </thead>
@@ -151,10 +180,16 @@ export const ItemsPage = () => {
                 .map( (item) => {
                   let itemName = item.name;
                   let itemDescription = item.description;
+<<<<<<< Updated upstream
+=======
+                  let itemId = item.itemId;
+                  let itemImagePath = "db/extinction/images/items/food/" + itemName.replace(/\s+/g, '-').toLowerCase() + ".png";
+>>>>>>> Stashed changes
 
                   return(
                     <tr>
                       <td>{itemName}</td>
+                      <td><img className="sprite-img" src={itemImagePath} alt={itemName}/></td>
                       <td>{itemDescription}</td>
                     </tr>
                   )
@@ -168,7 +203,8 @@ export const ItemsPage = () => {
         <table className="table table-dark table-bordered table-sm">
           <thead>
             <tr>
-              <th>Name</th>
+              <th className="name-column">Name</th>
+              <th className="sprite-column">Sprite</th>
               <th>Description</th>
             </tr>
           </thead>
@@ -179,10 +215,16 @@ export const ItemsPage = () => {
                 .map( (item) => {
                   let itemName = item.name;
                   let itemDescription = item.description;
+<<<<<<< Updated upstream
+=======
+                  let itemId = item.itemId;
+                  let itemImagePath = "db/extinction/images/items/key/" + itemName.replace(/\s+/g, '-').toLowerCase() + ".png";
+>>>>>>> Stashed changes
 
                   return(
                     <tr>
                       <td>{itemName}</td>
+                      <td><img className="sprite-img" src={itemImagePath} alt={itemName}/></td>
                       <td>{itemDescription}</td>
                     </tr>
                   )
