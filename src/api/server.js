@@ -1,4 +1,6 @@
-const base_url = 'https://nexomonapi.azurewebsites.net/api';
+import axios from 'axios';
+
+const base_url = 'http://localhost:5000/api';
 
 export const server_calls = {
     
@@ -6,6 +8,33 @@ export const server_calls = {
         const response = await fetch(`${base_url}/item/all`);
         let data = await response.json();
         return data;
+    },
+
+    itemCreate: async(item) => {
+        let json = JSON.stringify(item);
+        axios.post(`${base_url}/item/create`, json, {
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
+    },
+
+    itemUpdate: async (item) => {        
+        let json = JSON.stringify(item);
+        axios.put(`${base_url}/item/update`, json, {
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
+    },
+
+    itemDelete: async (item) => {
+        let json = JSON.stringify(item);
+        axios.delete(`${base_url}/item/delete`, json, {
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
     },
 
     nexomon: async () => {

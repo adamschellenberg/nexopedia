@@ -6,6 +6,21 @@ export const useGetData = {
         return result;
     },
 
+    createItem: async(item) => {
+        const result = await server_calls.itemCreate(item);
+        return result;
+    },
+
+    updateItem: async (item) => {
+        const result = await server_calls.itemUpdate(item);
+        return result;
+    },
+
+    deleteItem: async (item) => {
+        const result = await server_calls.itemDelete(item);
+        return result;
+    },
+
     useNexomon: async () => {
         const result = await server_calls.nexomon();
         return result;
