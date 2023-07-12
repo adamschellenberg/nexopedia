@@ -21,7 +21,7 @@ export const server_calls = {
     },
 
     type: async () => {
-        const response = await fetch(`${base_url}/typeeffectiveness.json`);
+        const response = await fetch(`${base_url}/typeEffectiveness.json`);
         let data = await response.json();
         return data;
     },
