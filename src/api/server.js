@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-const base_url = 'https://nexomonapi.azurewebsites.net/api';
-=======
 const base_url = '/db/extinction/json';
->>>>>>> Stashed changes
 
 export const server_calls = {
     
