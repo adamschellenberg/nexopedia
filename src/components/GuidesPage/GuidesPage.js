@@ -65,7 +65,7 @@ export const GuidesPage = () => {
                     let mineral = element.mineral;
                     let ghost = element.ghost;
                     let psychic = element.psychic;
-                    let elementImagePath = "db/extinction/images/elements/" + displayType + ".png";
+                    let elementImagePath = "db/extinction/images/elements/" + displayType.toLowerCase() + ".png";
 
                     return (
                       <tr>
