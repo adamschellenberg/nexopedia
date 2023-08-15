@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavBar } from '../NavBar';
+import { Footer } from '../Footer';
 import { useGetData } from '../../custom-hooks';
 import Container from 'react-bootstrap/Container';
 import './DatabasePage.css';
@@ -29,7 +30,7 @@ export const DatabasePage = () => {
             <table className='table table-light table-bordered table-sm mx-auto' id="database-table">
               <thead>
                 <tr>
-                  <th>#</th>
+                  <th id="number-col">#</th>
                   <th>Nexomon</th>
                   <th>Sprite</th>
                   <th>Type</th>
@@ -50,7 +51,7 @@ export const DatabasePage = () => {
                         <td>{nexomonNumberPadded}</td>
                         <td>{nexomonName}</td>
                         <td><img className="nexomon-sprite-img" src={nexomonImagePath} alt={nexomonName} /></td>
-                        <td>{nexomonType} <img className="element-img" src={nexomonTypeImagePath} alt={nexomonType} /></td>
+                        <td>{nexomonType} <br /><img className="element-img" src={nexomonTypeImagePath} alt={nexomonType} /></td>
                       </tr>
                     );
                   })
@@ -58,6 +59,7 @@ export const DatabasePage = () => {
               </tbody>
             </table>
         </Container>
+        <Footer />
     </div>
   )
 }

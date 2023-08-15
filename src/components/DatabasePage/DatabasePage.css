@@ -23,10 +23,22 @@
 }
 
 .element-img {
-    width: 35px;
+    width: 40px;
 }
 
-.nexomon-sprite-img {
-    height: 100px;
+@media (min-width: 300px) {
+    .nexomon-sprite-img {
+        width: 80px;
+    }
+    #database-table {
+        font-size: 11px;
+    }
 
+}
+
+
+@media (min-width: 1000px) {
+    .nexomon-sprite-img {
+        width: 150px;
+    }
 }

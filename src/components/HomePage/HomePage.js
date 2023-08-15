@@ -17,7 +17,7 @@ export const HomePage = () => {
           <div>Nexopedia is a fan-made wiki for the Nexomon: Extinction game.
             Because this website is fully developed and maintained by fans in their
             free time, things are always changing and being updated. If there is
-            incorrect or missing information, please email us at nexopedia@gmail.com
+            incorrect or missing information, please email us at biscuitpages@gmail.com
             and let us know! All help and feedback is appreciated! Check back
             often to see the new updates!
             <br />
