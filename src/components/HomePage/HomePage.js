@@ -1,15 +1,12 @@
 import React from 'react';
-import { NavBar } from '../NavBar';
 import './HomePage.css';
 import Container from 'react-bootstrap/Container';
 import Masquiti from '../../assets/images/masquiti.png';
-import { Footer } from '../Footer';
 
 export const HomePage = () => {
   return (
     <div>
       <div className="homeBackground"/>
-      <NavBar />
       <Container>
         <div className="main">
           <div><h1>Welcome to Nexopedia</h1></div>
@@ -26,7 +23,6 @@ export const HomePage = () => {
           <hr />
           <img src={Masquiti} className="img" alt="Masquiti"/>
         </div>
-        <Footer />
       </Container>
     </div>
   )

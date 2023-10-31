@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { NavBar } from '../NavBar';
-import { Footer } from '../Footer';
 import { useGetData } from '../../custom-hooks';
 import './GuidesPage.css';
 import Container from 'react-bootstrap/Container';
@@ -30,8 +28,8 @@ export const GuidesPage = () => {
   }, []);
 
   return (
-    <div className="guidesBackground">
-      <NavBar />
+    <div>
+    <div className="guidesBackground" />
       <Container>
         <h1 className='display-3 guides-header text-center'>Guides and FAQ</h1>
 
@@ -188,7 +186,6 @@ export const GuidesPage = () => {
 			  </ul>
         </div>
 
-        <Footer />
       </Container>
     </div>
   )

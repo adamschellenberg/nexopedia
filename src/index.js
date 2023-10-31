@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
-import { HomePage, DatabasePage, GuidesPage, ItemsPage } from './components';
+import { HomePage, DatabasePage, GuidesPage, ItemsPage, NavBar, Footer } from './components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
+  <>
+    <NavBar />
     <BrowserRouter>
       <Routes>
 
@@ -19,5 +21,7 @@ root.render(
 
       </Routes>
     </BrowserRouter>
+    <Footer />
+  </>
 
 );

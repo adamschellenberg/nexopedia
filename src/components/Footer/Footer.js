@@ -8,7 +8,7 @@ export const Footer = () => {
         All Nexomon game images are property of <a href="https://pqube.co.uk/nexomon-extinction/" target="_blank" rel="noreferrer">
             Vewo Interactive Inc.
             </a> <br />
-        Please support us on <a href="https://www.patreon.com/BiscuitPages" target="_blank" rel="noreferrer">Patreon</a> or <a href="https://ko-fi.com/biscuitpages" target="_blank" rel="noreferrer">Ko-Fi</a>!
+        Please support us on <a href="https://ko-fi.com/biscuitpages" target="_blank" rel="noreferrer">Ko-Fi</a>!
     </div>
   )
 }

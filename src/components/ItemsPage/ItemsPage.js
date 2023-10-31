@@ -18,7 +18,8 @@ export const ItemsPage = () => {
   }, []);
 
   return (
-    <div className="itemsBackground">
+    <div>
+    <div className="itemsBackground" /> 
       <NavBar />
       <Container>
         <h1 className='display-3 items-header text-center'>Items</h1>
@@ -209,7 +210,6 @@ export const ItemsPage = () => {
           </tbody>
         </table>
 
-        <Footer />
       </Container>
     </div>
   )

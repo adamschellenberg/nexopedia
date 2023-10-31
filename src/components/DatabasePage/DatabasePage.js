@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { NavBar } from '../NavBar';
-import { Footer } from '../Footer';
 import { useGetData } from '../../custom-hooks';
 import Container from 'react-bootstrap/Container';
 import './DatabasePage.css';
@@ -21,7 +19,6 @@ export const DatabasePage = () => {
 
   return (
     <div>
-        <NavBar />
         <div className="databaseBackground" />
         <Container>
           <h1 className="display-3 databaseHeader text-center">
@@ -59,7 +56,6 @@ export const DatabasePage = () => {
               </tbody>
             </table>
         </Container>
-        <Footer />
     </div>
   )
 }
