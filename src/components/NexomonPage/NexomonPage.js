@@ -24,6 +24,7 @@ export const NexomonPage = () => {
 
     useEffect( () => {
         setSingleNexomon();
+        // eslint-disable-next-line
     }, [nexomonName]);
 
     return (
