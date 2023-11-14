@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './ItemsPage.css';
-import { NavBar } from '../NavBar';
-import { Footer } from '../Footer';
 import { useGetData } from '../../custom-hooks';
 import Container from 'react-bootstrap/Container';
 
@@ -20,7 +18,6 @@ export const ItemsPage = () => {
   return (
     <div>
     <div className="itemsBackground" /> 
-      <NavBar />
       <Container>
         <h1 className='display-3 items-header text-center'>Items</h1>
 

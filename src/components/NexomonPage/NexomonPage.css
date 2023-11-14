@@ -1,0 +1,13 @@
+.nexomonBackground {
+    background-color: #fefd87;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+}
+
+.nexomon-header {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}

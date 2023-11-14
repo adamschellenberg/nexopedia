@@ -11,6 +11,11 @@ export const useGetData = {
         return result;
     },
 
+    useGetSingleNexomon: async (nexomon) => {
+        const result = await server_calls.singleNexomon(nexomon);
+        return result;
+    },
+
     useStatus: async () => {
         const result = await server_calls.status();
         return result;

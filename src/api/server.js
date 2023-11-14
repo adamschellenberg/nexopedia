@@ -14,6 +14,16 @@ export const server_calls = {
         return data;
     },
 
+    singleNexomon: async (nexomon) => {
+        const response = await fetch(`${base_url}/nexomon.json`);
+        let data = await response.json();
+        let singleNexomon = data.filter(function(nexomonData) {
+            return nexomonData.name.toLowerCase() === nexomon;
+        });
+        // FILTER JSON TO SINGLE REQUESTED NEXOMON AND PASS THAT OBJECT
+        return singleNexomon[0];
+    },
+
     status: async () => {
         const response = await fetch(`${base_url}/statusEffect.json`);
         let data = await response.json();
