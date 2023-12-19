@@ -13,6 +13,13 @@ export const useGetData = {
 
     useGetSingleNexomon: async (nexomon) => {
         const result = await server_calls.singleNexomon(nexomon);
+        const nexomonNumber = result.number;
+        const nexomonNumberPadded = nexomonNumber.toString().padStart(3, "0");
+        const urlForImage = "../db/extinction/images/nexomon/small/" + nexomonNumberPadded + "-" + result.name.toLowerCase() + ".png";
+        result.imgUrl = urlForImage;
+        const nexomonTypeLowerCase = result.nexomonType.toLowerCase();
+        const urlForType = "../db/extinction/images/elements/" + nexomonTypeLowerCase + ".png";
+        result.typeUrl = urlForType;
         return result;
     },
 

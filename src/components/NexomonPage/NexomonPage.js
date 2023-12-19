@@ -27,11 +27,14 @@ export const NexomonPage = () => {
         // eslint-disable-next-line
     }, [nexomonName]);
 
+
     return (
         <div>
             <div className="nexomonBackground" />
             <Container>
                 <h1 className="display-3 nexomon-header text-center">{nexomonData.name}</h1>
+                <img src={nexomonData.imgUrl} alt={nexomonData.name}/>
+                <br />{nexomonData.nexomonType}<img src={nexomonData.typeUrl} alt={nexomonData.nexomonType}/>
             </Container>
         </div>
     )
