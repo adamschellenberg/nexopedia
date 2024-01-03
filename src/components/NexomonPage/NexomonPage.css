@@ -11,3 +11,13 @@
     margin-top: 100px;
     margin-bottom: 50px;
 }
+
+.nexomon-sprite-img {
+    border: 1px solid #555;
+    padding: 15px;
+    width: 200px;
+}
+
+.nexomon-element-img {
+    width: 50px;
+}
