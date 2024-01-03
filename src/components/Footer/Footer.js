@@ -4,7 +4,7 @@ import './Footer.css';
 export const Footer = () => {
   return (
     <div className="footer">
-        Nexopedia &copy; 2023 BiscuitPages. <br />
+        Nexopedia &copy; 2024 BiscuitPages. <br />
         All Nexomon game images are property of <a href="https://pqube.co.uk/nexomon-extinction/" target="_blank" rel="noreferrer">
             Vewo Interactive Inc.
             </a> <br />
