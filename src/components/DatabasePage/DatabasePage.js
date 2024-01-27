@@ -47,7 +47,7 @@ export const DatabasePage = () => {
                       <tr>
                         <td>{nexomonNumberPadded}</td>
                         <td>{nexomonName}</td>
-                        <td><img className="nexomon-sprite-img" src={nexomonImagePath} alt={nexomonName} /></td>
+                        <td><img className="nexomon-sprite-img-db" src={nexomonImagePath} alt={nexomonName} /></td>
                         <td>{nexomonType} <br /><img className="element-img" src={nexomonTypeImagePath} alt={nexomonType} /></td>
                       </tr>
                     );
