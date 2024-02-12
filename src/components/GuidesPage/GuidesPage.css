@@ -1,5 +1,5 @@
 .guidesBackground {
-    background-color: #f7b7df;
+    background-color: var(--guides-page-background);
     height: 100%;
     width: 100%;
     z-index: -1;

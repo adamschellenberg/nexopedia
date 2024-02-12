@@ -1,0 +1,9 @@
+.site-icon {
+    height: 30px;
+}
+
+@media (min-width: 1050px) {
+    .site-icon {
+        height: 45px;
+    }
+}

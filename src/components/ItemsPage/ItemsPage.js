@@ -23,9 +23,9 @@ export const ItemsPage = () => {
 
         {/* Restoration Items table */}
         <h6 className='display-6' id="restoration-title">Restoration Items</h6>
-        <table className="table table-dark table-bordered table-sm">
+        <table className="table table-light table-bordered table-sm">
           <thead>
-            <tr>
+            <tr className="text-center">
               <th className="name-column">Name</th>
               <th className="sprite-column">Sprite</th>
               <th>Description</th>
@@ -42,8 +42,8 @@ export const ItemsPage = () => {
 
                   return(
                     <tr>
-                      <td>{itemName}</td>
-                      <td><img className="sprite-img" src={itemImagePath} alt={itemName}/></td>
+                      <td className="text-center">{itemName}</td>
+                      <td className="text-center"><img className="sprite-img" src={itemImagePath} alt={itemName}/></td>
                       <td>{itemDescription}</td>
                     </tr>
                   )
@@ -54,9 +54,9 @@ export const ItemsPage = () => {
 
         {/* Nexotrap Items table */}
         <h6 className='display-6' id="nexotrap-title">Nexotrap Items</h6>
-        <table className="table table-dark table-bordered table-sm">
+        <table className="table table-light table-bordered table-sm">
           <thead>
-            <tr>
+            <tr className="text-center">
               <th className="name-column">Name</th>
               <th className="sprite-column">Sprite</th>
               <th>Description</th>
@@ -73,8 +73,8 @@ export const ItemsPage = () => {
 
                   return(
                     <tr>
-                      <td>{itemName}</td>
-                      <td><img className="sprite-img" src={itemImagePath} alt={itemName}/></td>
+                      <td className="text-center">{itemName}</td>
+                      <td className="text-center"><img className="sprite-img" src={itemImagePath} alt={itemName}/></td>
                       <td>{itemDescription}</td>
                     </tr>
                   )
@@ -85,9 +85,9 @@ export const ItemsPage = () => {
 
         {/* Core Items table */}
         <h6 className='display-6' id="core-title">Core Items</h6>
-        <table className="table table-dark table-bordered table-sm">
+        <table className="table table-light table-bordered table-sm">
           <thead>
-            <tr>
+            <tr className='text-center'>
               <th className="name-column">Name</th>
               <th className="sprite-column">Sprite</th>
               <th>Description</th>
@@ -104,8 +104,8 @@ export const ItemsPage = () => {
 
                   return(
                     <tr>
-                      <td>{itemName}</td>
-                      <td><img className="sprite-img" src={itemImagePath} alt={itemName}/></td>
+                      <td className='text-center'>{itemName}</td>
+                      <td className='text-center'><img className="sprite-img" src={itemImagePath} alt={itemName}/></td>
                       <td>{itemDescription}</td>
                     </tr>
                   )
@@ -116,9 +116,9 @@ export const ItemsPage = () => {
 
         {/* Shard Items table */}
         <h6 className='display-6' id="shard-title">Shard Items</h6>
-        <table className="table table-dark table-bordered table-sm">
+        <table className="table table-light table-bordered table-sm">
           <thead>
-            <tr>
+            <tr className='text-center'>
               <th className="name-column">Name</th>
               <th className="sprite-column">Sprite</th>
               <th>Description</th>
@@ -135,8 +135,8 @@ export const ItemsPage = () => {
 
                   return(
                     <tr>
-                      <td>{itemName}</td>
-                      <td><img className="sprite-img" src={itemImagePath} alt={itemName}/></td>
+                      <td className='text-center'>{itemName}</td>
+                      <td className='text-center'><img className="sprite-img" src={itemImagePath} alt={itemName}/></td>
                       <td>{itemDescription}</td>
                     </tr>
                   )
@@ -147,9 +147,9 @@ export const ItemsPage = () => {
 
         {/* Food Items table */}
         <h6 className='display-6' id="food-title">Food Items</h6>
-        <table className="table table-dark table-bordered table-sm">
+        <table className="table table-light table-bordered table-sm">
           <thead>
-            <tr>
+            <tr className='text-center'>
               <th className="name-column">Name</th>
               <th className="sprite-column">Sprite</th>
               <th>Description</th>
@@ -166,8 +166,8 @@ export const ItemsPage = () => {
 
                   return(
                     <tr>
-                      <td>{itemName}</td>
-                      <td><img className="sprite-img" src={itemImagePath} alt={itemName}/></td>
+                      <td className='text-center'>{itemName}</td>
+                      <td className='text-center'><img className="sprite-img" src={itemImagePath} alt={itemName}/></td>
                       <td>{itemDescription}</td>
                     </tr>
                   )
@@ -178,9 +178,9 @@ export const ItemsPage = () => {
 
         {/* Key Items table */}
         <h6 className='display-6' id="key-title">Key Items</h6>
-        <table className="table table-dark table-bordered table-sm">
+        <table className="table table-light table-bordered table-sm">
           <thead>
-            <tr>
+            <tr className='text-center'>
               <th className="name-column">Name</th>
               <th className="sprite-column">Sprite</th>
               <th>Description</th>
@@ -197,8 +197,8 @@ export const ItemsPage = () => {
 
                   return(
                     <tr>
-                      <td>{itemName}</td>
-                      <td><img className="sprite-img" src={itemImagePath} alt={itemName}/></td>
+                      <td className='text-center'>{itemName}</td>
+                      <td className='text-center'><img className="sprite-img" src={itemImagePath} alt={itemName}/></td>
                       <td>{itemDescription}</td>
                     </tr>
                   )

@@ -27,10 +27,10 @@ export const DatabasePage = () => {
             <table className='table table-light table-bordered table-sm mx-auto' id="database-table">
               <thead>
                 <tr>
-                  <th id="number-col">#</th>
-                  <th>Nexomon</th>
-                  <th>Sprite</th>
-                  <th>Type</th>
+                  <th id="number-col" class="database-table-column-header">#</th>
+                  <th class="database-table-column-header">Nexomon</th>
+                  <th class="database-table-column-header">Sprite</th>
+                  <th class="database-table-column-header">Type</th>
                 </tr>
               </thead>
               <tbody>
@@ -45,10 +45,10 @@ export const DatabasePage = () => {
 
                     return (
                       <tr>
-                        <td>{nexomonNumberPadded}</td>
-                        <td>{nexomonName}</td>
-                        <td><img className="nexomon-sprite-img-db" src={nexomonImagePath} alt={nexomonName} /></td>
-                        <td>{nexomonType} <br /><img className="element-img" src={nexomonTypeImagePath} alt={nexomonType} /></td>
+                        <td class="align-middle">{nexomonNumberPadded}</td>
+                        <td class="align-middle">{nexomonName}</td>
+                        <td class="align-middle"><img className="nexomon-sprite-img-db" src={nexomonImagePath} alt={nexomonName} /></td>
+                        <td class="align-middle">{nexomonType} <br /><img className="element-img" src={nexomonTypeImagePath} alt={nexomonType} /></td>
                       </tr>
                     );
                   })

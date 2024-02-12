@@ -1,6 +1,7 @@
 .main {
     margin-top: 100px;
     text-align: center;
+    color: var(--text-color);
 }
 
 .img {
@@ -8,7 +9,7 @@
 }
 
 .homeBackground {
-    background-color: #D6D6D6;
+    background-color: var(--home-page-background);
     height: 100%;
     width: 100%;
     z-index: -1;

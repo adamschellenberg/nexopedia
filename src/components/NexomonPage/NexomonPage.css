@@ -1,5 +1,5 @@
 .nexomonBackground {
-    background-color: #fefd87;
+    background-color: var(--nexomon-page-background);
     height: 100%;
     width: 100%;
     z-index: -1;

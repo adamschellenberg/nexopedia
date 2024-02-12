@@ -1,5 +1,5 @@
 .databaseBackground {
-    background-color: #E4FFFF;
+    background-color: var(--database-page-background);
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -15,30 +15,39 @@
     margin-top: 50px;
     width: fit-content;
     text-align: center;
+    font-size: 1rem;
 }
 
 #database-table > thead > tr > th {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .element-img {
     width: 40px;
 }
 
-@media (min-width: 300px) {
-    .nexomon-sprite-img-db {
-        width: 80px;
-    }
-    #database-table {
-        font-size: 11px;
-    }
+.database-table-column-header {
+    font-size: 1.2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
+.nexomon-sprite-img-db {
+    width: 80px;
 }
 
 
-@media (min-width: 1000px) {
+
+@media (min-width: 1050px) {
     .nexomon-sprite-img-db {
         width: 150px;
     }
+
+    #database-table > thead > tr > th {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+
 }

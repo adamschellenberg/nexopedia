@@ -1,0 +1,74 @@
+.theme-switch-container {
+    border: none;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.theme-icons-label {
+    display: flex;
+    width: 85px;
+    height: 35px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4px;
+    background: #222;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c0c0c0;
+}
+
+.theme-icon {
+    width: 30px;
+}
+
+.theme-icons-label #light-theme-icon {
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.theme-icons-label #dark-theme-icon {
+    transition: 0.3s;
+    opacity: 0;
+    transform: translateX(50px) rotate(250deg);
+}
+
+.theme-icons-label .ball {
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 25px;
+    top: 5px;
+    left: 5px;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+#theme-switch {
+    display: none;
+}
+
+#theme-switch:checked + .theme-icons-label {
+    background: #c0c0c0;
+}
+
+#theme-switch:checked + .theme-icons-label #light-theme-icon {
+    transform: translateX(-47px) rotate(250deg);
+    opacity: 0;
+}
+
+#theme-switch:checked + .theme-icons-label #dark-theme-icon {
+    transform: translateX(0) rotate(0);
+    opacity: 1;
+}
+
+#theme-switch:checked + .theme-icons-label .ball {
+    background: #222;
+    transform: translateX(50px);
+}

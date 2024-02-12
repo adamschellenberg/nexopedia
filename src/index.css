@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --home-page-background: #D6D6D6;
+  --database-page-background: #E4FFFF;
+  --guides-page-background: #f7b7df;
+  --items-page-background: #8bc79c;
+  --nexomon-page-background: #fefd87;
+  --text-color: #212529;
+}
+
+.dark-mode {
+  --home-page-background: #595959;
+  --database-page-background: #4D5757;
+  --guides-page-background: #593151;
+  --items-page-background: #3E5946;
+  --nexomon-page-background: #59592F;
+  --text-color: #fffffff0;
+}

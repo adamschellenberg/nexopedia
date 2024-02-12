@@ -35,7 +35,7 @@ export const GuidesPage = () => {
 
 {/* Type Effectiveness Chart */}
         <h6 className='display-6' id="type-chart-title">Type Effectiveness Chart</h6>
-        <table className='table table-dark table-bordered table-sm' id="type-table">
+        <table className='table table-light table-bordered table-sm align-middle' id="type-table">
               <thead>
                 <tr>
                   <th>Type</th>
@@ -86,7 +86,7 @@ export const GuidesPage = () => {
 
 {/* Status Effects Chart */}
         <h6 className='display-6' id="status-effects-title">Status Effects Chart</h6>
-        <table className='table table-dark table-bordered table-sm' id="status-table">
+        <table className='table table-light table-bordered table-sm align-middle' id="status-table">
           <thead>
             <tr>
               <th>Status</th>
@@ -103,8 +103,8 @@ export const GuidesPage = () => {
 
                 return (
                   <tr>
-                    <td>{effect}</td>
-                    <td className="status-img"><img src={statusImagePath} alt={effect} /></td>
+                    <td className="text-center">{effect}</td>
+                    <td className="status-img text-center"><img src={statusImagePath} alt={effect} /></td>
                     <td>{description}</td>
                   </tr>
                 )
@@ -116,7 +116,7 @@ export const GuidesPage = () => {
 {/* Vaults and Keys List */}
         <h6 className='display-6' id="vaults-title">Spencer's Vault and Key Locations</h6>
         <h6>Keys:</h6>
-        <table className="table table-bordered table-dark table-sm" id="key-table">
+        <table className="table table-bordered table-light table-sm align-middle" id="key-table">
           <thead>
             <tr>
               <th>Key #</th>
@@ -131,7 +131,7 @@ export const GuidesPage = () => {
 
                 return (
                   <tr>
-                    <td>{keyNumber}</td>
+                    <td className="text-center">{keyNumber}</td>
                     <td>{keyLocation}</td>
                   </tr>
                 )
@@ -141,7 +141,7 @@ export const GuidesPage = () => {
           </tbody>
         </table>
         <h6>Vaults:</h6>
-        <table className='table table-bordered table-dark table-sm' id="vault-table">
+        <table className='table table-bordered table-light table-sm align-middle' id="vault-table">
           <thead>
             <tr>
               <th>Vault #</th>
@@ -158,7 +158,7 @@ export const GuidesPage = () => {
 
                   return (
                     <tr>
-                      <td>{vaultNumber}</td>
+                      <td class="text-center">{vaultNumber}</td>
                       <td>{vaultLocation}</td>
                       <td>{vaultContents}</td>
                     </tr>
