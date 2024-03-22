@@ -20,7 +20,6 @@ export const server_calls = {
         let singleNexomon = data.filter(function(nexomonData) {
             return nexomonData.name.toLowerCase() === nexomon;
         });
-        // FILTER JSON TO SINGLE REQUESTED NEXOMON AND PASS THAT OBJECT
         return singleNexomon[0];
     },
 

@@ -26,7 +26,6 @@ export const NexomonPage = () => {
 
     useEffect( () => {
         setSingleNexomon();
-        // eslint-disable-next-line
     }, [nexomonName]);
 
 
@@ -34,16 +33,13 @@ export const NexomonPage = () => {
         <div>
             <div className="nexomonBackground" />
             <Container>
-                {/* <h1 className="display-3 nexomon-header text-center">{nexomonData.name}</h1>
-                <img className="float-left" src={nexomonData.imgUrl} alt={nexomonData.name}/>
-                <span>{nexomonData.number}</span>
-                <br />{nexomonData.nexomonType}<img src={nexomonData.typeUrl} alt={nexomonData.nexomonType}/> */}
-                
+
                 <div className="nexomon-header">
                 <Row>
-                    <Col><h1 className="display-3 text-center">{nexomonData.name} <span>#{nexomonData.number}</span></h1></Col>                    
+                    <Col><h1 className="display-3 text-center">{nexomonData.name} <span>#{nexomonData.numberPadded}</span></h1></Col>                    
                 </Row>
                 </div>
+
                 <Row>
                     <Col><img className="nexomon-sprite-img float-left" src={nexomonData.imgUrl} alt={nexomonData.name}/>
                     <span className="align-top text-center">{nexomonData.nexomonType}<img src={nexomonData.typeUrl} className="nexomon-element-img" alt={nexomonData.nexomonType}/></span>

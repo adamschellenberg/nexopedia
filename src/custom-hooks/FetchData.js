@@ -15,6 +15,7 @@ export const useGetData = {
         const result = await server_calls.singleNexomon(nexomon);
         const nexomonNumber = result.number;
         const nexomonNumberPadded = nexomonNumber.toString().padStart(3, "0");
+        result.numberPadded = nexomonNumberPadded;
         const urlForImage = "../db/extinction/images/nexomon/small/" + nexomonNumberPadded + "-" + result.name.toLowerCase() + ".png";
         result.imgUrl = urlForImage;
         const nexomonTypeLowerCase = result.nexomonType.toLowerCase();
